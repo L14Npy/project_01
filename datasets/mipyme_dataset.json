@@ -1,0 +1,90 @@
+{
+    "mipymes": [
+        {
+            "place": {
+                "id": "001",
+                "name": "Bodegón de Calzada",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calzada / Paseo & A",
+                    "coordinates": {"latitude": null, "longitude": null}
+                }
+            },
+            "products": [
+                {"category": "Cereales", "subcategory": "Arroz", "name": "Arroz Blanco", "weight_kg": 1.0, "brand": "Camil", "origin": "BR", "price": 680.0, "currency": "CUP"}
+            ]
+        },
+        {
+            "place": {
+                "id": "002",
+                "name": "Mi Mercadito, Llegando",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calle 5ta / E & F",
+                    "coordinates": {"latitude": null, "longitude": null}
+                }
+            },
+            "products": [
+                {"category": "Cereales", "subcategory": "Arroz", "name": "Arroz Super Extra", "weight_kg": 1.0, "brand": "San Diego", "origin": "MX", "price": 580.0, "currency": "CUP"}
+            ]
+        },
+        {
+            "place": {
+                "id": "003",
+                "name": "El Rey, SRL",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calle F / 3ra y 5ta, Edif. 53, Vedado",
+                    "coordinates": {"latitude": null, "longitude": null}
+                }
+            },
+            "products": [
+                {"category": "Cereales", "subcategory": "Arroz", "name": "Arroz Blanco Top", "weight_kg": 1.0, "brand": "", "origin": "", "price": 850.0, "currency": "CUP"},
+                {"category": "Cereales", "subcategory": "Arroz", "name": "Arroz Blanco Largo", "weight_kg": 1.0, "brand": "", "origin": "", "price": 1320.0, "currency": "CUP"}
+            ]
+        },
+        {
+            "place": {
+                "id": "004",
+                "name": "Canelita",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calzada / H e I",
+                    "coordinates": {"latitude": null, "longitude": null}
+                }
+            },
+            "products": [
+                {"category": "Cereales", "subcategory": "Arroz", "name": "Arroz Blanco Super Extra", "weight_kg": 1.0, "brand": "", "origin": "", "price": 950.0, "currency": "CUP"}
+            ]
+        },
+        {
+            "place": {
+                "id": "005",
+                "name": "Dulce María",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calzada / L & K",
+                    "coordinates": {"latitude": null, "longitude": null}
+                }
+            },
+            "products": [
+                {"category": "Cereales", "subcategory": "Arroz", "name": "Arroz Blanco", "weight_kg": 1.0, "brand": "Extremo Sabor", "origin": "BR", "price": 650.0, "currency": "CUP"},
+                {"category": "Cereales", "subcategory": "Arroz", "name": "Long Grane White Rice", "weight_kg": 1.0, "brand": "Energy", "origin": "BR", "price": 650.0, "currency": "CUP"}
+            ]
+        },
+        {
+            "place": {
+                "id": "006",
+                "name": "Tic Toc",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "L & 11, Vedado",
+                    "coordinates": {"latitude": null, "longitude": null}
+                }
+            },
+            "products": [
+                {"category": "Cereales", "subcategory": "Arroz", "name": "Arroz Blanco", "weight_kg": 1.0, "brand": "Raiha Brazil", "origin": "BR", "price": 950.0, "currency": "CUP"}
+            ]
+        }
+    ]
+}

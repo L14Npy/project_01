@@ -1,0 +1,21 @@
+{
+    "mipymes": [
+        {
+            "place": {
+                "id": "001",
+                "name": "Nombre de la MiPyme",
+                "town": "Municipio",
+                "location": {
+                    "street": "Calle, dirección",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {"category": "Embutidos", "subcategory": "Pollo", "name": "Salchichas", "weight_kg": 0.8, "brand": "El Cocinero", "origin": "CU", "price": 350, "currency": "CUP"}
+            ]
+        }
+    ]
+}
