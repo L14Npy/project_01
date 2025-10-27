@@ -1,0 +1,364 @@
+{
+    "mipymes": [
+        {
+            "place": {
+                "id": "001",
+                "name": "Bodegón de Calzada",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calzada / Paseo & A",
+                    "coordinates": {
+                        "latitude": 23.137886472972525,
+                        "longitude": -82.39905099268489
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "weight_kg": 1.0,
+                    "brand": "Camil",
+                    "origin": "BR",
+                    "price": 680.0,
+                    "currency": "CUP"
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "002",
+                "name": "Mi Mercadito, Llegando",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calle 5ta / E & F",
+                    "coordinates": {
+                        "latitude": 23.142513466690126,
+                        "longitude": -82.39636878359543
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Super Extra",
+                    "weight_kg": 1.0,
+                    "brand": "San Diego",
+                    "origin": "MX",
+                    "price": 580.0,
+                    "currency": "CUP"
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "003",
+                "name": "El Rey, SRL",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calle F / 3ra y 5ta, Edif. 53, Vedado",
+                    "coordinates": {
+                        "latitude": 23.143549338937667,
+                        "longitude": -82.39613274924378
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco Top",
+                    "weight_kg": 1.0,
+                    "brand": "",
+                    "origin": "",
+                    "price": 850.0,
+                    "currency": "CUP"
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco Largo",
+                    "weight_kg": 1.0,
+                    "brand": "",
+                    "origin": "",
+                    "price": 1320.0,
+                    "currency": "CUP"
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "004",
+                "name": "Canelita",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calzada / H e I",
+                    "coordinates": {
+                        "latitude": 23.144289242769883,
+                        "longitude": -82.39233474133954
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco Super Extra",
+                    "weight_kg": 1.0,
+                    "brand": "",
+                    "origin": "",
+                    "price": 950.0,
+                    "currency": "CUP"
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "005",
+                "name": "Dulce María",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calzada / L & K",
+                    "coordinates": {
+                        "latitude": 23.14548294568802,
+                        "longitude": -82.38870839480781
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "weight_kg": 1.0,
+                    "brand": "Extremo Sabor",
+                    "origin": "BR",
+                    "price": 650.0,
+                    "currency": "CUP"
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Long Grane White Rice",
+                    "weight_kg": 1.0,
+                    "brand": "Energy",
+                    "origin": "BR",
+                    "price": 650.0,
+                    "currency": "CUP"
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "006",
+                "name": "Tic Toc",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "L & 11, Vedado",
+                    "coordinates": {
+                        "latitude": 23.144960085398168,
+                        "longitude": -82.38794664726426
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "weight_kg": 1.0,
+                    "brand": "Raiha Brazil",
+                    "origin": "BR",
+                    "price": 950.0,
+                    "currency": "CUP"
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Granel",
+                    "name": "Leche Entera",
+                    "weight_kg": 1.0,
+                    "brand": null,
+                    "origin": null,
+                    "price": 1675.0,
+                    "currency": "CUP"
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "weight_kg": 0.390,
+                    "brand": "Castellum",
+                    "origin": "MA",
+                    "price": 550.0,
+                    "currency": "CUP"
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "007",
+                "name": "Bodegón B12",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "weight_kg": 1.0,
+                    "brand": "Qbanito",
+                    "origin": "BR",
+                    "price": 700.0,
+                    "currency": "CUP"
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Macarrones",
+                    "name": "Macarrones",
+                    "weight_kg": 0.5,
+                    "brand": "Qbanito",
+                    "origin": "BR",
+                    "price": 390.0,
+                    "currency": "CUP"
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "008",
+                "name": "Ale´s Supermarket",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Línea / 10 & 12",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "weight_kg": 1.0,
+                    "brand": "Raiha Brazil",
+                    "origin": "BR",
+                    "price": 750.0,
+                    "currency": "CUP"
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Fijoles Negros",
+                    "weight_kg": 0.45,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "price": 800.0,
+                    "currency": "CUP"
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "009",
+                "name": "Fress",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "23 & 12",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Extra",
+                    "weight_kg": 1.0,
+                    "brand": "Convirán",
+                    "origin": "ES",
+                    "price": 1600.0,
+                    "currency": "CUP"
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Integral",
+                    "weight_kg": 1.0,
+                    "brand": "Conviran",
+                    "origin": "ES",
+                    "price": 1575.0,
+                    "currency": "CUP"
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "010",
+                "name": "Familia Peréz",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "23 & 24",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "weight_kg": 1.0,
+                    "brand": "Onis",
+                    "origin": "MX",
+                    "price": 670.0,
+                    "currency": "CUP"
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Fijoles Negros",
+                    "weight_kg": 0.45,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "price": 800.0,
+                    "currency": "CUP"
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Fijoles Negros",
+                    "weight_kg": 1.0,
+                    "brand": "Sublime",
+                    "origin": "BR",
+                    "price": 1000.0,
+                    "currency": "CUP"
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Espaguetti",
+                    "weight_kg": 0.5,
+                    "brand": "Dolcezza",
+                    "origin": "ITA",
+                    "price": 350.0,
+                    "currency": "CUP"
+                }
+            ]
+        }
+    ]
+}

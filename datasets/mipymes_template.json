@@ -4,7 +4,7 @@
             "place": {
                 "id": "001",
                 "name": "Nombre de la MiPyme",
-                "town": "Municipio",
+                "town": "Plaza de la Revolución",
                 "location": {
                     "street": "Calle, dirección",
                     "coordinates": {
@@ -14,7 +14,21 @@
                 }
             },
             "products": [
-                {"category": "Embutidos", "subcategory": "Pollo", "name": "Salchichas", "weight_kg": 0.8, "brand": "El Cocinero", "origin": "CU", "price": 350, "currency": "CUP"}
+                {
+                    "category": "",
+                    "subcategory": "",
+                    "name": "",
+                    "weight_kg": "",
+                    "brand": "",
+                    "origin": "",
+                    "records": [
+                        {
+                            "date": "",
+                            "price": 0.0,
+                            "currency": ""
+                        }
+                    ]
+                }
             ]
         }
     ]
