@@ -21,8 +21,13 @@
                     "weight_kg": 1.0,
                     "brand": "Camil",
                     "origin": "BR",
-                    "price": 680.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "18-10-2025",
+                            "price": 680.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
@@ -47,8 +52,13 @@
                     "weight_kg": 1.0,
                     "brand": "San Diego",
                     "origin": "MX",
-                    "price": 580.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "18-10-2025",
+                            "price": 580.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
@@ -73,8 +83,13 @@
                     "weight_kg": 1.0,
                     "brand": "",
                     "origin": "",
-                    "price": 850.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "18-10-2025",
+                            "price": 850.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 },
                 {
                     "category": "Cereales",
@@ -83,8 +98,13 @@
                     "weight_kg": 1.0,
                     "brand": "",
                     "origin": "",
-                    "price": 1320.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "18-10-2025",
+                            "price": 1320.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
@@ -109,8 +129,13 @@
                     "weight_kg": 1.0,
                     "brand": "",
                     "origin": "",
-                    "price": 950.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "18-10-2025",
+                            "price": 950.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
@@ -135,8 +160,13 @@
                     "weight_kg": 1.0,
                     "brand": "Extremo Sabor",
                     "origin": "BR",
-                    "price": 650.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "18-10-2025",
+                            "price": 650.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 },
                 {
                     "category": "Cereales",
@@ -145,8 +175,13 @@
                     "weight_kg": 1.0,
                     "brand": "Energy",
                     "origin": "BR",
-                    "price": 650.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "18-10-2025",
+                            "price": 650.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
@@ -171,8 +206,13 @@
                     "weight_kg": 1.0,
                     "brand": "Raiha Brazil",
                     "origin": "BR",
-                    "price": 950.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "18-10-2025",
+                            "price": 950.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 },
                 {
                     "category": "Lácteos",
@@ -181,8 +221,13 @@
                     "weight_kg": 1.0,
                     "brand": null,
                     "origin": null,
-                    "price": 1675.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 1675.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 },
                 {
                     "category": "Lácteos",
@@ -191,8 +236,13 @@
                     "weight_kg": 0.390,
                     "brand": "Castellum",
                     "origin": "MA",
-                    "price": 550.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 550.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
@@ -217,8 +267,13 @@
                     "weight_kg": 1.0,
                     "brand": "Qbanito",
                     "origin": "BR",
-                    "price": 700.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 700.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 },
                 {
                     "category": "Pastas",
@@ -227,8 +282,13 @@
                     "weight_kg": 0.5,
                     "brand": "Qbanito",
                     "origin": "BR",
-                    "price": 390.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 390.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
@@ -253,8 +313,13 @@
                     "weight_kg": 1.0,
                     "brand": "Raiha Brazil",
                     "origin": "BR",
-                    "price": 750.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 },
                 {
                     "category": "Legumbres",
@@ -263,8 +328,13 @@
                     "weight_kg": 0.45,
                     "brand": "Del Campo",
                     "origin": "US",
-                    "price": 800.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 800.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
@@ -289,18 +359,28 @@
                     "weight_kg": 1.0,
                     "brand": "Convirán",
                     "origin": "ES",
-                    "price": 1600.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 1600.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 },
                 {
                     "category": "Cereales",
                     "subcategory": "Arroz",
                     "name": "Arroz Integral",
                     "weight_kg": 1.0,
-                    "brand": "Conviran",
+                    "brand": "Convirán",
                     "origin": "ES",
-                    "price": 1575.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 1575.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
@@ -325,8 +405,13 @@
                     "weight_kg": 1.0,
                     "brand": "Onis",
                     "origin": "MX",
-                    "price": 670.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 670.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 },
                 {
                     "category": "Legumbres",
@@ -335,8 +420,13 @@
                     "weight_kg": 0.45,
                     "brand": "Del Campo",
                     "origin": "US",
-                    "price": 800.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 800.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 },
                 {
                     "category": "Legumbres",
@@ -345,8 +435,13 @@
                     "weight_kg": 1.0,
                     "brand": "Sublime",
                     "origin": "BR",
-                    "price": 1000.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 1000.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 },
                 {
                     "category": "Pastas",
@@ -355,8 +450,58 @@
                     "weight_kg": 0.5,
                     "brand": "Dolcezza",
                     "origin": "ITA",
-                    "price": 350.0,
-                    "currency": "CUP"
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 350.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Huevos",
+                    "name": "Cartón de Huevos",
+                    "weight_kg": null,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 3000.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Huevos",
+                    "name": "Medio Cartón de Huevos",
+                    "weight_kg": null,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 0.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Huevos",
+                    "name": "Huevos Individuales",
+                    "weight_kg": null,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "25-10-2025",
+                            "price": 0.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         }
