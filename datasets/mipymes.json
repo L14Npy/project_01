@@ -215,8 +215,8 @@
                     ]
                 },
                 {
-                    "category": "Lácteos",
-                    "subcategory": "Granel",
+                    "category": "Granel",
+                    "subcategory": "Leche",
                     "name": "Leche Entera",
                     "weight_kg": 1.0,
                     "brand": null,
@@ -225,6 +225,21 @@
                         {
                             "date": "25-10-2025",
                             "price": 1675.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche",
+                    "name": "Leche Entera",
+                    "weight_lt": 1.0,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "27-10-2025",
+                            "price": 900.0,
                             "currency": "CUP"
                         }
                     ]
@@ -240,6 +255,21 @@
                         {
                             "date": "25-10-2025",
                             "price": 550.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Picadillo",
+                    "name": "Picadillo de Pollo",
+                    "weight_kg": 0.5,
+                    "brand": "Polskamp",
+                    "origin": "POL",
+                    "records": [
+                        {
+                            "date": "24-10-2025",
+                            "price": 600.0,
                             "currency": "CUP"
                         }
                     ]
@@ -499,6 +529,52 @@
                         {
                             "date": "25-10-2025",
                             "price": 0.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "011",
+                "name": "Bodegón, Las Duras",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calle, dirección",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Picadillo",
+                    "name": "Picadillo de Pollo",
+                    "weight_kg": 0.5,
+                    "brand": "Quality",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "28-10-2025",
+                            "price": 650.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Granel",
+                    "subcategory": "Picadillo",
+                    "name": "Picadillo de Pollo",
+                    "weight_kg": 0.9,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "28-10-2025",
+                            "price": 800.0,
                             "currency": "CUP"
                         }
                     ]
