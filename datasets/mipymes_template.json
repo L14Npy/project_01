@@ -15,17 +15,17 @@
             },
             "products": [
                 {
-                    "category": "",
-                    "subcategory": "",
-                    "name": "",
-                    "weight_kg": "",
-                    "brand": "",
-                    "origin": "",
+                    "category": "Carnicos",
+                    "subcategory": "Huevos",
+                    "name": "Cartón de Huevos",
+                    "weight_kg": null,
+                    "brand": null,
+                    "origin": null,
                     "records": [
                         {
-                            "date": "",
+                            "date": "03-11-2025",
                             "price": 0.0,
-                            "currency": ""
+                            "currency": "CUP"
                         }
                     ]
                 }

@@ -29,7 +29,8 @@ def mipymes_town():
         street = mipymes[i]["place"]["location"]["street"]
         products = mipymes[i]["products"]
 
-        print(f'MiPyme: {name}.\n - Cantidad de productos: {len(products)}')
+        if len(products) >= 10:
+            print(f'MiPyme: {name}.\n - Cantidad de productos: {len(products)}')
 
 """ --------------------------------------------------------------------- """
 # Promedio Total
@@ -54,7 +55,7 @@ def average_total():
     return sum(n_prices) // len(n_prices)
 
 """ --------------------------------------------------------------------- """
-
+# Cantidad de Marcas por País de Procedencia
 def brand():
     with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -78,7 +79,7 @@ def brand():
     print(f'Cantidad de Países: {len(n_origins)} \n- Procedencia: {', '.join(n_origins)}')
 
 """ --------------------------------------------------------------------- """
-# Cantidad de Marcas por País de Procedencia
+# Cantidad de Marcas por País de Procedencia 2.0
 def brand_country():
     with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -131,8 +132,78 @@ def brand_country():
         print(f'País: {country_names[k]}:\n - Cantida de Marcas: {len(v)}\n - Marcas: {', '.join(v)}')
 
 """ --------------------------------------------------------------------- """
+# Cantidad y tipos de categorías
+def categories():
+    with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
 
+    mipymes = data["mipymes"]
+    categories = set()
+    subcategories = set()
 
+    for i in range(len(mipymes)):
+        products = mipymes[i]["products"]
+        
+        for j in range(len(products)):
+            category = products[j]["category"]
+            subcategory = products[j]["subcategory"]
+            categories.add(category)
+            subcategories.add(subcategory)
+
+    print(f'Cantidad de Categorías: {len(categories)}\n - Categorías: {', '.join(categories)}')
+    print(f'Cantidad de Subcategorías: {len(subcategories)}\n - Categorías: {', '.join(subcategories)}')
+
+""" --------------------------------------------------------------------- """
+# Cantidad de Productos Internacionales & Nacionales
+def export_import():
+    with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    mipymes = data["mipymes"]
+    internationals = []
+    nationals = []
+
+    for i in range(len(mipymes)):
+        products = mipymes[i]["products"]
+
+        for j in range(len(products)):
+            origin = products[j]["origin"]
+            if origin == 'CU':
+                nationals.append(origin)
+            else:
+                internationals.append(origin)
+
+    print(f'Productos internacionales: {len(internationals)}')
+    print(f'Productos nacionales: {len(nationals)}')
+
+""" --------------------------------------------------------------------- """
+# Porcentaje de Productos Internacionales & Nacionales
+def percentage():
+    with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    mipymes = data["mipymes"]
+    n_products = []
+    internationals = []
+    nationals = []
+
+    for i in range(len(mipymes)):
+        products = mipymes[i]["products"]
+
+        for j in range(len(products)):
+            origin = products[j]["origin"]
+            n_products.append(origin)
+
+            if origin == 'CU':
+                nationals.append(origin)
+            else:
+                internationals.append(origin)
+
+    porc_international = (len(internationals)/len(n_products))*100
+    porc_national = (len(nationals)/len(n_products))*100
+
+    print(f'% de Internacionales: {porc_international:.2f}')
+    print(f'% de Nacionales: {porc_national:.2f}')
 
 """ --------------------------------------------------------------------- """
 """ --------------------------------------------------------------------- """

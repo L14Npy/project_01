@@ -336,7 +336,7 @@
                 },
                 {
                     "category": "Legumbres",
-                    "subcategory": "Frijoles",
+                    "subcategory": "Frijoles Colorados",
                     "name": "Frijoles Colorados",
                     "weight_kg": 0.45,
                     "brand": "Del Campo",
@@ -356,7 +356,7 @@
                 },
                 {
                     "category": "Legumbres",
-                    "subcategory": "Frijoles",
+                    "subcategory": "Frijoles Negros",
                     "name": "Frijoles Negros",
                     "weight_kg": 0.45,
                     "brand": "Del Campo",
@@ -477,8 +477,8 @@
                     ]
                 },
                 {
-                    "category": "Edulcurantes",
-                    "subcategory": "Azúcar",
+                    "category": "Azúcar",
+                    "subcategory": "Azúcar Blanca",
                     "name": "Azúcar Crystal",
                     "weight_kg": 1.0,
                     "brand": "Santaisabel",
@@ -493,7 +493,7 @@
                 },
                 {
                     "category": "Legumbres",
-                    "subcategory": "Frijoles",
+                    "subcategory": "Frijoles Negros",
                     "name": "Fijoles Negros",
                     "weight_kg": 0.45,
                     "brand": "Del Campo",
@@ -585,7 +585,7 @@
                 },
                 {
                     "category": "Legumbres",
-                    "subcategory": "Frijoles",
+                    "subcategory": "Frijoles Negros",
                     "name": "Fijoles Negros",
                     "weight_kg": 0.45,
                     "brand": "Del Campo",
@@ -600,7 +600,7 @@
                 },
                 {
                     "category": "Legumbres",
-                    "subcategory": "Frijoles",
+                    "subcategory": "Frijoles Negros",
                     "name": "Fijoles Negros",
                     "weight_kg": 1.0,
                     "brand": "Sublime",
