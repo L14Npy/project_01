@@ -2,7 +2,7 @@ import json
 
 """ --------------------------------------------------------------------- """
 # Contador de MiPymes & Productos
-def mipymes_products_count():
+def count_mipyme_product():
     with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
@@ -18,7 +18,7 @@ def mipymes_products_count():
 
 """ --------------------------------------------------------------------- """
 # Nombre de MiPyme, Dirección & Cantidad de Productos
-def mipymes_town():
+def mipyme_count_product():
     with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
@@ -99,7 +99,9 @@ def brand_country():
         "CH": set(),
         "DO": set(),
         "CN": set(),
-        "AR": set()
+        "AR": set(),
+        "PA": set(),
+        "TR": set()
     }
 
     country_names = {
@@ -116,6 +118,8 @@ def brand_country():
         "DO": "Republica Dominicana",
         "CN": "China",
         "AR": "Argentina",
+        "PA": "Panamá",
+        "TR": "Turkiye"
     }
 
     for i in range(len(mipymes)):
@@ -206,6 +210,102 @@ def percentage():
     print(f'% de Nacionales: {porc_national:.2f}')
 
 """ --------------------------------------------------------------------- """
+# Marcas y su País de Procedencia
+def country_brand():
+    with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    mipymes = data["mipymes"]
+    dicc = {}
+
+    for i in range(len(mipymes)):
+        products = mipymes[i]["products"]
+
+        for j in range(len(products)):
+            origin = products[j]["origin"]
+            brand = products[j]["brand"]
+
+            if (origin != "") and (origin != None):
+                if origin not in dicc:
+                    dicc[origin] = set()
+                dicc[origin].add(brand)
+
+    for k, v in dicc.items():
+        print(f'{k}: {', '.join(v)}')
+
 """ --------------------------------------------------------------------- """
+# Categorías por MiPyme
+def categories():
+    with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    mipymes = data["mipymes"]
+    dicc = {}
+
+    for i in range(len(mipymes)):
+        name = mipymes[i]["place"]["name"]
+        products = mipymes[i]["products"]
+        dicc[name] = set()
+
+        for j in range(len(products)):
+            category = products[j]["category"]
+            dicc[name].add(category)
+
+    for k, v in dicc.items():
+        print(f'{k}: {', '.join(v)}')
+
 """ --------------------------------------------------------------------- """
+# Subcategorías por MiPyme
+def subcategories():
+    with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    mipymes = data["mipymes"]
+    dicc = {}
+
+    for i in range(len(mipymes)):
+        name = mipymes[i]["place"]["name"]
+        products = mipymes[i]["products"]
+        dicc[name] = set()
+
+        for j in range(len(products)):
+            subcategory = products[j]["subcategory"]
+            dicc[name].add(subcategory)
+
+    for k, v in dicc.items():
+        print(f'{k}: {', '.join(v)}')
+
+""" --------------------------------------------------------------------- """
+# Cantidad de Productos por País de Procedencia
+def origin_x_product():
+    with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    mipymes = data["mipymes"]
+    counter = {}
+
+    for i in range(len(mipymes)):
+        products = mipymes[i]["products"]
+
+        for j in range(len(products)):
+            origin = products[j]["origin"]
+
+            if (origin != "") and (origin != None):
+                if origin in counter:
+                    counter[origin] += 1
+                else:
+                    counter[origin] = 1
+
+    for _ in range(7):
+        max_key = None
+        max_value = -1
+
+        for k, v in counter.items():
+            if v > max_value:
+                max_value = v
+                max_key = k
+
+        print(f'{max_key}: {max_value}')
+        del counter[max_key]
+
 """ --------------------------------------------------------------------- """

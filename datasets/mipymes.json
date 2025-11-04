@@ -204,7 +204,7 @@
                     "subcategory": "Arroz",
                     "name": "Arroz Blanco",
                     "weight_kg": 1.0,
-                    "brand": "Raiha Brazil",
+                    "brand": "Sublime",
                     "origin": "BR",
                     "records": [
                         {
@@ -448,10 +448,10 @@
             "products": [
                 {
                     "category": "Cereales",
-                    "subcategory": "Arroz",
+                    "subcategory": "Arroz Blanco",
                     "name": "Arroz Blanco",
                     "weight_kg": 1.0,
-                    "brand": "Raiha Brazil",
+                    "brand": "Sublime",
                     "origin": "BR",
                     "records": [
                         {
@@ -1285,7 +1285,7 @@
         },
         {
             "place": {
-                "id": "013",
+                "id": "014",
                 "name": "Mercado El Ten Cent",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -1413,6 +1413,309 @@
                         {
                             "date": "02-11-2025",
                             "price": 8500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "015",
+                "name": "Bodegón D'K",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calle, dirección",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Condimentos",
+                    "subcategory": "Sal",
+                    "name": "Sal Fina",
+                    "weight_kg": 1.0,
+                    "brand": "Polasal",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 460.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Azúcar",
+                    "subcategory": "Azúcar Blanca",
+                    "name": "Azúcar Crystal",
+                    "weight_kg": 1.0,
+                    "brand": "Energy",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta de Tomate",
+                    "name": "Pasta de Tomate",
+                    "weight_kg": 0.400,
+                    "brand": "Marwa",
+                    "origin": "PA",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 570.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta de Tomate",
+                    "name": "Pasta de Tomate",
+                    "weight_kg": 0.400,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 740.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz Blanco",
+                    "name": "Arroz Blanco",
+                    "weight_kg": 1.0,
+                    "brand": "Patéko",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 780.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles Negros",
+                    "name": "Frijoles Negros",
+                    "weight_kg": 0.500,
+                    "brand": "Cister",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 850.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "weight_kg": 0.500,
+                    "brand": "Doga",
+                    "origin": "TR",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 380.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "weight_kg": 0.395,
+                    "brand": "Cremor",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 570.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "weight_kg": 0.390,
+                    "brand": "La Granjera",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 600.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "weight_kg": 0.390,
+                    "brand": "Zivel",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 620.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "016",
+                "name": "Andrea | Café & Mercado",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calle 23 esquina 12. Vedado",
+                    "coordinates": {
+                        "latitude": 23.127150881141585,
+                        "longitude": -82.39991247653963
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Arroz",
+                    "subcategory": "Arroz Blanco",
+                    "name": "Arroz Super Extra",
+                    "weight_kg": 1.0,
+                    "brand": "San Diego",
+                    "origin": "MX",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "017",
+                "name": "Villa Amada",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calle 25 entre J e I, Vedado",
+                    "coordinates": {
+                        "latitude": 23.13714167830714,
+                        "longitude": -82.3845369052301
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles Negros",
+                    "name": "Fijoles Negros",
+                    "weight_kg": 0.45,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 670.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Arroz",
+                    "subcategory": "Arroz Blanco",
+                    "name": "Arroz Super Extra",
+                    "weight_kg": 1.0,
+                    "brand": "San Diego",
+                    "origin": "MX",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 660.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada Azucarada",
+                    "weight_kg": 0.390,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 600.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Café",
+                    "subcategory": "Café Molido",
+                    "name": "Café Español",
+                    "weight_kg": 0.250,
+                    "brand": "Bryderk",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 1870.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Infuciones",
+                    "subcategory": "Café Instantáneo",
+                    "name": "Cafe Instantáneo",
+                    "weight_kg": 0.050,
+                    "brand": "Presto",
+                    "origin": "NI",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 1180.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Aceites",
+                    "subcategory": "Aceite de Soja",
+                    "name": "Aceite de Soja",
+                    "weight_lt": 0.9,
+                    "brand": "Saude",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 1150.0,
                             "currency": "CUP"
                         }
                     ]
