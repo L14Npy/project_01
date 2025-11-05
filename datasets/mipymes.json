@@ -383,6 +383,36 @@
                             "currency": "CUP"
                         }
                     ]
+                },
+                {
+                    "category": "Azúcar",
+                    "subcategory": "Azúcar Blanca",
+                    "name": "Azúcar Crystal",
+                    "weight_kg": 1.0,
+                    "brand": "Energy",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "04-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Condimentos",
+                    "subcategory": "Sal",
+                    "name": "Sal Marina",
+                    "weight_kg": 1.0,
+                    "brand": "Polasal",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 620.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
@@ -502,6 +532,51 @@
                         {
                             "date": "25-10-2025",
                             "price": 800.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Infuciones",
+                    "subcategory": "Café Instantáneo",
+                    "name": "Café Soluble con Caramelo",
+                    "weight_kg": 0.0,
+                    "brand": "Internacional",
+                    "origin": "MX",
+                    "records": [
+                        {
+                            "date": "04-11-2025",
+                            "price": 2100.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Entera",
+                    "name": "Leche Entera Líquida",
+                    "weight_lt": 1.0,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "04-11-2025",
+                            "price": 1300.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Entera",
+                    "name": "Leche Entera Líquida",
+                    "weight_lt": 1.0,
+                    "brand": "Covap",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "04-11-2025",
+                            "price": 1300.0,
                             "currency": "CUP"
                         }
                     ]
@@ -818,13 +893,13 @@
                     "category": "Procesados",
                     "subcategory": "Pasta",
                     "name": "Pasta de Tomate",
-                    "weight_kg": 3.0,
+                    "weight_kg": 0.400,
                     "brand": "Vima",
                     "origin": "ES",
                     "records": [
                         {
-                            "date": "02-11-2025",
-                            "price": 4500.0,
+                            "date": "04-11-2025",
+                            "price": 600.0,
                             "currency": "CUP"
                         }
                     ]
@@ -1439,11 +1514,11 @@
                     "name": "Sal Fina",
                     "weight_kg": 1.0,
                     "brand": "Polasal",
-                    "origin": "ES",
+                    "origin": "MA",
                     "records": [
                         {
-                            "date": "03-11-2025",
-                            "price": 460.0,
+                            "date": "04-11-2025",
+                            "price": 500.0,
                             "currency": "CUP"
                         }
                     ]
@@ -1494,7 +1569,22 @@
                     ]
                 },
                 {
-                    "category": "Cereales",
+                    "category": "Procesados",
+                    "subcategory": "Pasta de Tomate",
+                    "name": "Pasta de Tomate",
+                    "weight_kg": 0.400,
+                    "brand": "Marwa",
+                    "origin": "PA",
+                    "records": [
+                        {
+                            "date": "04-11-2025",
+                            "price": 570.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Arroz",
                     "subcategory": "Arroz Blanco",
                     "name": "Arroz Blanco",
                     "weight_kg": 1.0,
@@ -1579,6 +1669,51 @@
                         {
                             "date": "03-11-2025",
                             "price": 620.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Aceites",
+                    "subcategory": "Aceite Girasol",
+                    "name": "Aceite Girasol",
+                    "weight_lt": 1.0,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "04-11-2025",
+                            "price": 990.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Aceites",
+                    "subcategory": "Aceite de Oliva",
+                    "name": "Aceite de Oliva Virgen",
+                    "weight_lt": 1.0,
+                    "brand": "Laura",
+                    "origin": "AR",
+                    "records": [
+                        {
+                            "date": "04-11-2025",
+                            "price": 4250.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Café",
+                    "subcategory": "Café Expresso",
+                    "name": "Café Expresso",
+                    "weight_kg": 0.250,
+                    "brand": "Buenos Días",
+                    "origin": "",
+                    "records": [
+                        {
+                            "date": "04-11-2025",
+                            "price": 1450.0,
                             "currency": "CUP"
                         }
                     ]
