@@ -271,6 +271,11 @@
                             "date": "24-10-2025",
                             "price": 600.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "06-11-2025",
+                            "price": 600.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -766,6 +771,26 @@
             "products": [
                 {
                     "category": "Carnicos",
+                    "subcategory": "Huevos",
+                    "name": "Cartón de Huevos",
+                    "weight_kg": null,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "07-11-2025",
+                            "price": 3000.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "08-11-2025",
+                            "price": 3000.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
                     "subcategory": "Picadillo",
                     "name": "Picadillo de Pollo",
                     "weight_kg": 0.5,
@@ -846,8 +871,8 @@
                 },
                 {
                     "category": "Aceites",
-                    "subcategory": "Aceite Vegetal",
-                    "name": "Aceite Girasol",
+                    "subcategory": "Aceite Girasol",
+                    "name": "Aceite Refinado Girasol",
                     "weight_lt": 1.0,
                     "brand": "Vima",
                     "origin": "ES",
@@ -856,13 +881,18 @@
                             "date": "02-11-2025",
                             "price": 990.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "08-11-2025",
+                            "price": 990.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
                 {
                     "category": "Aceites",
-                    "subcategory": "Aceite Vegetal",
-                    "name": "Aceite de Oliva",
+                    "subcategory": "Aceite de Oliva",
+                    "name": "Aceite de Oliva Familiar",
                     "weight_lt": 1.0,
                     "brand": "Guillen",
                     "origin": "ES",
@@ -870,6 +900,11 @@
                         {
                             "date": "02-11-2025",
                             "price": 4200.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "08-11-2025",
+                            "price": 3500.0,
                             "currency": "CUP"
                         }
                     ]
@@ -1420,6 +1455,21 @@
                 {
                     "category": "Café",
                     "subcategory": "Café Molido",
+                    "name": "Café Molido",
+                    "weight_kg": 0.283,
+                    "brand": "Yeya",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "05-11-2025",
+                            "price": 2450.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Café",
+                    "subcategory": "Café Molido",
                     "name": "Café Molido Expresso",
                     "weight_kg": 0.284,
                     "brand": "Caribe",
@@ -1509,6 +1559,36 @@
             },
             "products": [
                 {
+                    "category": "Carnicos",
+                    "subcategory": "Pollo Entero",
+                    "name": "Pollo Entero",
+                    "weight_kg": 1.3,
+                    "brand": "Seara",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "07-11-2025",
+                            "price": 2200.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Granel",
+                    "subcategory": "Picadillo",
+                    "name": "Picadillo de Res",
+                    "weight_kg": 0.9,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "07-11-2025",
+                            "price": 1700.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
                     "category": "Condimentos",
                     "subcategory": "Sal",
                     "name": "Sal Fina",
@@ -1584,6 +1664,21 @@
                     ]
                 },
                 {
+                    "category": "Procesados",
+                    "subcategory": "Pasta de Tomate",
+                    "name": "Pasta de Tomate",
+                    "weight_kg": 0.400,
+                    "brand": "Columba",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "07-11-2025",
+                            "price": 450.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
                     "category": "Arroz",
                     "subcategory": "Arroz Blanco",
                     "name": "Arroz Blanco",
@@ -1624,6 +1719,21 @@
                         {
                             "date": "03-11-2025",
                             "price": 380.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Entera",
+                    "name": "Leche Entera",
+                    "weight_lt": 1.0,
+                    "brand": "Cremor",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "07-11-2025",
+                            "price": 1200.0,
                             "currency": "CUP"
                         }
                     ]
@@ -1683,6 +1793,11 @@
                     "records": [
                         {
                             "date": "04-11-2025",
+                            "price": 990.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "07-11-2025",
                             "price": 990.0,
                             "currency": "CUP"
                         }
