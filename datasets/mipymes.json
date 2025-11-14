@@ -527,6 +527,21 @@
                     ]
                 },
                 {
+                    "category": "Azúcar",
+                    "subcategory": "Azúcar Blanca",
+                    "name": "Azúcar Crystal",
+                    "weight_kg": 1.0,
+                    "brand": "Energy",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "13-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
                     "category": "Legumbres",
                     "subcategory": "Frijoles Negros",
                     "name": "Fijoles Negros",
@@ -741,7 +756,7 @@
                 {
                     "category": "Carnicos",
                     "subcategory": "Huevos",
-                    "name": "Huevos Individuales",
+                    "name": "Huevos Individual",
                     "weight_kg": null,
                     "brand": null,
                     "origin": null,
@@ -786,6 +801,86 @@
                             "date": "08-11-2025",
                             "price": 3000.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "11-11-2025",
+                            "price": 3500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Huevos",
+                    "name": "Huevos Individual",
+                    "weight_kg": null,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "11-11-2025",
+                            "price": 120.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Embutidos",
+                    "subcategory": "Salchichas",
+                    "name": "Perritos",
+                    "weight_kg": 0.350,
+                    "brand": "Quality",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "11-11-2025",
+                            "price": 365.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Embutidos",
+                    "subcategory": "Salchichas",
+                    "name": "Salchichas de Pollo",
+                    "weight_kg": 1.0,
+                    "brand": "Quality",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "11-11-2025",
+                            "price": 1200.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Pechuga",
+                    "name": "Pechuga de Pollo",
+                    "weight_kg": 2.0,
+                    "brand": "Friato",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "11-11-2025",
+                            "price": 365.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Pollo Entero",
+                    "name": "Pollo Entero",
+                    "weight_kg": 1.3,
+                    "brand": "Seara",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "11-11-2025",
+                            "price": 2200.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -806,6 +901,11 @@
                             "date": "30-10-2025",
                             "price": 600.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "11-11-2025",
+                            "price": 600.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -819,6 +919,11 @@
                     "records": [
                         {
                             "date": "30-10-2025",
+                            "price": 650.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "11-11-2025",
                             "price": 650.0,
                             "currency": "CUP"
                         }
@@ -836,6 +941,11 @@
                             "date": "28-10-2025",
                             "price": 800.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "11-11-2025",
+                            "price": 800.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -849,6 +959,11 @@
                     "records": [
                         {
                             "date": "30-10-2025",
+                            "price": 3000.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "11-11-2025",
                             "price": 3000.0,
                             "currency": "CUP"
                         }
@@ -886,6 +1001,11 @@
                             "date": "08-11-2025",
                             "price": 990.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "11-11-2025",
+                            "price": 990.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -919,6 +1039,11 @@
                     "records": [
                         {
                             "date": "02-11-2025",
+                            "price": 1100.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "11-11-2025",
                             "price": 1100.0,
                             "currency": "CUP"
                         }
@@ -1199,7 +1324,7 @@
                 {
                     "category": "Carnicos",
                     "subcategory": "Huevos",
-                    "name": "Huevos Individuales",
+                    "name": "Huevos Individual",
                     "weight_kg": null,
                     "brand": null,
                     "origin": null,
@@ -1720,6 +1845,26 @@
                             "date": "03-11-2025",
                             "price": 380.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "12-11-2025",
+                            "price": 330.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Entera",
+                    "name": "Leche Entera",
+                    "weight_lt": 1.0,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "13-11-2025",
+                            "price": 1200.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -1828,6 +1973,51 @@
                     "records": [
                         {
                             "date": "04-11-2025",
+                            "price": 1450.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Café",
+                    "subcategory": "Café Expresso",
+                    "name": "Café Expresso",
+                    "weight_kg": 0.250,
+                    "brand": "Isla Grande",
+                    "origin": "CU",
+                    "records": [
+                        {
+                            "date": "11-11-2025",
+                            "price": 1600.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Café",
+                    "subcategory": "Café Expresso",
+                    "name": "Café Expresso",
+                    "weight_kg": 0.250,
+                    "brand": "Café Don Anecio",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "11-11-2025",
+                            "price": 1850.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Café",
+                    "subcategory": "Café Expresso",
+                    "name": "Café Expresso",
+                    "weight_kg": 0.250,
+                    "brand": "Café Minino",
+                    "origin": "CU",
+                    "records": [
+                        {
+                            "date": "13-11-2025",
                             "price": 1450.0,
                             "currency": "CUP"
                         }
