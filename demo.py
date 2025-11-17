@@ -1,4 +1,95 @@
 import json
+import matplotlib.pyplot as plt
+import numpy as np
+
+""" --------------------------------------------------------------------- """
+# Promedio Salarial
+def AverageSalarie():
+    with open('./datasets/salaries.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    salaries = data["salaries"]
+    n_salaries = []
+
+    for i in range(len(salaries)):
+        salarie = salaries[i]["salarie"]
+        n_salaries.append(salarie)
+
+    salaries_sum = 0
+    for j in n_salaries:
+        salaries_sum += j
+
+    return round(salaries_sum / len(n_salaries), 2)
+
+""" --------------------------------------------------------------------- """
+# Promedio Salarial (Diario, Semanal, Mensual)
+def AverageSalarieDay(day):
+    return round(AverageSalarie() / day, 2)
+
+""" --------------------------------------------------------------------- """
+# Promedio Total de un Producto
+def AverageProduct(product):
+    with open('./datasets/mipymes.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    mipymes = data["mipymes"]
+    n_products = []
+
+    for i in range(len(mipymes)):
+        products = mipymes[i]["products"]
+        
+        for j in range(len(products)):
+            category = products[j]['category']
+            subcategory = products[j]['subcategory']
+            records = products[j]["records"]
+            
+            if category == product and subcategory != 'Aceite de Oliva':
+                for k in range(len(records)):
+                    price = records[k]["price"]
+                    n_products.append(price)
+
+    products_sum = 0
+    for m in n_products:
+        products_sum += m
+
+    return products_sum / len(n_products)
+
+""" --------------------------------------------------------------------- """
+# Promedio Total de la Canasta Básica
+def AverageBasket():
+    with open('./datasets/mipymes.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    mipymes = data["mipymes"]
+    n_baskets = []
+
+    for i in range(len(mipymes)):
+        products = mipymes[i]["products"]
+
+        for j in range(len(products)):
+            subcategory = products[j]["subcategory"]
+            records = products[j]["records"]
+
+            if subcategory != 'Aceite de Oliva':
+                for k in range(len(records)):
+                    price = records[k]["price"]
+                    n_baskets.append(price)
+
+    baskets_sum = 0
+    for m in n_baskets:
+        baskets_sum += m
+
+    return round(baskets_sum / len(n_baskets), 2)
+
+""" --------------------------------------------------------------------- """
+# Días de Salario Necesario
+def SalaryDayNecesary(product, day):
+    return round(AverageProduct(product) / AverageSalarieDay(day), 2)
+
+""" --------------------------------------------------------------------- """
+# Días de Salario de Canasta Básica
+def SalaryDayBasket(day):
+    return round(AverageBasket() / AverageSalarieDay(day), 2)
 
 """ --------------------------------------------------------------------- """
 # Contador de MiPymes & Productos
@@ -79,63 +170,6 @@ def brand():
     print(f'Cantidad de Países: {len(n_origins)} \n- Procedencia: {', '.join(n_origins)}')
 
 """ --------------------------------------------------------------------- """
-# Cantidad de Marcas por País de Procedencia 2.0
-def brand_country():
-    with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
-    mipymes = data["mipymes"]
-
-    countries = {
-        "BR": set(),
-        "MX": set(),
-        "ES": set(),
-        "MA": set(),
-        "POL": set(),
-        "US": set(),
-        "ITA": set(),
-        "CU": set(),
-        "COL": set(),
-        "CH": set(),
-        "DO": set(),
-        "CN": set(),
-        "AR": set(),
-        "PA": set(),
-        "TR": set()
-    }
-
-    country_names = {
-        "BR": "Brasil",
-        "MX": "México",
-        "ES": "España",
-        "MA": "Malasia",
-        "POL": "Polonia",
-        "US": "Estados Unidos",
-        "ITA": "Italia",
-        "CU": "Cuba",
-        "COL": "Colombia",
-        "CH": "Chile",
-        "DO": "Republica Dominicana",
-        "CN": "China",
-        "AR": "Argentina",
-        "PA": "Panamá",
-        "TR": "Turkiye"
-    }
-
-    for i in range(len(mipymes)):
-        products = mipymes[i]["products"]
-        
-        for j in range(len(products)):
-            brand = products[j]["brand"]
-            origin = products[j]["origin"]
-            
-            if (origin in countries) and brand:
-                countries[origin].add(brand)
-
-    for k, v in countries.items():
-        print(f'País: {country_names[k]}:\n - Cantida de Marcas: {len(v)}\n - Marcas: {', '.join(v)}')
-
-""" --------------------------------------------------------------------- """
 # Cantidad y tipos de categorías
 def categories():
     with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
@@ -182,14 +216,14 @@ def export_import():
 
 """ --------------------------------------------------------------------- """
 # Porcentaje de Productos Internacionales & Nacionales
-def percentage():
+def percentage(country):
     with open('./datasets/mipymes.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     mipymes = data["mipymes"]
     n_products = []
-    internationals = []
-    nationals = []
+    n_internationals = []
+    n_nationals = []
 
     for i in range(len(mipymes)):
         products = mipymes[i]["products"]
@@ -198,16 +232,16 @@ def percentage():
             origin = products[j]["origin"]
             n_products.append(origin)
 
-            if origin == 'CU':
-                nationals.append(origin)
+            if origin == country:
+                n_nationals.append(origin)
             else:
-                internationals.append(origin)
+                n_internationals.append(origin)
 
-    porc_international = (len(internationals)/len(n_products))*100
-    porc_national = (len(nationals)/len(n_products))*100
+    porc_international = (len(n_internationals)/len(n_products))*100
+    porc_national = (len(n_nationals)/len(n_products))*100
 
     print(f'% de Internacionales: {porc_international:.2f}')
-    print(f'% de Nacionales: {porc_national:.2f}')
+    print(f'% de {country}: {porc_national:.2f}')
 
 """ --------------------------------------------------------------------- """
 # Marcas y su País de Procedencia
@@ -252,7 +286,7 @@ def categories():
             dicc[name].add(category)
 
     for k, v in dicc.items():
-        print(f'{k}: {', '.join(v)}')
+        print(f'{k}: {v}')
 
 """ --------------------------------------------------------------------- """
 # Subcategorías por MiPyme
@@ -273,7 +307,7 @@ def subcategories():
             dicc[name].add(subcategory)
 
     for k, v in dicc.items():
-        print(f'{k}: {', '.join(v)}')
+        print(f'{k}: {v}')
 
 """ --------------------------------------------------------------------- """
 # Cantidad de Productos por País de Procedencia

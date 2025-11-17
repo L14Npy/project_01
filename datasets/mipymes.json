@@ -2,7 +2,7 @@
     "mipymes": [
         {
             "place": {
-                "id": "001",
+                "id": "01",
                 "name": "Bodegón de Calzada",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -33,7 +33,7 @@
         },
         {
             "place": {
-                "id": "002",
+                "id": "02",
                 "name": "Mi Mercadito, Llegando",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -64,7 +64,7 @@
         },
         {
             "place": {
-                "id": "003",
+                "id": "03",
                 "name": "El Rey, SRL",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -110,7 +110,7 @@
         },
         {
             "place": {
-                "id": "004",
+                "id": "04",
                 "name": "Canelita",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -141,7 +141,7 @@
         },
         {
             "place": {
-                "id": "005",
+                "id": "05",
                 "name": "Dulce María",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -187,7 +187,7 @@
         },
         {
             "place": {
-                "id": "006",
+                "id": "06",
                 "name": "Tic Toc",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -215,7 +215,7 @@
                     ]
                 },
                 {
-                    "category": "Granel",
+                    "category": "Lácteos",
                     "subcategory": "Leche",
                     "name": "Leche Entera",
                     "weight_kg": 1.0,
@@ -246,7 +246,7 @@
                 },
                 {
                     "category": "Lácteos",
-                    "subcategory": "Leche Condensada",
+                    "subcategory": "Leche",
                     "name": "Leche Condensada",
                     "weight_kg": 0.390,
                     "brand": "Castellum",
@@ -254,6 +254,11 @@
                     "records": [
                         {
                             "date": "25-10-2025",
+                            "price": 550.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "11-11-2025",
                             "price": 550.0,
                             "currency": "CUP"
                         }
@@ -341,9 +346,9 @@
                 },
                 {
                     "category": "Legumbres",
-                    "subcategory": "Frijoles Colorados",
+                    "subcategory": "Frijoles",
                     "name": "Frijoles Colorados",
-                    "weight_kg": 0.45,
+                    "weight_kg": 0.450,
                     "brand": "Del Campo",
                     "origin": "US",
                     "records": [
@@ -361,9 +366,9 @@
                 },
                 {
                     "category": "Legumbres",
-                    "subcategory": "Frijoles Negros",
+                    "subcategory": "Frijoles",
                     "name": "Frijoles Negros",
-                    "weight_kg": 0.45,
+                    "weight_kg": 0.450,
                     "brand": "Del Campo",
                     "origin": "US",
                     "records": [
@@ -375,9 +380,9 @@
                     ]
                 },
                 {
-                    "category": "Aceites",
-                    "subcategory": "Aceite Vegetal",
-                    "name": "Aceite de Soya",
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
+                    "name": "Aceite de Soja",
                     "weight_lt": 0.900,
                     "brand": "Sarita",
                     "origin": "MX",
@@ -423,7 +428,7 @@
         },
         {
             "place": {
-                "id": "007",
+                "id": "07",
                 "name": "Bodegón B12",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -449,27 +454,12 @@
                             "currency": "CUP"
                         }
                     ]
-                },
-                {
-                    "category": "Pastas",
-                    "subcategory": "Macarrones",
-                    "name": "Macarrones",
-                    "weight_kg": 0.5,
-                    "brand": "Qbanito",
-                    "origin": "BR",
-                    "records": [
-                        {
-                            "date": "25-10-2025",
-                            "price": 390.0,
-                            "currency": "CUP"
-                        }
-                    ]
                 }
             ]
         },
         {
             "place": {
-                "id": "008",
+                "id": "08",
                 "name": "Ale´s Supermarket",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -483,7 +473,7 @@
             "products": [
                 {
                     "category": "Cereales",
-                    "subcategory": "Arroz Blanco",
+                    "subcategory": "Arroz",
                     "name": "Arroz Blanco",
                     "weight_kg": 1.0,
                     "brand": "Sublime",
@@ -543,9 +533,9 @@
                 },
                 {
                     "category": "Legumbres",
-                    "subcategory": "Frijoles Negros",
+                    "subcategory": "Frijoles",
                     "name": "Fijoles Negros",
-                    "weight_kg": 0.45,
+                    "weight_kg": 0.450,
                     "brand": "Del Campo",
                     "origin": "US",
                     "records": [
@@ -559,8 +549,8 @@
                 {
                     "category": "Infuciones",
                     "subcategory": "Café Instantáneo",
-                    "name": "Café Soluble con Caramelo",
-                    "weight_kg": 0.0,
+                    "name": "Café Soluble",
+                    "weight_kg": 0.080,
                     "brand": "Internacional",
                     "origin": "MX",
                     "records": [
@@ -573,8 +563,8 @@
                 },
                 {
                     "category": "Lácteos",
-                    "subcategory": "Leche Entera",
-                    "name": "Leche Entera Líquida",
+                    "subcategory": "Leche",
+                    "name": "Leche Entera",
                     "weight_lt": 1.0,
                     "brand": "Vima",
                     "origin": "ES",
@@ -588,8 +578,8 @@
                 },
                 {
                     "category": "Lácteos",
-                    "subcategory": "Leche Entera",
-                    "name": "Leche Entera Líquida",
+                    "subcategory": "Leche",
+                    "name": "Leche Entera",
                     "weight_lt": 1.0,
                     "brand": "Covap",
                     "origin": "ES",
@@ -605,7 +595,7 @@
         },
         {
             "place": {
-                "id": "009",
+                "id": "09",
                 "name": "Fress",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -651,7 +641,7 @@
         },
         {
             "place": {
-                "id": "010",
+                "id": "10",
                 "name": "Familia Peréz",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -680,9 +670,9 @@
                 },
                 {
                     "category": "Legumbres",
-                    "subcategory": "Frijoles Negros",
+                    "subcategory": "Frijoles",
                     "name": "Fijoles Negros",
-                    "weight_kg": 0.45,
+                    "weight_kg": 0.450,
                     "brand": "Del Campo",
                     "origin": "US",
                     "records": [
@@ -695,7 +685,7 @@
                 },
                 {
                     "category": "Legumbres",
-                    "subcategory": "Frijoles Negros",
+                    "subcategory": "Frijoles",
                     "name": "Fijoles Negros",
                     "weight_kg": 1.0,
                     "brand": "Sublime",
@@ -772,7 +762,7 @@
         },
         {
             "place": {
-                "id": "011",
+                "id": "11",
                 "name": "Bodegón, Las Duras",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -864,7 +854,7 @@
                     "records": [
                         {
                             "date": "11-11-2025",
-                            "price": 365.0,
+                            "price": 3650.0,
                             "currency": "CUP"
                         }
                     ]
@@ -930,7 +920,7 @@
                     ]
                 },
                 {
-                    "category": "Granel",
+                    "category": "Carnicos",
                     "subcategory": "Picadillo",
                     "name": "Picadillo de Pollo",
                     "weight_kg": 0.9,
@@ -950,7 +940,7 @@
                     ]
                 },
                 {
-                    "category": "Granel",
+                    "category": "Carnicos",
                     "subcategory": "Picadillo",
                     "name": "Picadillo de Res",
                     "weight_kg": 0.9,
@@ -985,8 +975,8 @@
                     ]
                 },
                 {
-                    "category": "Aceites",
-                    "subcategory": "Aceite Girasol",
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
                     "name": "Aceite Refinado Girasol",
                     "weight_lt": 1.0,
                     "brand": "Vima",
@@ -1010,9 +1000,9 @@
                     ]
                 },
                 {
-                    "category": "Aceites",
-                    "subcategory": "Aceite de Oliva",
-                    "name": "Aceite de Oliva Familiar",
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
+                    "name": "Aceite de Oliva",
                     "weight_lt": 1.0,
                     "brand": "Guillen",
                     "origin": "ES",
@@ -1068,7 +1058,7 @@
         },
         {
             "place": {
-                "id": "012",
+                "id": "12",
                 "name": "Bodegón Oasis",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -1082,8 +1072,8 @@
             "products": [
                 {
                     "category": "Lácteos",
-                    "subcategory": "Leche en Polvo",
-                    "name": "Leche",
+                    "subcategory": "Leche",
+                    "name": "Leche en Polvo",
                     "weight_kg": 0.200,
                     "brand": "Itambé",
                     "origin": "BR",
@@ -1097,8 +1087,8 @@
                 },
                 {
                     "category": "Lácteos",
-                    "subcategory": "Leche Descremada",
-                    "name": "Leche",
+                    "subcategory": "Leche",
+                    "name": "Leche Descremada",
                     "weight_lt": 1.0,
                     "brand": "Rica",
                     "origin": "DO",
@@ -1112,8 +1102,8 @@
                 },
                 {
                     "category": "Lácteos",
-                    "subcategory": "Leche Evaporada",
-                    "name": "Leche",
+                    "subcategory": "Leche",
+                    "name": "Leche Evaporada",
                     "weight_kg": 0.350,
                     "brand": "Rica",
                     "origin": "DO",
@@ -1127,9 +1117,9 @@
                 },
                 {
                     "category": "Lácteos",
-                    "subcategory": "Leche Entera",
+                    "subcategory": "Leche",
                     "name": "Listamilk",
-                    "weight_lt": "1.0",
+                    "weight_lt": 1.0,
                     "brand": "Rica",
                     "origin": "DO",
                     "records": [
@@ -1142,23 +1132,8 @@
                 },
                 {
                     "category": "Lácteos",
-                    "subcategory": "Café con Leche",
-                    "name": "Capuchino",
-                    "weight_lt": 0.200,
-                    "brand": "Puleva",
-                    "origin": "ES",
-                    "records": [
-                        {
-                            "date": "02-11-2025",
-                            "price": 900.0,
-                            "currency": "CUP"
-                        }
-                    ]
-                },
-                {
-                    "category": "Lácteos",
-                    "subcategory": "Café con Leche",
-                    "name": "Capuchino",
+                    "subcategory": "Leche",
+                    "name": "Café con Leche",
                     "weight_lt": 1.0,
                     "brand": "Puleva",
                     "origin": "ES",
@@ -1173,7 +1148,7 @@
                 {
                     "category": "Lácteos",
                     "subcategory": "Leche Condensada",
-                    "name": "Leche Condensada Azucarada Rellena",
+                    "name": "Leche Condensada",
                     "weight_kg": 0.390,
                     "brand": "Zivel",
                     "origin": "MA",
@@ -1186,9 +1161,9 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Expresso",
-                    "name": "Café",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Bebidas",
                     "weight_kg": 0.250,
                     "brand": "Buenos Días",
                     "origin": "",
@@ -1201,8 +1176,8 @@
                     ]
                 },
                 {
-                    "category": "Aceites",
-                    "subcategory": "Aceite Vegetal",
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
                     "name": "Aceite de Oliva",
                     "weight_lt": 1.0,
                     "brand": "Guillen",
@@ -1211,21 +1186,6 @@
                         {
                             "date": "02-11-2025",
                             "price": 4600.0,
-                            "currency": "CUP"
-                        }
-                    ]
-                },
-                {
-                    "category": "Procesados",
-                    "subcategory": "Pasta de Tomate",
-                    "name": "Pasta de Tomate",
-                    "weight_lt": 1.0,
-                    "brand": "deCancio",
-                    "origin": "ES",
-                    "records": [
-                        {
-                            "date": "02-11-2025",
-                            "price": 170.0,
                             "currency": "CUP"
                         }
                     ]
@@ -1279,7 +1239,7 @@
         },
         {
             "place": {
-                "id": "013",
+                "id": "13",
                 "name": "Kaluch Market",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -1352,7 +1312,7 @@
                     ]
                 },
                 {
-                    "category": "Granel",
+                    "category": "Carnicos",
                     "subcategory": "Picadillo",
                     "name": "Picadillo de Res",
                     "weight_kg": 1.0,
@@ -1412,8 +1372,8 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Expresso",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
                     "name": "Café La Llave",
                     "weight_kg": 0.284,
                     "brand": "La LLave",
@@ -1427,8 +1387,8 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Molido",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
                     "name": "Café Molido Mezcla",
                     "weight_kg": 0.250,
                     "brand": "Coaliment",
@@ -1442,8 +1402,8 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Molido",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
                     "name": "Café Molido Mezcla",
                     "weight_kg": 0.250,
                     "brand": "Gourmet",
@@ -1457,9 +1417,9 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Tostado",
-                    "name": "Café Extra Fuerte",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Tostado",
                     "weight_kg": 0.250,
                     "brand": "Sebraz",
                     "origin": "BR",
@@ -1472,8 +1432,8 @@
                     ]
                 },
                 {
-                    "category": "Aceites",
-                    "subcategory": "Aceite Vegetal",
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
                     "name": "Aceite de Oliva",
                     "weight_lt": 1.0,
                     "brand": "Vima",
@@ -1487,9 +1447,9 @@
                     ]
                 },
                 {
-                    "category": "Aceites",
-                    "subcategory": "Aceite Vegetal",
-                    "name": "Aceite de Oliva Virgen Extra",
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
+                    "name": "Aceite de Oliva",
                     "weight_lt": 0.250,
                     "brand": "Vima",
                     "origin": "ES",
@@ -1520,7 +1480,7 @@
         },
         {
             "place": {
-                "id": "014",
+                "id": "14",
                 "name": "Mercado El Ten Cent",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -1563,8 +1523,8 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Molido",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
                     "name": "Café Molido",
                     "weight_kg": 0.250,
                     "brand": "Isla Grande",
@@ -1578,8 +1538,8 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Molido",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
                     "name": "Café Molido",
                     "weight_kg": 0.283,
                     "brand": "Yeya",
@@ -1593,8 +1553,8 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Molido",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
                     "name": "Café Molido Expresso",
                     "weight_kg": 0.284,
                     "brand": "Caribe",
@@ -1608,8 +1568,8 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Expresso",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
                     "name": "Café La Llave",
                     "weight_kg": 0.284,
                     "brand": "La LLave",
@@ -1624,7 +1584,7 @@
                 },
                 {
                     "category": "Infuciones",
-                    "subcategory": "Café Instantaneo",
+                    "subcategory": "Café Instantáneo",
                     "name": "Nescafé",
                     "weight_kg": 0.080,
                     "brand": "Dolca",
@@ -1638,9 +1598,9 @@
                     ]
                 },
                 {
-                    "category": "Aceites",
-                    "subcategory": "Aceite Vegetal",
-                    "name": "Aceite de Oliva Virgen Extra",
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
+                    "name": "Aceite de Oliva",
                     "weight_lt": 0.500,
                     "brand": "Badia",
                     "origin": "ES",
@@ -1671,7 +1631,7 @@
         },
         {
             "place": {
-                "id": "015",
+                "id": "15",
                 "name": "Bodegón D'K",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -1699,7 +1659,22 @@
                     ]
                 },
                 {
-                    "category": "Granel",
+                    "category": "Carnicos",
+                    "subcategory": "Picadillo",
+                    "name": "Picadillo de Res",
+                    "weight_kg": 0.9,
+                    "brand": "Delicias Estrella",
+                    "origin": "CU",
+                    "records": [
+                        {
+                            "date": "14-11-2025",
+                            "price": 1700.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
                     "subcategory": "Picadillo",
                     "name": "Picadillo de Res",
                     "weight_kg": 0.9,
@@ -1804,8 +1779,23 @@
                     ]
                 },
                 {
-                    "category": "Arroz",
-                    "subcategory": "Arroz Blanco",
+                    "category": "Procesados",
+                    "subcategory": "Pasta de Tomate",
+                    "name": "Pasta de Tomate Mansana Roja",
+                    "weight_kg": 0.850,
+                    "brand": "Columba",
+                    "origin": "ITA",
+                    "records": [
+                        {
+                            "date": "14-11-2025",
+                            "price": 970.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
                     "name": "Arroz Blanco",
                     "weight_kg": 1.0,
                     "brand": "Patéko",
@@ -1820,7 +1810,7 @@
                 },
                 {
                     "category": "Legumbres",
-                    "subcategory": "Frijoles Negros",
+                    "subcategory": "Frijoles",
                     "name": "Frijoles Negros",
                     "weight_kg": 0.500,
                     "brand": "Cister",
@@ -1855,7 +1845,7 @@
                 },
                 {
                     "category": "Lácteos",
-                    "subcategory": "Leche Entera",
+                    "subcategory": "Leche",
                     "name": "Leche Entera",
                     "weight_lt": 1.0,
                     "brand": "Vima",
@@ -1870,7 +1860,7 @@
                 },
                 {
                     "category": "Lácteos",
-                    "subcategory": "Leche Entera",
+                    "subcategory": "Leche",
                     "name": "Leche Entera",
                     "weight_lt": 1.0,
                     "brand": "Cremor",
@@ -1929,8 +1919,8 @@
                     ]
                 },
                 {
-                    "category": "Aceites",
-                    "subcategory": "Aceite Girasol",
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
                     "name": "Aceite Girasol",
                     "weight_lt": 1.0,
                     "brand": "Vima",
@@ -1949,9 +1939,9 @@
                     ]
                 },
                 {
-                    "category": "Aceites",
-                    "subcategory": "Aceite de Oliva",
-                    "name": "Aceite de Oliva Virgen",
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
+                    "name": "Aceite de Oliva",
                     "weight_lt": 1.0,
                     "brand": "Laura",
                     "origin": "AR",
@@ -1964,8 +1954,8 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Expresso",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
                     "name": "Café Expresso",
                     "weight_kg": 0.250,
                     "brand": "Buenos Días",
@@ -1979,8 +1969,8 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Expresso",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
                     "name": "Café Expresso",
                     "weight_kg": 0.250,
                     "brand": "Isla Grande",
@@ -1994,8 +1984,8 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Expresso",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
                     "name": "Café Expresso",
                     "weight_kg": 0.250,
                     "brand": "Café Don Anecio",
@@ -2009,11 +1999,11 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Expresso",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
                     "name": "Café Expresso",
                     "weight_kg": 0.250,
-                    "brand": "Café Minino",
+                    "brand": "Minino",
                     "origin": "CU",
                     "records": [
                         {
@@ -2022,12 +2012,27 @@
                             "currency": "CUP"
                         }
                     ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Paraná",
+                    "weight_kg": 0.250,
+                    "brand": "Paraná",
+                    "origin": "CU",
+                    "records": [
+                        {
+                            "date": "14-11-2025",
+                            "price": 1700.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
         {
             "place": {
-                "id": "016",
+                "id": "16",
                 "name": "Andrea | Café & Mercado",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -2040,8 +2045,8 @@
             },
             "products": [
                 {
-                    "category": "Arroz",
-                    "subcategory": "Arroz Blanco",
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
                     "name": "Arroz Super Extra",
                     "weight_kg": 1.0,
                     "brand": "San Diego",
@@ -2058,7 +2063,7 @@
         },
         {
             "place": {
-                "id": "017",
+                "id": "17",
                 "name": "Villa Amada",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -2072,9 +2077,9 @@
             "products": [
                 {
                     "category": "Legumbres",
-                    "subcategory": "Frijoles Negros",
+                    "subcategory": "Frijoles",
                     "name": "Fijoles Negros",
-                    "weight_kg": 0.45,
+                    "weight_kg": 0.450,
                     "brand": "Del Campo",
                     "origin": "US",
                     "records": [
@@ -2086,8 +2091,8 @@
                     ]
                 },
                 {
-                    "category": "Arroz",
-                    "subcategory": "Arroz Blanco",
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
                     "name": "Arroz Super Extra",
                     "weight_kg": 1.0,
                     "brand": "San Diego",
@@ -2102,8 +2107,8 @@
                 },
                 {
                     "category": "Lácteos",
-                    "subcategory": "Leche Condensada",
-                    "name": "Leche Condensada Azucarada",
+                    "subcategory": "Leche",
+                    "name": "Leche",
                     "weight_kg": 0.390,
                     "brand": "Del Campo",
                     "origin": "US",
@@ -2116,9 +2121,9 @@
                     ]
                 },
                 {
-                    "category": "Café",
-                    "subcategory": "Café Molido",
-                    "name": "Café Español",
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido Español",
                     "weight_kg": 0.250,
                     "brand": "Bryderk",
                     "origin": "ES",
@@ -2133,7 +2138,7 @@
                 {
                     "category": "Infuciones",
                     "subcategory": "Café Instantáneo",
-                    "name": "Cafe Instantáneo",
+                    "name": "Café Soluble",
                     "weight_kg": 0.050,
                     "brand": "Presto",
                     "origin": "NI",
@@ -2146,8 +2151,8 @@
                     ]
                 },
                 {
-                    "category": "Aceites",
-                    "subcategory": "Aceite de Soja",
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
                     "name": "Aceite de Soja",
                     "weight_lt": 0.9,
                     "brand": "Saude",
