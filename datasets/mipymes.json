@@ -498,6 +498,11 @@
                             "date": "02-11-2025",
                             "price": 750.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "18-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -587,6 +592,36 @@
                         {
                             "date": "04-11-2025",
                             "price": 1300.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta de Tomate",
+                    "name": "Pasta de Tomate",
+                    "weight_lt": 0.400,
+                    "brand": "Victoria Garden",
+                    "origin": "ITA",
+                    "records": [
+                        {
+                            "date": "18-11-2025",
+                            "price": 500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta de Tomate",
+                    "name": "Pasta de Tomate",
+                    "weight_lt": 0.400,
+                    "brand": "Marwa",
+                    "origin": "PA",
+                    "records": [
+                        {
+                            "date": "18-11-2025",
+                            "price": 500.0,
                             "currency": "CUP"
                         }
                     ]
@@ -1034,6 +1069,11 @@
                         },
                         {
                             "date": "11-11-2025",
+                            "price": 1100.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "18-11-2025",
                             "price": 1100.0,
                             "currency": "CUP"
                         }
@@ -2024,6 +2064,21 @@
                         {
                             "date": "14-11-2025",
                             "price": 1700.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café La Llave",
+                    "weight_kg": 0.289,
+                    "brand": "La LLave",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "18-11-2025",
+                            "price": 2900.0,
                             "currency": "CUP"
                         }
                     ]

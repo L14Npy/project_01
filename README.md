@@ -1,4 +1,4 @@
-# Poder Adquisitivo y Canasta Básica
+# Precios en Tiempos de Cólera
 
 ## 📌 Objetivo
 
