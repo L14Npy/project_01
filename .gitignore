@@ -3,6 +3,8 @@ __pycache__/
 *.txt
 *.ipynb
 *.json
+*.py
 
 !storytelling.ipynb
 !datasets/mipymes.json
+!scripts.py
