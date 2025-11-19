@@ -1,5 +1,9 @@
 # Precios en Tiempos de Cólera
 
+La historia de un país donde comer se volvió un lujo.
+
+“En tiempos donde casi todo viene de afuera y los salarios no alcanzan, los precios hablan. Una historia que duele, pero no solo en el bolsillo.”
+
 ## 📌 Objetivo
 
 Analizar cómo la **inflación de productos alimenticios** afecta el **poder adquisitivo** de los trabajadores, mostrando cuántos **días de salario** se necesitan para comprar la canasta básica.
