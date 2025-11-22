@@ -18,7 +18,8 @@
                     "category": "Carnicos",
                     "subcategory": "Huevos",
                     "name": "Cartón de Huevos",
-                    "weight_kg": null,
+                    "unity": "u",
+                    "count": 30.0,
                     "brand": null,
                     "origin": null,
                     "records": [
