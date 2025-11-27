@@ -41,23 +41,6 @@ def AddDicc(k, v1, v2, path=path1, place="place", product="products"):
 
     return sorted(dicc.values())
 """ -------------------------------------------------------------------- """
-def AddDicc(k, v1, v2, path=path1, place="place", product="products"):
-    # Agrega a un Diccionario claves y valores como: "list()" o "set()"
-    mipymes = OpenJSON(path).get("mipymes")
-    dicc = {}
-
-    for i in range(len(mipymes)):
-        products = mipymes[i][product]
-        key = mipymes[i][place][k]
-        
-        if key not in dicc:
-            dicc[key] = v1
-        
-        for j in range(len(products)):
-            value = products[j][v2]
-            dicc[key].add(value)
-
-    return sorted(dicc.items())
 """ -------------------------------------------------------------------- """
 def NI(made, path=path1):
     # Genera una Gráfica de Tipo Pastel de Porcentajes de Productos "Nacionales VS Internacionales"
@@ -72,7 +55,7 @@ def NI(made, path=path1):
         for j in range(len(products)):
             origin = products[j]["origin"]
 
-            if origin is None:
+            if (origin is None) or (origin == ''):
                 continue
             if origin == made:
                 n_national.append(origin)
@@ -92,6 +75,7 @@ def NI(made, path=path1):
 """ -------------------------------------------------------------------- """
 """ -------------------------------------------------------------------- """
 def Origin(n, path=path1):
+    # Genera una Gráfica de Tipo Pastel de Porcentajes de Productos de su País de Procedencia
     mipymes = OpenJSON(path).get("mipymes")
     counter = {}
 
@@ -101,14 +85,15 @@ def Origin(n, path=path1):
         for j in range(len(products)):
             origin = products[j]["origin"]
 
-            if (origin != "") and (origin != None):
-                if origin in counter:
-                    counter[origin] += 1
-                else:
-                    counter[origin] = 1
+            if origin == "" or origin is None:
+                continue
+            counter[origin] = counter.get(origin, 0) + 1
 
     dicc = {}
     for _ in range(n):
+        if not counter:
+            break
+
         max_key = None
         max_value = -1
 
@@ -116,16 +101,59 @@ def Origin(n, path=path1):
             if v > max_value:
                 max_value = v
                 max_key = k
-            dicc[max_key] = max_value
-
-        """ print(f'{max_key}: {max_value}') """
+        dicc[max_key] = max_value
         del counter[max_key]
 
-    labels = list(dicc.keys())
-    sizes = list(dicc.values())
+    labels = [i for i in dicc.keys()]
+    values = [j for j in dicc.values()]
 
-    plt.figure(figsize=(6,6))
-    plt.pie(sizes, labels=labels, autopct="%1.1f%%")
-    plt.title("Distribución de Productos")
+    plt.figure(figsize=(6, 6))
+    plt.pie(values, labels=labels, autopct="%1.1f%%", startangle=90)
+    plt.title(f"Top {n} Orígenes de Productos")
+    plt.axis("equal")
+    plt.show()
+
+    return dicc
+""" -------------------------------------------------------------------- """
+def Origin2(n, path=path1):
+    # Genera una Gráfica de Tipo Pastel de Porcentajes de Productos de su País de Procedencia
+    mipymes = OpenJSON(path).get("mipymes")
+    counter = {}
+
+    for i in range(len(mipymes)):
+        products = mipymes[i]["products"]
+
+        for j in range(len(products)):
+            origin = products[j]["origin"]
+
+            if origin == "" or origin is None:
+                continue
+            counter[origin] = counter.get(origin, 0) + 1
+
+    dicc = {}
+    for _ in range(n):
+        if not counter:
+            break
+
+        max_key = None
+        max_value = -1
+
+        for k, v in counter.items():
+            if v > max_value:
+                max_value = v
+                max_key = k
+        dicc[max_key] = max_value
+        del counter[max_key]
+
+    labels = [i for i in dicc.keys()]
+    values = [j for j in dicc.values()]
+
+    plt.figure(figsize=(10,6))
+    plt.barh(labels, values)
+    plt.title(f'Top {n} Orígenes de Productos')
+    plt.xlabel('Cantidad')
+    plt.ylabel('País')
+    plt.yticks(rotation=45, ha='right')
+    plt.grid(axis='x', linestyle='--', alpha=0.4)
     plt.show()
 """ -------------------------------------------------------------------- """

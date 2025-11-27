@@ -4,6 +4,7 @@ __pycache__/
 *.ipynb
 *.json
 *.py
+*.exe
 
 !storytelling.ipynb
 !datasets/mipymes.json

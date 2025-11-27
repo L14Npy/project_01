@@ -161,22 +161,6 @@
                 {
                     "category": "Cereales",
                     "subcategory": "Arroz",
-                    "name": "Arroz Blanco",
-                    "unity": "kg",
-                    "count": 1.0,
-                    "brand": "Extremo Sabor",
-                    "origin": "BR",
-                    "records": [
-                        {
-                            "date": "18-10-2025",
-                            "price": 650.0,
-                            "currency": "CUP"
-                        }
-                    ]
-                },
-                {
-                    "category": "Cereales",
-                    "subcategory": "Arroz",
                     "name": "Long Grane White Rice",
                     "unity": "kg",
                     "count": 1.0,
@@ -186,6 +170,11 @@
                         {
                             "date": "18-10-2025",
                             "price": 650.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "26-11-2025",
+                            "price": 700.0,
                             "currency": "CUP"
                         }
                     ]
@@ -222,6 +211,11 @@
                         },
                         {
                             "date": "20-11-2025",
+                            "price": 950.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "24-11-2025",
                             "price": 950.0,
                             "currency": "CUP"
                         }
@@ -297,6 +291,22 @@
                         {
                             "date": "06-11-2025",
                             "price": 600.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Pechuga",
+                    "name": "Pechuga de Pollo",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "24-11-2025",
+                            "price": 650.0,
                             "currency": "CUP"
                         }
                     ]
@@ -388,6 +398,11 @@
                             "date": "20-11-2025",
                             "price": 750.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "24-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -409,6 +424,11 @@
                             "date": "20-11-2025",
                             "price": 750.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "24-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -424,6 +444,27 @@
                         {
                             "date": "02-11-2025",
                             "price": 890.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
+                    "name": "Aceite",
+                    "unity": "lt",
+                    "count": 1.0,
+                    "brand": "Badelli",
+                    "origin": "COL",
+                    "records": [
+                        {
+                            "date": "25-11-2025",
+                            "price": 990.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "26-11-2025",
+                            "price": 990.0,
                             "currency": "CUP"
                         }
                     ]
@@ -471,6 +512,11 @@
                     "records": [
                         {
                             "date": "20-11-2025",
+                            "price": 350.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "24-11-2025",
                             "price": 350.0,
                             "currency": "CUP"
                         }
@@ -541,6 +587,38 @@
             },
             "products": [
                 {
+                    "category": "Infuciones",
+                    "subcategory": "Café Instantáneo",
+                    "name": "Café Soluble",
+                    "unity": "kg",
+                    "count": 0.100,
+                    "brand": "Hiper Dino",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "25-11-2025",
+                            "price": 2350.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Tostado",
+                    "unity": "kg",
+                    "count": 0.250,
+                    "brand": "Caffe Testa",
+                    "origin": "ITA",
+                    "records": [
+                        {
+                            "date": "25-11-2025",
+                            "price": 1800.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
                     "category": "Cereales",
                     "subcategory": "Arroz",
                     "name": "Arroz Blanco",
@@ -551,6 +629,22 @@
                     "records": [
                         {
                             "date": "25-10-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Largo Fino",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": "TropiGusto",
+                    "origin": "CU",
+                    "records": [
+                        {
+                            "date": "25-11-2025",
                             "price": 750.0,
                             "currency": "CUP"
                         }
@@ -572,6 +666,11 @@
                         },
                         {
                             "date": "18-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "25-11-2025",
                             "price": 750.0,
                             "currency": "CUP"
                         }
@@ -664,6 +763,11 @@
                             "date": "21-11-2025",
                             "price": 1300.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "27-11-2025",
+                            "price": 1300.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -682,8 +786,29 @@
                             "currency": "CUP"
                         },
                         {
+                            "date": "27-11-2025",
+                            "price": 1300.0,
+                            "currency": "CUP"
+                        },
+                        {
                             "date": "21-11-2025",
                             "price": 1300.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.400,
+                    "brand": "La Guajirita",
+                    "origin": "",
+                    "records": [
+                        {
+                            "date": "27-11-2025",
+                            "price": 560.0,
                             "currency": "CUP"
                         }
                     ]
@@ -732,6 +857,22 @@
                         {
                             "date": "18-11-2025",
                             "price": 500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Pechuga",
+                    "name": "Pechuga de Pollo",
+                    "unity": "kg",
+                    "count": 2.0,
+                    "brand": "Aurora",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "26-11-2025",
+                            "price": 4800.0,
                             "currency": "CUP"
                         }
                     ]
@@ -1113,27 +1254,6 @@
                     ]
                 },
                 {
-                    "category": "Carnicos",
-                    "subcategory": "Picadillo",
-                    "name": "Picadillo de Res",
-                    "unity": "kg",
-                    "count": 0.9,
-                    "brand": null,
-                    "origin": null,
-                    "records": [
-                        {
-                            "date": "30-10-2025",
-                            "price": 3000.0,
-                            "currency": "CUP"
-                        },
-                        {
-                            "date": "11-11-2025",
-                            "price": 3000.0,
-                            "currency": "CUP"
-                        }
-                    ]
-                },
-                {
                     "category": "Embutidos",
                     "subcategory": "Salchichas",
                     "name": "Perritos",
@@ -1234,6 +1354,22 @@
                         {
                             "date": "04-11-2025",
                             "price": 600.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Granel",
+                    "subcategory": "Picadillo",
+                    "name": "Picadillo de Pollo",
+                    "unity": "kg",
+                    "count": 0.900,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "26-11-2025",
+                            "price": 800.0,
                             "currency": "CUP"
                         }
                     ]
@@ -1830,6 +1966,38 @@
                 }
             },
             "products": [
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Huevos",
+                    "name": "Cartón de Huevos",
+                    "unity": "u",
+                    "count": 30.0,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "27-11-2025",
+                            "price": 3300.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Huevos",
+                    "name": "Huevos Individual",
+                    "unity": "u",
+                    "count": 1.0,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "27-11-2025",
+                            "price": 110.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
                 {
                     "category": "Carnicos",
                     "subcategory": "Pechuga",
