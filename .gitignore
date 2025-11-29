@@ -8,4 +8,5 @@ __pycache__/
 
 !storytelling.ipynb
 !datasets/mipymes.json
-!scripts.py
+!normalize.py
+!charts.py

@@ -1009,8 +1009,8 @@
                     "category": "Carnicos",
                     "subcategory": "Huevos",
                     "name": "Cartón de Huevos",
-                    "unity": "kg",
-                    "count": null,
+                    "unity": "u",
+                    "count": 30.0,
                     "brand": null,
                     "origin": null,
                     "records": [
@@ -1025,8 +1025,8 @@
                     "category": "Carnicos",
                     "subcategory": "Huevos",
                     "name": "Medio Cartón de Huevos",
-                    "unity": "kg",
-                    "count": null,
+                    "unity": "u",
+                    "count": 15.0,
                     "brand": null,
                     "origin": null,
                     "records": [
@@ -1041,8 +1041,8 @@
                     "category": "Carnicos",
                     "subcategory": "Huevos",
                     "name": "Huevos Individual",
-                    "unity": "kg",
-                    "count": null,
+                    "unity": "u",
+                    "count": 1.0,
                     "brand": null,
                     "origin": null,
                     "records": [
@@ -1073,8 +1073,8 @@
                     "category": "Carnicos",
                     "subcategory": "Huevos",
                     "name": "Cartón de Huevos",
-                    "unity": "kg",
-                    "count": null,
+                    "unity": "u",
+                    "count": 30.0,
                     "brand": null,
                     "origin": null,
                     "records": [
@@ -1104,8 +1104,8 @@
                     "category": "Carnicos",
                     "subcategory": "Huevos",
                     "name": "Huevos Individual",
-                    "unity": "kg",
-                    "count": null,
+                    "unity": "u",
+                    "count": 1.0,
                     "brand": null,
                     "origin": null,
                     "records": [
@@ -1585,25 +1585,9 @@
                 {
                     "category": "Carnicos",
                     "subcategory": "Huevos",
-                    "name": "Cartón de Huevos",
-                    "unity": "kg",
-                    "count": null,
-                    "brand": null,
-                    "origin": null,
-                    "records": [
-                        {
-                            "date": "02-11-2025",
-                            "price": 0.0,
-                            "currency": "CUP"
-                        }
-                    ]
-                },
-                {
-                    "category": "Carnicos",
-                    "subcategory": "Huevos",
                     "name": "Docena de Huevos",
-                    "unity": "kg",
-                    "count": null,
+                    "unity": "u",
+                    "count": 12.0,
                     "brand": null,
                     "origin": null,
                     "records": [
@@ -1618,8 +1602,8 @@
                     "category": "Carnicos",
                     "subcategory": "Huevos",
                     "name": "Huevos Individual",
-                    "unity": "kg",
-                    "count": null,
+                    "unity": "u",
+                    "count": 1.0,
                     "brand": null,
                     "origin": null,
                     "records": [
@@ -2400,6 +2384,22 @@
                         {
                             "date": "03-11-2025",
                             "price": 620.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.390,
+                    "brand": "Sweet Valley",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "11-11-2025",
+                            "price": 580.0,
                             "currency": "CUP"
                         }
                     ]
