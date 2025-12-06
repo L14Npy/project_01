@@ -50,7 +50,7 @@ def DiccOrder(k, n):
     for i in range(len(array)):
         min = i
         for j in range(i+1, len(array)):
-            if array[j][0] < array[i][0]:
+            if array[j][0] < array[i][0] or array[j][1] > array[i][1]:
                 min = j
         array[i], array[min] = array[min], array[i]
     return {k:v for k,v in array[:n]}
