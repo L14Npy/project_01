@@ -206,17 +206,22 @@
                     "records": [
                         {
                             "date": "18-10-2025",
-                            "price": 950.0,
+                            "price": 650.0,
                             "currency": "CUP"
                         },
                         {
                             "date": "20-11-2025",
-                            "price": 950.0,
+                            "price": 650.0,
                             "currency": "CUP"
                         },
                         {
                             "date": "24-11-2025",
-                            "price": 950.0,
+                            "price": 650.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "30-11-2025",
+                            "price": 650.0,
                             "currency": "CUP"
                         }
                     ]
@@ -482,6 +487,16 @@
                             "date": "04-11-2025",
                             "price": 750.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "30-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "03-12-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -497,6 +512,11 @@
                         {
                             "date": "03-11-2025",
                             "price": 620.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "03-11-2025",
+                            "price": 500.0,
                             "currency": "CUP"
                         }
                     ]
@@ -517,6 +537,11 @@
                         },
                         {
                             "date": "24-11-2025",
+                            "price": 350.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "03-12-2025",
                             "price": 350.0,
                             "currency": "CUP"
                         }
@@ -569,6 +594,22 @@
                             "currency": "CUP"
                         }
                     ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.250,
+                    "brand": "Isla Grande",
+                    "origin": "CU",
+                    "records": [
+                        {
+                            "date": "29-10-2025",
+                            "price": 1500.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
@@ -599,6 +640,11 @@
                             "date": "25-11-2025",
                             "price": 2350.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "29-11-2025",
+                            "price": 2350.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -613,6 +659,11 @@
                     "records": [
                         {
                             "date": "25-11-2025",
+                            "price": 1800.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "29-11-2025",
                             "price": 1800.0,
                             "currency": "CUP"
                         }
@@ -710,6 +761,11 @@
                             "date": "13-11-2025",
                             "price": 750.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "29-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -724,6 +780,27 @@
                     "records": [
                         {
                             "date": "25-10-2025",
+                            "price": 800.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "29-10-2025",
+                            "price": 800.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Colorados",
+                    "unity": "kg",
+                    "count": 0.450,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "29-10-2025",
                             "price": 800.0,
                             "currency": "CUP"
                         }
@@ -768,6 +845,11 @@
                             "date": "27-11-2025",
                             "price": 1300.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "29-11-2025",
+                            "price": 1300.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -794,6 +876,11 @@
                             "date": "21-11-2025",
                             "price": 1300.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "29-11-2025",
+                            "price": 1300.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -804,10 +891,15 @@
                     "unity": "kg",
                     "count": 0.400,
                     "brand": "La Guajirita",
-                    "origin": "",
+                    "origin": "MA",
                     "records": [
                         {
                             "date": "27-11-2025",
+                            "price": 560.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "29-11-2025",
                             "price": 560.0,
                             "currency": "CUP"
                         }
@@ -842,6 +934,11 @@
                             "date": "18-11-2025",
                             "price": 500.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "29-11-2025",
+                            "price": 500.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -857,6 +954,22 @@
                         {
                             "date": "18-11-2025",
                             "price": 500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "lt",
+                    "count": 0.500,
+                    "brand": "Doga",
+                    "origin": "TR",
+                    "records": [
+                        {
+                            "date": "29-11-2025",
+                            "price": 370.0,
                             "currency": "CUP"
                         }
                     ]
@@ -921,6 +1034,70 @@
                         {
                             "date": "25-10-2025",
                             "price": 1575.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Largo",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "SOS",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "29-10-2025",
+                            "price": 1207.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.250,
+                    "brand": "Sebraz",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "29-10-2025",
+                            "price": 1575.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.250,
+                    "brand": "Purasangre",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "29-10-2025",
+                            "price": 1973.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.250,
+                    "brand": "Marcilla",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "29-10-2025",
+                            "price": 4322.0,
                             "currency": "CUP"
                         }
                     ]
@@ -1020,38 +1197,6 @@
                             "currency": "CUP"
                         }
                     ]
-                },
-                {
-                    "category": "Carnicos",
-                    "subcategory": "Huevos",
-                    "name": "Medio Cartón de Huevos",
-                    "unity": "u",
-                    "count": 15.0,
-                    "brand": null,
-                    "origin": null,
-                    "records": [
-                        {
-                            "date": "25-10-2025",
-                            "price": 0.0,
-                            "currency": "CUP"
-                        }
-                    ]
-                },
-                {
-                    "category": "Carnicos",
-                    "subcategory": "Huevos",
-                    "name": "Huevos Individual",
-                    "unity": "u",
-                    "count": 1.0,
-                    "brand": null,
-                    "origin": null,
-                    "records": [
-                        {
-                            "date": "25-10-2025",
-                            "price": 0.0,
-                            "currency": "CUP"
-                        }
-                    ]
                 }
             ]
         },
@@ -1097,6 +1242,11 @@
                             "date": "20-11-2025",
                             "price": 3500.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "03-12-2025",
+                            "price": 3300.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -1117,6 +1267,11 @@
                         {
                             "date": "20-11-2025",
                             "price": 120.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "03-12-2025",
+                            "price": 110.0,
                             "currency": "CUP"
                         }
                     ]
@@ -1963,6 +2118,11 @@
                             "date": "27-11-2025",
                             "price": 3300.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "01-12-2025",
+                            "price": 3300.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -1977,6 +2137,11 @@
                     "records": [
                         {
                             "date": "27-11-2025",
+                            "price": 110.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "01-12-2025",
                             "price": 110.0,
                             "currency": "CUP"
                         }
@@ -2405,6 +2570,27 @@
                     ]
                 },
                 {
+                    "category": "Granel",
+                    "subcategory": "Leche",
+                    "name": "Leche en Polvo",
+                    "unity": "lt",
+                    "count": 1.0,
+                    "brand": "Lantana",
+                    "origin": "IE",
+                    "records": [
+                        {
+                            "date": "02-12-2025",
+                            "price": 1675.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "06-12-2025",
+                            "price": 1675.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
                     "category": "Grasas",
                     "subcategory": "Aceite",
                     "name": "Aceite Girasol",
@@ -2542,6 +2728,38 @@
                         {
                             "date": "14-11-2025",
                             "price": 1700.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Negro",
+                    "unity": "kg",
+                    "count": 0.250,
+                    "brand": "Testa",
+                    "origin": "ITA",
+                    "records": [
+                        {
+                            "date": "06-12-2025",
+                            "price": 1850.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Expresso",
+                    "unity": "kg",
+                    "count": 0.250,
+                    "brand": "El Morro",
+                    "origin": "PR",
+                    "records": [
+                        {
+                            "date": "06-12-2025",
+                            "price": 2250.0,
                             "currency": "CUP"
                         }
                     ]
@@ -2723,6 +2941,197 @@
                         {
                             "date": "03-11-2025",
                             "price": 1150.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "18",
+                "name": "La Nenita",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calle, dirección",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.400,
+                    "brand": "La Guajirita",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "29-11-2025",
+                            "price": 600.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta de Tomate",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.400,
+                    "brand": "Campo",
+                    "origin": "CN",
+                    "records": [
+                        {
+                            "date": "29-11-2025",
+                            "price": 500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Embutidos",
+                    "subcategory": "Salchichas",
+                    "name": "Salchichas de Pollo/Cerdo",
+                    "unity": "kg",
+                    "count": 0.400,
+                    "brand": "La Favorita",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "29-11-2025",
+                            "price": 450.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
+                    "name": "Aceite de Soja",
+                    "unity": "lt",
+                    "count": 0.900,
+                    "brand": "Saude",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "29-11-2025",
+                            "price": 990.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Colorados",
+                    "unity": "kg",
+                    "count": 0.450,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "29-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Negros",
+                    "unity": "kg",
+                    "count": 0.450,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "29-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco Super Extra",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "San Diego",
+                    "origin": "MX",
+                    "records": [
+                        {
+                            "date": "29-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Tostado",
+                    "unity": "kg",
+                    "count": 0.250,
+                    "brand": "Caffe Testa",
+                    "origin": "ITA",
+                    "records": [
+                        {
+                            "date": "29-11-2025",
+                            "price": 1600.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "19",
+                "name": "Pazillo Fresh",
+                "town": "Plaza de la Revolución",
+                "location": {
+                    "street": "Calle 4 e/ 3ra y 5ta, Vedado",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche",
+                    "name": "Leche Entera",
+                    "unity": "lt",
+                    "count": 1.0,
+                    "brand": "Asturiana",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "29-11-2025",
+                            "price": 1400.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "30-11-2025",
+                            "price": 1400.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "01-12-2025",
+                            "price": 1400.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "03-12-2025",
+                            "price": 1400.0,
                             "currency": "CUP"
                         }
                     ]
