@@ -44,16 +44,62 @@ def Dicc(k):
         dicc[k] = val
     return dicc
 """ ------------------------------------------------------------- """
-def DiccOrder(k, n):
+def DiccOrder(k, rg):
     # Organiza el diccionario en orden alfabético
     array = [i for i in Dicc(k).items()]
     for i in range(len(array)):
         min = i
         for j in range(i+1, len(array)):
-            if array[j][0] < array[i][0] or array[j][1] > array[i][1]:
+            if array[j][0] < array[min][0]:
                 min = j
         array[i], array[min] = array[min], array[i]
-    return {k:v for k,v in array[:n]}
+    return {k:v for k,v in array[:rg]}
+""" ------------------------------------------------------------- """
+def DiccOrder2(f, k, rg):
+    # Organiza el diccionario en orden numérico
+    array = [i for i in f(k).items()]
+    for i in range(len(array)):
+        min = i
+        for j in range(i+1, len(array)):
+            if array[j][1] > array[min][1]:
+                min = j
+        array[i], array[min] = array[min], array[i]
+    return {k:v for k,v in array[:rg]}
+""" ------------------------------------------------------------- """
+def DiccOrder3(f, k, rg):
+    # Organiza el diccionario en orden numérico
+    array = [i for i in f(k).items()]
+    for i in range(len(array)):
+        min = i
+        for j in range(i+1, len(array)):
+            if array[j][1] < array[min][1]:
+                min = j
+        array[i], array[min] = array[min], array[i]
+    return {k:v for k,v in array[:rg]}
+""" ------------------------------------------------------------- """
+def DiccCounter(k):
+    dicc = {}
+    for i in mipymes:
+        for j in i.get("products", []):
+            key = j.get(k, None)
+            if key is None:
+                continue
+            if key is not None:
+                dicc[key] = dicc.get(key, 0) + 1
+    return dicc
+""" ------------------------------------------------------------- """
+def DiccCounter2(k, v1, v2='CU'):
+    v1 = v1.upper()
+    dicc = {}
+    for i in mipymes:
+        for j in i.get("products", []):
+            key = j.get(k, None)
+            if key is None:
+                continue
+            if key not in (v1, v2):
+                continue
+            dicc[key] = dicc.get(key, 0) + 1
+    return dicc
 """ ------------------------------------------------------------- """
 def Moda(array):
     # Retorna el elemento que más se repite
@@ -69,6 +115,17 @@ def Moda(array):
             moda = array[i]
     return moda
 """ ------------------------------------------------------------- """
+def DoubleList(k):
+    nationals = []
+    internationals = []
+    for i in mipymes:
+        for j in i.get("products", []):
+            key = j.get(k)
+            if key == 'CU':
+                nationals.append(key)
+            else:
+                internationals.append(key)
+    return len(nationals), len(internationals)
 """ ------------------------------------------------------------- """
 """ ------------------------------------------------------------- """
 """ ------------------------------------------------------------- """

@@ -276,6 +276,11 @@
                             "date": "11-11-2025",
                             "price": 550.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "06-12-2025",
+                            "price": 550.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -1247,6 +1252,11 @@
                             "date": "03-12-2025",
                             "price": 3300.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "07-12-2025",
+                            "price": 3300.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -1271,6 +1281,11 @@
                         },
                         {
                             "date": "03-12-2025",
+                            "price": 110.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "07-12-2025",
                             "price": 110.0,
                             "currency": "CUP"
                         }
@@ -1494,6 +1509,11 @@
                             "date": "18-11-2025",
                             "price": 1100.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "07-12-2025",
+                            "price": 1100.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -1525,6 +1545,22 @@
                         {
                             "date": "26-11-2025",
                             "price": 800.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Expresso",
+                    "unity": "kg",
+                    "count": 0.284,
+                    "brand": "La LLave",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "07-12-2025",
+                            "price": 2800.0,
                             "currency": "CUP"
                         }
                     ]
