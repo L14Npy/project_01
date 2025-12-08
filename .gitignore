@@ -9,5 +9,6 @@ scrapping/
 
 !storytelling.ipynb
 !datasets/mipymes.json
+!datasets/eltoque.json
 !normalize.py
 !charts.py
