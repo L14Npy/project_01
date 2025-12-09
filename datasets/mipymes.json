@@ -2490,6 +2490,22 @@
                     ]
                 },
                 {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Rioka",
+                    "origin": "COL",
+                    "records": [
+                        {
+                            "date": "08-12-2025",
+                            "price": 830.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
                     "category": "Lácteos",
                     "subcategory": "Leche",
                     "name": "Leche Entera",
@@ -2817,6 +2833,11 @@
                         {
                             "date": "21-11-2025",
                             "price": 2900.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "08-12-2025",
+                            "price": 3250.0,
                             "currency": "CUP"
                         }
                     ]

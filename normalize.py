@@ -127,6 +127,16 @@ def DoubleList(k):
                 internationals.append(key)
     return len(nationals), len(internationals)
 """ ------------------------------------------------------------- """
+def DoubleList2(search):
+    array1 = []
+    array2 = []
+    for i in mipymes:
+        for j in i.get("products", []):
+            if j["subcategory"] == search:
+                for k in j.get("records", []):
+                    array1.append(k["date"])
+                    array2.append(k["price"])
+    return array1, array2
 """ ------------------------------------------------------------- """
 """ ------------------------------------------------------------- """
 """ ------------------------------------------------------------- """

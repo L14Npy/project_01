@@ -38,5 +38,18 @@ def ChartBar(func, f, k, rg):
     plt.gca().invert_yaxis()
     plt.show()
 """ ------------------------------------------------------------- """
+def ChartLine(f, v):
+    labels = f(v)[0]
+    values = f(v)[1]
+
+    plt.subplot()
+    plt.plot(labels, values, marker='o', linewidth=2)
+    plt.title(f'Evolución del precio del producto: {v}')
+    plt.xlabel('Fecha')
+    plt.ylabel('Precio (CUP)')
+    plt.xticks(rotation=45)
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
 """ ------------------------------------------------------------- """
 """ ------------------------------------------------------------- """
