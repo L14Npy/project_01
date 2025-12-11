@@ -12,3 +12,4 @@ scrapping/
 !datasets/eltoque.json
 !normalize.py
 !charts.py
+scrapping/eltoque.py
