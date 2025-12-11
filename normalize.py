@@ -33,6 +33,9 @@ def Average():
 """ ------------------------------------------------------------- """
 average = Average()
 """ ------------------------------------------------------------- """
+def AverageDay(day):
+    return average // day
+""" ------------------------------------------------------------- """
 def DiccJSON(k):
     # Genera un diccionario con claves específicas a partir del archivo JSON
     dicc = {}
@@ -146,5 +149,19 @@ def DoubleList2(search):
                     array2.append(k["price"])
     return array1, array2
 """ ------------------------------------------------------------- """
+def DoubleList3(f, day):
+    array1 = []
+    array2 = []
+    for i in mipymes:
+        for j in i.get("products", []): 
+            records = j.get("records", [])
+            if records:
+                last = records[-1]
+                price = last["price"]
+                if price > 0:
+                    array1.append(j["subcategory"])
+                    days = price / f(day)
+                    array2.append(days)
+    return array1, array2
 """ ------------------------------------------------------------- """
 """ ------------------------------------------------------------- """

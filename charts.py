@@ -52,4 +52,16 @@ def ChartLine(f, v):
     plt.tight_layout()
     plt.show()
 """ ------------------------------------------------------------- """
+def ChartBar2(func, f, day):
+    labels = func(f, day)[0]
+    values = func(f, day)[1]
+
+    plt.subplots()
+    plt.barh(labels, values, color='#FFA500')
+    plt.xlabel('Días', fontsize=12)
+    plt.ylabel('Productos', fontsize=12)
+    plt.title('Días Necesarios para Comprar un Producto', fontsize=14, weight='bold')
+    plt.grid(axis='x', linestyle='--', alpha=0.7)
+    plt.tight_layout()
+    plt.show()
 """ ------------------------------------------------------------- """
