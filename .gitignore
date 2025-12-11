@@ -11,4 +11,4 @@ __pycache__/
 !datasets/eltoque.json
 !normalize.py
 !charts.py
-scrapping/eltoque.py
+!scrapping/eltoque.py

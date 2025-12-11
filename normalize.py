@@ -9,6 +9,14 @@ def OpenJSON(path, k):
 mipymes = OpenJSON('./datasets/mipymes.json', 'mipymes')
 salaries = OpenJSON('./datasets/salaries.json', 'salaries')
 """ ------------------------------------------------------------- """
+def OpenJSON2(path):
+    # Abre documentos en formato JSON
+    with open(path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    return data
+""" ------------------------------------------------------------- """
+exchange = OpenJSON2('./datasets/eltoque.json')
+""" ------------------------------------------------------------- """
 def Sum(array):
     # Retorna la suma de una lista
     sum = 0
