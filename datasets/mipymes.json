@@ -223,6 +223,11 @@
                             "date": "30-11-2025",
                             "price": 650.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "09-12-2025",
+                            "price": 650.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -413,6 +418,11 @@
                             "date": "24-11-2025",
                             "price": 750.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "10-12-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -437,6 +447,11 @@
                         },
                         {
                             "date": "24-11-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "10-12-2025",
                             "price": 750.0,
                             "currency": "CUP"
                         }
@@ -474,6 +489,11 @@
                         },
                         {
                             "date": "26-11-2025",
+                            "price": 990.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "10-12-2025",
                             "price": 990.0,
                             "currency": "CUP"
                         }
@@ -563,6 +583,11 @@
                     "records": [
                         {
                             "date": "20-11-2025",
+                            "price": 580.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "09-12-2025",
                             "price": 580.0,
                             "currency": "CUP"
                         }
@@ -669,6 +694,11 @@
                         },
                         {
                             "date": "29-11-2025",
+                            "price": 1800.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "09-12-2025",
                             "price": 1800.0,
                             "currency": "CUP"
                         }
@@ -792,6 +822,11 @@
                             "date": "29-10-2025",
                             "price": 800.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "09-12-2025",
+                            "price": 700.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -806,6 +841,11 @@
                     "records": [
                         {
                             "date": "29-10-2025",
+                            "price": 800.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "09-12-2025",
                             "price": 800.0,
                             "currency": "CUP"
                         }
@@ -991,6 +1031,38 @@
                         {
                             "date": "26-11-2025",
                             "price": 4800.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Granel",
+                    "subcategory": "Leche",
+                    "name": "Leche en Polvo",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Macro Food",
+                    "origin": "CH",
+                    "records": [
+                        {
+                            "date": "26-11-2025",
+                            "price": 4800.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Granel",
+                    "subcategory": "Leche",
+                    "name": "Leche en Polvo",
+                    "unity": "kg",
+                    "count": 0.400,
+                    "brand": "Lacinno",
+                    "origin": "NL",
+                    "records": [
+                        {
+                            "date": "09-12-2025",
+                            "price": 1500.0,
                             "currency": "CUP"
                         }
                     ]
@@ -1257,6 +1329,16 @@
                             "date": "07-12-2025",
                             "price": 3300.0,
                             "currency": "CUP"
+                        },
+                        {
+                            "date": "09-12-2025",
+                            "price": 3300.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "10-12-2025",
+                            "price": 3000.0,
+                            "currency": "CUP"
                         }
                     ]
                 },
@@ -1287,6 +1369,16 @@
                         {
                             "date": "07-12-2025",
                             "price": 110.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "09-12-2025",
+                            "price": 110.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "10-12-2025",
+                            "price": 100.0,
                             "currency": "CUP"
                         }
                     ]
@@ -2464,6 +2556,54 @@
                     ]
                 },
                 {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Negros",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "09-12-2025",
+                            "price": 840.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Colorados",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "09-12-2025",
+                            "price": 870.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Negros",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Rico Prato",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "09-12-2025",
+                            "price": 1200.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
                     "category": "Pastas",
                     "subcategory": "Espaguetti",
                     "name": "Spaghetti",
@@ -2526,6 +2666,11 @@
                         },
                         {
                             "date": "22-11-2025",
+                            "price": 1180.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "09-12-2025",
                             "price": 1180.0,
                             "currency": "CUP"
                         }
@@ -3189,6 +3334,133 @@
                         {
                             "date": "03-12-2025",
                             "price": 1400.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "10-12-2025",
+                            "price": 1400.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Huevos",
+                    "name": "Cartón de Huevos",
+                    "unity": "u",
+                    "count": 30.0,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "08-12-2025",
+                            "price": 2900.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "09-12-2025",
+                            "price": 2900.0,
+                            "currency": "CUP"
+                        },
+                        {
+                            "date": "10-12-2025",
+                            "price": 2900.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "001",
+                "name": "May May",
+                "town": "Plaza",
+                "location": {
+                    "street": "Calle J #402 e/ 19 y 21, Vedado",
+                    "coordinates": {
+                        "latitude": 23.1398713,
+                        "longitude": -82.3910901
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
+                    "name": "Aceite Girasol",
+                    "unity": "lt",
+                    "count": 1.0,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 1150.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Picadillo",
+                    "name": "Picadillo de Pollo",
+                    "unity": "kg",
+                    "count": 0.400,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 610.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche",
+                    "name": "Leche Entera",
+                    "unity": "lt",
+                    "count": 1.0,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 1150.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Alimentos",
+                    "subcategory": "Pasta",
+                    "name": "Espagueti",
+                    "unity": "kg",
+                    "count": 0.500,
+                    "brand": "Doga",
+                    "origin": "TR",
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 310.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta de Tomate",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.400,
+                    "brand": "Tukas",
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "03-11-2025",
+                            "price": 590.0,
                             "currency": "CUP"
                         }
                     ]
