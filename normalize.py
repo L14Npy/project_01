@@ -17,6 +17,18 @@ def OpenJSON2(path):
 """ ------------------------------------------------------------- """
 exchange = OpenJSON2('./datasets/eltoque.json')
 """ ------------------------------------------------------------- """
+def Convert():
+    changes = []
+    for i in exchange:
+        changes.append(i["USD"])
+    return changes[-1]
+""" ------------------------------------------------------------- """
+def OpenJSON3(product):
+    with open(f'./datasets/mercatoria/{product}.json.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    return data
+""" ------------------------------------------------------------- """
+""" ------------------------------------------------------------- """
 def Sum(array):
     # Retorna la suma de una lista
     sum = 0
@@ -31,10 +43,19 @@ def Average():
         array.append(i["salarie"])
     return Sum(array) // len(array)
 """ ------------------------------------------------------------- """
+def Average2(array):
+    return Sum(array) // len(array)
+""" ------------------------------------------------------------- """
 average = Average()
 """ ------------------------------------------------------------- """
 def AverageDay(day):
     return average // day
+""" ------------------------------------------------------------- """
+def AverageProduct():
+    dicc = {}
+    for k,v in DiccJSON2().items():
+        dicc[k] = Average2(v)
+    return dicc
 """ ------------------------------------------------------------- """
 def DiccJSON(k):
     # Genera un diccionario con claves específicas a partir del archivo JSON
@@ -45,6 +66,18 @@ def DiccJSON(k):
             if key not in dicc:
                 dicc[key] = []
             dicc[key].append(j["count"])
+    return dicc
+""" ------------------------------------------------------------- """
+def DiccJSON2():
+    dicc = {}
+    for i in mipymes:
+        for j in i.get("products", []):
+            key1 = j.get("subcategory")
+            for k in j.get("records", []):
+                key2 = k.get("price")
+                if key1 not in dicc:
+                    dicc[key1] = []
+                dicc[key1].append(key2)
     return dicc
 """ ------------------------------------------------------------- """
 def Dicc(k):
