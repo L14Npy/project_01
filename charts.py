@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import numpy as  np
 from normalize import *
 """ ------------------------------------------------------------- """
 def ChartPie(f, k, v):
@@ -65,3 +66,38 @@ def ChartBar2(func, f, day):
     plt.tight_layout()
     plt.show()
 """ ------------------------------------------------------------- """
+def ChartBarGroup():
+    products = [i for i in UnitaryPrice().keys()]
+    price = [i for i in UnitaryPrice().values()]
+    salaries = [AverageDay(1)] * len(products)
+
+    x = np.arange(len(products))
+    width = 0.35
+
+    fig, ax = plt.subplots()
+    rects1 = ax.bar(x - width/2, price, width, label='Precio Unitario')
+    rects2 = ax.bar(x + width/2, salaries, width, label='Salario Promedio')
+
+    ax.set_ylabel('Valor')
+    ax.set_title('Canasta Básica vs Salario Promedio')
+    ax.set_xticks(x)
+    ax.set_xticklabels(products, rotation=45, ha='right')
+    ax.legend()
+    plt.tight_layout()
+    plt.show()
+""" ------------------------------------------------------------- """
+def ChartBar4():
+    precio_cup = ModaCUP()
+    precio_usd = ModaUSD()
+
+    categorias = ['CUP', 'USD']
+    valores = [precio_cup, precio_usd]
+    colores = ['#FF6F61', '#4CAF50']
+
+    plt.subplots()
+    plt.bar(categorias, valores, color=colores)
+    plt.ylabel('Precio')
+    plt.title('CUP vs USD', fontsize=14, weight='bold')
+    for i, v in enumerate(valores):
+        plt.text(i, v + v*0.01, f'{v:.2f}', ha='center', fontsize=12, weight='bold')
+    plt.show()

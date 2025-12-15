@@ -197,4 +197,30 @@ def DoubleList3(f, day):
                     array2.append(days)
     return array1, array2
 """ ------------------------------------------------------------- """
+def UnitaryPrice():
+    dicc = {}
+    for i in Dicc('subcategory'):
+        count = Dicc('subcategory')[i]
+        price = AverageProduct()[i]
+        if count == 0:
+            continue
+        dicc[i] = price // count
+    return dicc
+""" ------------------------------------------------------------- """
+def ModaCUP():
+    moda = []
+    for i in OpenJSON3('rice'):
+        moda.append(i["price"])
+    return Moda(moda) * Convert()
+""" ------------------------------------------------------------- """
+def ModaUSD():
+    moda = []
+    for i in mipymes:
+        for j in i.get("products", []):
+            for k in j.get("records", []):
+                if j["subcategory"] == 'Arroz':
+                    moda.append(k["price"])
+    return Moda(moda)
+""" ------------------------------------------------------------- """
+""" ------------------------------------------------------------- """
 """ ------------------------------------------------------------- """
