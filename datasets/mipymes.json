@@ -3159,6 +3159,118 @@
                             "currency": "CUP"
                         }
                     ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Huevos",
+                    "name": "Huevos Individual",
+                    "unity": "u",
+                    "count": 1.0,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 100.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 700.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche",
+                    "name": "Leche en Polvo",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Creamee",
+                    "origin": "IE",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1670.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.39,
+                    "brand": "Zivel",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 650.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche",
+                    "name": "Leche Evaporada",
+                    "unity": "lt",
+                    "count": 0.4,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 850.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Doga",
+                    "origin": "TR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 400.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "San Diego",
+                    "origin": "MX",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 800.0,
+                            "currency": "CUP"
+                        }
+                    ]
                 }
             ]
         },
@@ -3721,7 +3833,7 @@
         },
         {
             "place": {
-                "id": "001",
+                "id": "20",
                 "name": "Xalxa",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -3785,7 +3897,7 @@
         },
         {
             "place": {
-                "id": "001",
+                "id": "22",
                 "name": "Mercado M & L",
                 "town": "Plaza de la Revolución",
                 "location": {
@@ -3889,6 +4001,1766 @@
                         {
                             "date": "13-12-2025",
                             "price": 500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "22",
+                "name": "Mercadito ENEA",
+                "town": "Arroyo Naranjo",
+                "location": {
+                    "street": "Calle, dirección",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.39,
+                    "brand": "Castellum",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 530.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "Doga",
+                    "origin": "TR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 320.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Azúcar",
+                    "subcategory": "Azúcar Blanca",
+                    "name": "Azúcar Crystal",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Energy",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 680.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Negros",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Malú",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 950.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Zer",
+                    "origin": "TR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 530.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.25,
+                    "brand": "Purasangre",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1750.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "23",
+                "name": "Mercatón",
+                "town": "Boyeros",
+                "location": {
+                    "street": "Calle, dirección",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Granel",
+                    "subcategory": "Picadillo",
+                    "name": "Picadillo de Pollo",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 350.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Picadillo",
+                    "name": "Picadillo de Pollo",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Gui Bon",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 450.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Pechuga",
+                    "name": "Pechuga de Pollo",
+                    "unity": "kg",
+                    "count": 2.0,
+                    "brand": "Seara",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 4550.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Rey del Arroz",
+                    "origin": "GU",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Fijoles Negros",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Decarli",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1000.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Negros",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 700.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.395,
+                    "brand": "Cremor",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 450.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "Doga",
+                    "origin": "TR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 300.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Fresko",
+                    "origin": "CN",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Castellum",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 430.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Lucy",
+                    "origin": "TR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.283,
+                    "brand": "Ziva",
+                    "origin": "COL",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1700.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.25,
+                    "brand": "El Morro",
+                    "origin": "PR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1900.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Azúcar",
+                    "subcategory": "Azúcar Blanca",
+                    "name": "Azúcar Blanca",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Silver Foods",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 650.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "24",
+                "name": "La Nave Mercado",
+                "town": "Habana del Este",
+                "location": {
+                    "street": "Calle, dirección",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Pechuga",
+                    "name": "Pechuga de Pollo",
+                    "unity": "kg",
+                    "count": 2.0,
+                    "brand": "Levo",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 5600.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Huevos",
+                    "name": "Cartón de Huevos",
+                    "unity": "u",
+                    "count": 30.0,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 3300.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "Zonia",
+                    "origin": "COL",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 350.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "Porto Bello",
+                    "origin": "ITA",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 350.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "Doña Nora",
+                    "origin": "ITA",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 350.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Negros",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 780.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Azúcar",
+                    "subcategory": "Azúcar Blanca",
+                    "name": "Azúcar Granulada",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Fresko",
+                    "origin": "CN",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 790.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Azúcar",
+                    "subcategory": "Azúcar Blanca",
+                    "name": "Azúcar Blanca",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Energy",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 750.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Condimentos",
+                    "subcategory": "Sal",
+                    "name": "Sal Marina",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Polasal",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 450.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco Super Extra",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "San Diego",
+                    "origin": "MX",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 800.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche",
+                    "name": "Leche en Polvo",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Lantana",
+                    "origin": "IE",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1675.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Drojo",
+                    "origin": "CN",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 560.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.39,
+                    "brand": "La Granjera",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 630.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.39,
+                    "brand": "La Guajirita",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 630.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.25,
+                    "brand": "El Morro",
+                    "origin": "PR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 2300.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "25",
+                "name": "Mercadito 35",
+                "town": "Playa",
+                "location": {
+                    "street": "Calle, dirección",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.25,
+                    "brand": "Rancheiro",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Risol",
+                    "origin": "CN",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Azúcar",
+                    "subcategory": "Azúcar Blanca",
+                    "name": "Azúcar Blanca",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": "TropiGusto",
+                    "origin": "CU",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 350.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Risol",
+                    "origin": "CN",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "Zonia",
+                    "origin": "COL",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 360.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
+                    "name": "Aceite de Soja",
+                    "unity": "lt",
+                    "count": 0.9,
+                    "brand": "Saude",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 990.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Huevos",
+                    "name": "Cartón de Huevos",
+                    "unity": "u",
+                    "count": 30.0,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 3000.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche",
+                    "name": "Leche Entera",
+                    "unity": "lt",
+                    "count": 1.0,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1000.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "26",
+                "name": "Bodegón Café, El Cubilete",
+                "town": "Playa",
+                "location": {
+                    "street": "Calle, dirección",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche",
+                    "name": "Leche en Polvo",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Lantana",
+                    "origin": "IE",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 2000.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche",
+                    "name": "Leche Entera",
+                    "unity": "lt",
+                    "count": 1.0,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1100.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Pechuga",
+                    "name": "Pechuga de Pollo",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": null,
+                    "origin": null,
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 2850.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "Zonia",
+                    "origin": "COL",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 390.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
+                    "name": "Aceite Girasol",
+                    "unity": "lt",
+                    "count": 1.0,
+                    "brand": "Laura",
+                    "origin": "AR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 990.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.39,
+                    "brand": "La Granjera",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 600.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche",
+                    "name": "Leche Evaporada",
+                    "unity": "lt",
+                    "count": 0.377,
+                    "brand": "Lantana",
+                    "origin": "IE",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 920.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.39,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 870.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Embutidos",
+                    "subcategory": "Salchichas",
+                    "name": "Perritos",
+                    "unity": "kg",
+                    "count": 0.35,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1050.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Arborio",
+                    "origin": "ITA",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1850.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Azúcar",
+                    "subcategory": "Azúcar Blanca",
+                    "name": "Azúcar Blanca",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Energy",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 800.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Condimentos",
+                    "subcategory": "Sal",
+                    "name": "Sal Marina",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Polasal",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 350.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Colorados",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Marco",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 850.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Negros",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": "San Diego",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 800.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.25,
+                    "brand": "Cafetazo",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 2000.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.289,
+                    "brand": "La LLave",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 2400.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.1,
+                    "brand": "Madrid",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 420.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.25,
+                    "brand": "Puente",
+                    "origin": "CU",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1600.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "27",
+                "name": "Bodegón de Tere",
+                "town": "Diez de Octubre",
+                "location": {
+                    "street": "Calle, dirección",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "Bellina",
+                    "origin": "ITA",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 400.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.39,
+                    "brand": "Dairy Hills",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 600.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.284,
+                    "brand": "Cubanazo",
+                    "origin": "CU",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 1300.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Negros",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "Amanhecer",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 580.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Negros",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "La Cochura",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 580.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Negros",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 800.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Colorados",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 850.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Energy",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 650.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "28",
+                "name": "Triple Mercado",
+                "town": "Boyeros",
+                "location": {
+                    "street": "Calle, dirección",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Picadillo",
+                    "name": "Picadillo de Pollo",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Gui Bon",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 450.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Embutidos",
+                    "subcategory": "Salchichas",
+                    "name": "Perritos",
+                    "unity": "kg",
+                    "count": 0.34,
+                    "brand": "Franco Sur",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 355.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Pechuga",
+                    "name": "Pechuga de Pollo",
+                    "unity": "kg",
+                    "count": 2.0,
+                    "brand": "Seara",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 5000.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Picadillo",
+                    "name": "Picadillo de Pavo",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "La Favorita",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 530.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.39,
+                    "brand": "Zivel",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 550.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Sublime",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 690.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Negros",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Serra",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 880.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
+                    "name": "Aceite",
+                    "unity": "lt",
+                    "count": 0.9,
+                    "brand": "La Reina",
+                    "origin": "CH",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 890.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "Doga",
+                    "origin": "TR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 335.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta de Tomate",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Vima",
+                    "origin": "ES",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 550.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Azúcar",
+                    "subcategory": "Azúcar Blanca",
+                    "name": "Azúcar Crystal",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Casa del Grano",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "16-12-2025",
+                            "price": 620.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "place": {
+                "id": "29",
+                "name": "Bodegón de Amparo",
+                "town": "Boyeros",
+                "location": {
+                    "street": "Calle, dirección",
+                    "coordinates": {
+                        "latitude": null,
+                        "longitude": null
+                    }
+                }
+            },
+            "products": [
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche",
+                    "name": "Leche Entera",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Macro Food",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 2200.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche",
+                    "name": "Leche en Polvo",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Milky Cow",
+                    "origin": "NL",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 1850.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.39,
+                    "brand": "La Granjera",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Lácteos",
+                    "subcategory": "Leche Condensada",
+                    "name": "Leche Condensada",
+                    "unity": "kg",
+                    "count": 0.39,
+                    "brand": "Parmalat",
+                    "origin": "MA",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 500.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Embutidos",
+                    "subcategory": "Salchichas",
+                    "name": "Salchichas de Pollo",
+                    "unity": "kg",
+                    "count": 0.34,
+                    "brand": "Viking",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 400.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Pechuga",
+                    "name": "Pechuga de Pollo",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Delicias Estrella",
+                    "origin": "CU",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 1950.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Carnicos",
+                    "subcategory": "Picadillo",
+                    "name": "Picadillo de Pollo",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Gui Bon",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 400.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta de Tomate",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Lucy",
+                    "origin": "TR",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 440.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Procesados",
+                    "subcategory": "Pasta de Tomate",
+                    "name": "Pasta de Tomate",
+                    "unity": "kg",
+                    "count": 0.4,
+                    "brand": "Laila",
+                    "origin": "CU",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 400.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Infuciones",
+                    "subcategory": "Café Instantáneo",
+                    "name": "Café Soluble",
+                    "unity": "kg",
+                    "count": 0.022,
+                    "brand": "Macro Food",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 350.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Grasas",
+                    "subcategory": "Aceite",
+                    "name": "Aceite Girasol",
+                    "unity": "lt",
+                    "count": 1.0,
+                    "brand": "Hysa",
+                    "origin": "MX",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 1150.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "San Diego",
+                    "origin": "MX",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 650.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Disempre",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 700.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Cereales",
+                    "subcategory": "Arroz",
+                    "name": "Arroz Blanco",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Deliarroz",
+                    "origin": "BO",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 650.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "Mantia's",
+                    "origin": "CA",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 630.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Pastas",
+                    "subcategory": "Espaguetti",
+                    "name": "Spaghetti",
+                    "unity": "kg",
+                    "count": 0.5,
+                    "brand": "Dolcezza",
+                    "origin": "ITA",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 330.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.25,
+                    "brand": "Sebraz",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 1200.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.25,
+                    "brand": "Aroma",
+                    "origin": "MX",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 1650.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Bebidas",
+                    "subcategory": "Café",
+                    "name": "Café Molido",
+                    "unity": "kg",
+                    "count": 0.25,
+                    "brand": "Mc Daniel's",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 1600.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Negros",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 560.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Legumbres",
+                    "subcategory": "Frijoles",
+                    "name": "Frijoles Colorados",
+                    "unity": "kg",
+                    "count": 0.454,
+                    "brand": "Del Campo",
+                    "origin": "US",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 560.0,
+                            "currency": "CUP"
+                        }
+                    ]
+                },
+                {
+                    "category": "Azúcar",
+                    "subcategory": "Azúcar Blanca",
+                    "name": "Azúcar Crystal",
+                    "unity": "kg",
+                    "count": 1.0,
+                    "brand": "Energy",
+                    "origin": "BR",
+                    "records": [
+                        {
+                            "date": "18-12-2025",
+                            "price": 650.0,
                             "currency": "CUP"
                         }
                     ]
