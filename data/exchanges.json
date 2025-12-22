@@ -1,0 +1,149 @@
+[
+    {
+        "segment1": {
+            "USD": 24.0,
+            "type": "formal",
+            "source": "banco central de cuba"
+        }
+    },
+    {
+        "segment2": {
+            "USD": 120.0,
+            "type": "formal",
+            "source": "banco central de cuba"
+        }
+    },
+    {
+        "segment3": [
+            {
+                "USD": 410.0,
+                "type": "formal",
+                "source":"banco central de cuba",
+                "date": "2025-12-18"
+            },
+            {
+                "USD": 410.0,
+                "type": "formal",
+                "source":"banco central de cuba",
+                "date": "2025-12-19"
+            },
+            {
+                "USD": 408.0,
+                "type": "formal",
+                "source":"banco central de cuba",
+                "date": "2025-12-20"
+            },
+            {
+                "USD": 408.0,
+                "type": "formal",
+                "source":"banco central de cuba",
+                "date": "2025-12-21"
+            },
+            {
+                "USD": 408.0,
+                "type": "formal",
+                "source":"banco central de cuba",
+                "date": "2025-12-22"
+            }
+        ]
+    },
+    {
+        "eltoque": [
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-10-01"
+            },
+            {
+                "USD": 450.0,
+                "source": "eltoque",
+                "date": "2025-12-06"
+            },
+            {
+                "USD": 445.0,
+                "source": "eltoque",
+                "date": "2025-12-07"
+            },
+            {
+                "USD": 445.0,
+                "source": "eltoque",
+                "date": "2025-12-08"
+            },
+            {
+                "USD": 445.0,
+                "source": "eltoque",
+                "date": "2025-12-08"
+            },
+            {
+                "USD": 445.0,
+                "source": "eltoque",
+                "date": "2025-12-09"
+            },
+            {
+                "USD": 445.0,
+                "source": "eltoque",
+                "date": "2025-12-10"
+            },
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-12-11"
+            },
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-12-12"
+            },
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-12-13"
+            },
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-12-14"
+            },
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-12-16"
+            },
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-12-17"
+            },
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-12-18"
+            },
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-12-18"
+            },
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-12-19"
+            },
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-12-20"
+            },
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-12-21"
+            },
+            {
+                "USD": 440.0,
+                "source": "eltoque",
+                "date": "2025-12-22"
+            }
+        ]
+    }
+]

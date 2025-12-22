@@ -5,11 +5,13 @@ __pycache__/
 *.json
 *.py
 *.exe
+*.zip
 
-!storytelling.ipynb
-!datasets/mipymes.json
-!datasets/eltoque.json
-!normalize.py
-!charts.py
-!scrapping/eltoque.py
-!scrapping/mercatoria.py
+!story.ipynb
+!m_normalize.py
+!m_charts.py
+!m_tools.py
+!exchanges.json
+!salaries.json
+!mipymes.json
+!basket.json

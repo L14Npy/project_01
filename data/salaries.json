@@ -1,0 +1,194 @@
+[
+    {
+        "category": "I",
+        "salary": 2100,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "II",
+        "salary": 2200,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "III",
+        "salary": 2300,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "IV",
+        "salary": 2420,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "V",
+        "salary": 2540,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "VI",
+        "salary": 2660,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "VII",
+        "salary": 2810,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "VIII",
+        "salary": 2960,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "IX",
+        "salary": 3110,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "X",
+        "salary": 3260,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XI",
+        "salary": 3410,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XII",
+        "salary": 3610,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XIII",
+        "salary": 3810,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XIV",
+        "salary": 4010,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XV",
+        "salary": 4210,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XVI",
+        "salary": 4410,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XVII",
+        "salary": 4610,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XVIII",
+        "salary": 4810,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XIX",
+        "salary": 5060,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XX",
+        "salary": 5310,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XXI",
+        "salary": 5560,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XXII",
+        "salary": 5810,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XXIII",
+        "salary": 6060,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XXIV",
+        "salary": 6310,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XXV",
+        "salary": 6610,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XXVI",
+        "salary": 6960,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XXVII",
+        "salary": 7310,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XXVIII",
+        "salary": 7660,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XXIX",
+        "salary": 8010,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XXX",
+        "salary": 8510,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XXXI",
+        "salary": 9010,
+        "hours": 44,
+        "source": "gaceta oficial"
+    },
+    {
+        "category": "XXXII",
+        "salary": 9510,
+        "hours": 44,
+        "source": "gaceta oficial"
+    }
+]
