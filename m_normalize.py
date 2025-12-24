@@ -188,4 +188,43 @@ def CostBasket2() -> dict:
             dicc[k] = AverageProducts()[k] * v
     return dicc
 """ ----------------------------------------- """
+def ListProducts() -> dict:
+    """
+    Extrae en un diccionario la lista de precios
+    de los productos
+    """
+    dicc = {}
+    for i in pymes:
+        for j in i.get('products', []):
+            category = j['category']
+            if category == 'huevos':
+                continue
+            if category not in dicc:
+                dicc[category] = []
+            for k in j.get('records', []):
+                price = k['price']
+                dicc[category].append(price)
+    return dicc
+""" ----------------------------------------- """
+def PercentSalary() -> dict:
+    """
+    Extrae en un diccionario el porcentaje del salario necesario
+    para comprar cada producto
+    """
+    dicc = {}
+    for k,v in CostBasket2().items():
+        dicc[k] = round((v / AverageSalarie(1)) * 100, 0)
+    return dicc
+""" ----------------------------------------- """
+def NecesaryDays(day):
+    """
+    Extrae en un diccionario los días necesarios
+    para adquirir un producto
+    """
+    dicc = {}
+    for k,v in CostBasket2().items():
+        dicc[k] = v // AverageSalarie(day)
+    return dicc
+""" ----------------------------------------- """
+""" ----------------------------------------- """
 """ ----------------------------------------- """

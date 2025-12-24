@@ -48,7 +48,36 @@ def ChartCostBasket2():
     plt.legend()
     plt.show()
 """ ----------------------------------------- """
+def ChartVariabilityPrices():
+    products = [i for i in ListProducts().keys()]
+    prices = [i for i in ListProducts().values()]
+
+    plt.subplots()
+    plt.violinplot(prices, showmeans=True, showextrema=True)
+    plt.title("Distribución de precios por producto")
+    plt.xlabel("Productos")
+    plt.xticks(range(1, len(products)+1), products, rotation=45)
+    plt.ylabel("Precio (CUP)")
+    plt.grid(axis='y', linestyle='--', alpha=0.6)
+    plt.show()
 """ ----------------------------------------- """
+def ChartPercetSalary():
+    products = [i for i in PercentSalary().keys()]
+    percents = [i for i in PercentSalary().values()]
+
+    plt.subplots()
+    plt.bar(products, percents)
+    plt.title('Porcentaje del salario necesario')
+    plt.ylabel('Porcentajes')
+    plt.xticks(rotation=40)
+    plt.show()
 """ ----------------------------------------- """
+def ChartNecesaryDays(day):
+    products = [i for i in NecesaryDays(day).keys()]
+    days = [i for i in NecesaryDays(day).values()]
+
+    plt.subplots()
+    plt.barh(products, days)
+    plt.show()
 """ ----------------------------------------- """
 """ ----------------------------------------- """
