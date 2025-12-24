@@ -29,10 +29,9 @@ def ChartAveragePyme():
 def ChartCostBasket():
     labels = ['Canasta básica', 'Salario promedio']
     values = [CostBasket(), AverageSalarie(1)]
-    colors = ['darkgreen', 'green']
 
     plt.subplots()
-    plt.bar(labels, values, color=colors)
+    plt.bar(labels, values)
     plt.title('Canasta básica VS Salario promedio')
     plt.ylabel('Precios (CUP)')
     plt.show()
