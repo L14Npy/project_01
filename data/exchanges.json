@@ -56,6 +56,12 @@
                 "type": "formal",
                 "source":"banco central de cuba",
                 "date": "2025-12-24"
+            },
+            {
+                "USD": 409.0,
+                "type": "formal",
+                "source":"banco central de cuba",
+                "date": "2025-12-25"
             }
         ]
     },
@@ -165,6 +171,11 @@
                 "USD": 440.0,
                 "source": "eltoque",
                 "date": "2025-12-24"
+            },
+            {
+                "USD": 435.0,
+                "source": "eltoque",
+                "date": "2025-12-25"
             }
         ]
     }

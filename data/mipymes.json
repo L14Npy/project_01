@@ -2665,5 +2665,635 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "pyme-06",
+        "name": "bodegón oasis",
+        "currency": "cup",
+        "town": "plaza de la revolución",
+        "address": {
+            "street": "calle j e/ línea & 11 #210 B",
+            "location": {
+                "latitude": 23.142885569598498,
+                "longitude": -82.38939285278322
+            }
+        },
+        "products": [
+            {
+                "code": "",
+                "category": "leche",
+                "subcategory": "pollo",
+                "unit": "kg",
+                "count": 0.2,
+                "package": 1.0,
+                "brand": "itambé",
+                "origin": "brasil",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 500.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 500.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 500.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "leche",
+                "subcategory": "polvo",
+                "unit": "kg",
+                "count": 0.2,
+                "package": 1.0,
+                "brand": "itambé",
+                "origin": "brasil",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 500.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 500.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 500.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "leche",
+                "subcategory": "descremada",
+                "unit": "lt",
+                "count": 1.0,
+                "package": 1.0,
+                "brand": "rica",
+                "origin": "dominicana",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 925.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 925.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 925.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "leche",
+                "subcategory": "evaporada",
+                "unit": "kg",
+                "count": 0.35,
+                "package": 1.0,
+                "brand": "rica",
+                "origin": "dominicana",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 625.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 625.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 625.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "leche",
+                "subcategory": "entera",
+                "unit": "lt",
+                "count": 1.0,
+                "package": 1.0,
+                "brand": "rica",
+                "origin": "dominicana",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 1100.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 1170.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 1170.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "leche",
+                "subcategory": "late",
+                "unit": "lt",
+                "count": 1.0,
+                "package": 1.0,
+                "brand": "puleva",
+                "origin": "españa",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 3200.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 3200.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 3200.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "leche",
+                "subcategory": "condensada",
+                "unit": "kg",
+                "count": 0.39,
+                "package": 1.0,
+                "brand": "zivel",
+                "origin": "malasia",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 520.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 520.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 520.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "café",
+                "subcategory": "espresso",
+                "unit": "kg",
+                "count": 0.25,
+                "package": 1.0,
+                "brand": "buenos días",
+                "origin": null,
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 1450.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 1450.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 1450.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "pasta",
+                "subcategory": "espaguetti",
+                "unit": "kg",
+                "count": 0.5,
+                "package": 1.0,
+                "brand": "donatella",
+                "origin": "italia",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 350.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 410.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 410.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "arroz",
+                "subcategory": "blanco",
+                "unit": "kg",
+                "count": 0.9,
+                "package": 1.0,
+                "brand": "kmd gold",
+                "origin": "méxico",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 750.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 750.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 750.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "azúcar",
+                "subcategory": "blanca",
+                "unit": "kg",
+                "count": 1.0,
+                "package": 1.0,
+                "brand": "uniao",
+                "origin": "brasil",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 730.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 730.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 730.0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "pyme-07",
+        "name": "kaluch market",
+        "currency": "cup",
+        "town": "plaza de la revolución",
+        "address": {
+            "street": "calle 12 edif #23 apto #1 e/ 1ra y 3ra",
+            "location": {
+                "latitude": 23.1,
+                "longitude": -18.1
+            }
+        },
+        "products": [
+            {
+                "code": "",
+                "category": "huevos",
+                "subcategory": "docena",
+                "unit": "u",
+                "count": 12.0,
+                "package": 1.0,
+                "brand": null,
+                "origin": null,
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 1800.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 1800.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 1800.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "huevos",
+                "subcategory": "individual",
+                "unit": "u",
+                "count": 1.0,
+                "package": 1.0,
+                "brand": null,
+                "origin": null,
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 110.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 110.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 115.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "pollo",
+                "subcategory": "pechuga",
+                "unit": "kg",
+                "count": 1.0,
+                "package": 1.0,
+                "brand": "sadia",
+                "origin": "brasil",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 3300.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 3300.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 3300.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "pollo",
+                "subcategory": "pechuga",
+                "unit": "kg",
+                "count": 0.5,
+                "package": 1.0,
+                "brand": "jacas",
+                "origin": "brasil",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 2300.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 2300.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 2300.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "pollo",
+                "subcategory": "pechuga",
+                "unit": "kg",
+                "count": 2.0,
+                "package": 1.0,
+                "brand": "sadia",
+                "origin": "brasil",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 6000.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 6000.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 6000.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "picadillo",
+                "subcategory": "res",
+                "unit": "kg",
+                "count": 1.0,
+                "package": 1.0,
+                "brand": "sadia",
+                "origin": "brasil",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 3500.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 3500.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 3500.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "pasta",
+                "subcategory": "tomate",
+                "unit": "kg",
+                "count": 0.4,
+                "package": 1.0,
+                "brand": "vima",
+                "origin": "españa",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 650.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 650.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 650.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "azúcar",
+                "subcategory": "blanca",
+                "unit": "kg",
+                "count": 1.1,
+                "package": 1.0,
+                "brand": "vima",
+                "origin": "españa",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 1000.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 1000.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 1000.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "pastas",
+                "subcategory": "espaguetti",
+                "unit": "kg",
+                "count": 0.5,
+                "package": 1.0,
+                "brand": "galo",
+                "origin": "brasil",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 370.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 410.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 410.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "café",
+                "subcategory": "espresso",
+                "unit": "kg",
+                "count": 0.284,
+                "package": 1.0,
+                "brand": "la llave",
+                "origin": "usa",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 2700.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 2700.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 2700.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "café",
+                "subcategory": "molido",
+                "unit": "kg",
+                "count": 0.25,
+                "package": 1.0,
+                "brand": "co-aliment",
+                "origin": "españa",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 2100.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 2100.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 2100.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "café",
+                "subcategory": "molido",
+                "unit": "kg",
+                "count": 0.25,
+                "package": 1.0,
+                "brand": "gourmet",
+                "origin": "españa",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 2100.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 2100.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 2100.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "café",
+                "subcategory": "tostado",
+                "unit": "kg",
+                "count": 0.25,
+                "package": 1.0,
+                "brand": "sebraz",
+                "origin": "brasil",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 1900.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 1900.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 1900.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "sal",
+                "subcategory": "marina",
+                "unit": "kg",
+                "count": 1.0,
+                "package": 1.0,
+                "brand": "convirán",
+                "origin": "españa",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 1000.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 1000.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 1000.0
+                    }
+                ]
+            }
+        ]
     }
 ]
