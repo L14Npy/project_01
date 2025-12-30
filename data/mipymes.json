@@ -3295,5 +3295,116 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "pyme-08",
+        "name": "xalxa",
+        "currency": "cup",
+        "town": "plaza de la revolución",
+        "address": {
+            "street": "calle j e/ línea & 15",
+            "location": {
+                "latitude": 23.1,
+                "longitude": -18.1
+            }
+        },
+        "products": [
+            {
+                "code": "",
+                "category": "leche",
+                "subcategory": "entera",
+                "unit": "lt",
+                "count": 1.0,
+                "package": 1.0,
+                "brand": "vima",
+                "origin": "españa",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 1190.0
+                    },
+                    {
+                        "date": "2025-11-01",
+                        "price": 1190.0
+                    },
+                    {
+                        "date": "2025-12-01",
+                        "price": 1190.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "leche",
+                "subcategory": "entera",
+                "unit": "lt",
+                "count": 1.0,
+                "package": 1.0,
+                "brand": "pascual",
+                "origin": "españa",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 1280.0
+                    },
+                    {
+                        "date": "2025-11-01",
+                        "price": 1280.0
+                    },
+                    {
+                        "date": "2025-12-01",
+                        "price": 1280.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "pasta",
+                "subcategory": "tomate",
+                "unit": "kg",
+                "count": 0.4,
+                "package": 1.0,
+                "brand": "vima",
+                "origin": "españa",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 550.0
+                    },
+                    {
+                        "date": "2025-11-01",
+                        "price": 680.0
+                    },
+                    {
+                        "date": "2025-12-01",
+                        "price": 680.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "café",
+                "subcategory": "molido",
+                "unit": "kg",
+                "count": 0.25,
+                "package": 1.0,
+                "brand": "gourmet",
+                "origin": "españa",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 2100.0
+                    },
+                    {
+                        "date": "2025-11-01",
+                        "price": 2750.0
+                    },
+                    {
+                        "date": "2025-12-01",
+                        "price": 2750.0
+                    }
+                ]
+            }
+        ]
     }
 ]
