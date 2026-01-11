@@ -68,9 +68,10 @@ def ChartVariabilityPricesD():
 def ChartCostBasketD():
     labels = ['Canasta básica', 'Salario promedio']
     values = [CostBasket(), AverageSalarie(1)]
+    color = ['red', 'green']
 
     plt.figure(figsize=(10,6))
-    bars = plt.bar(labels, values, width=0.5)
+    bars = plt.bar(labels, values, width=0.5, color=color)
 
     plt.title('Canasta básica vs Salario promedio', fontsize=14, fontweight='bold')
     plt.ylabel('Precios (CUP)', fontsize=12)
@@ -91,34 +92,35 @@ def ChartCostBasketD():
     plt.tight_layout()
     plt.show()
 """ ----------------------------------------- """
-def ChartCostBasket2D():
-    data = CostBasket2()
-    products = list(data.keys())
-    prices = list(data.values())
-    products, prices = zip(*sorted(zip(products, prices), key=lambda x: x[1]))
+def ChartCostBasket2D(day):
+    products = [i for i in CostBasket2().keys()]
+    prices = [i for i in CostBasket2().values()]
 
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(10,6))
+
     bars = plt.barh(products, prices)
-    avg_salary = AverageSalarie(1)
     plt.axvline(
-        x=avg_salary,
+        x=AverageSalarie(day),
         linestyle='--',
         linewidth=2,
-        color='red',
-        label='Salario promedio'
+        label=f'Salario promedio: {AverageSalarie(day):.0f} CUP',
+        color='red'
     )
-    for bar in bars:
-        width = bar.get_width()
+    for i in bars:
+        width = i.get_width()
         plt.text(
-            width + avg_salary * 0.01,
-            bar.get_y() + bar.get_height() / 2,
+            width + max(prices) * 0.001,
+            i.get_y() + i.get_height() / 2,
             f'{width:.0f}',
-            va='center'
+            va='center',
+            fontsize=10,
+            fontweight='bold'
         )
-    plt.title('Costo de productos vs Salario promedio', fontsize=14)
-    plt.xlabel('Costo mensual (CUP)', fontsize=12)
-    plt.ylabel('Productos', fontsize=12)
-    plt.grid(axis='x', linestyle='--', alpha=0.5)
+
+    plt.title('Costo de productos vs salario promedio', fontsize=14)
+    plt.xlabel('Costo mensual (CUP)')
+    plt.ylabel('Producto')
+    plt.grid(axis='x', linestyle='--', alpha=0.8)
     plt.legend()
     plt.tight_layout()
     plt.show()
@@ -144,7 +146,80 @@ def ChartPercetSalaryD():
     plt.tight_layout()
     plt.show()
 """ ----------------------------------------- """
+def ChartMaxUnitsPlotD(day: int):
+    """
+    Gráfica la cantidad máxima de cada producto
+    que puede comprarse con el salario promedio
+    """
+    products = [i for i in MaxUnits(day).keys()]
+    units = [i for i in MaxUnits(day).values()]
+
+    plt.figure(figsize=(10,6))
+    plt.hlines(
+        y=products,
+        xmin=0,
+        xmax=units,
+        linewidth=3,
+        alpha=0.6
+    )
+    plt.scatter(
+        units,
+        products,
+        s=80,
+        zorder=3
+    )
+    for i in range(len(units)):
+        plt.text(units[i] + max(units) * 0.02, products[i], f"{units[i]:.0f} unidades", va="center", fontweight='bold', fontsize=10)
+
+    plt.xlabel("Cantidad máxima comprable (unidades)", fontsize=12)
+    plt.ylabel("Producto")
+    plt.title("Cantidad de productos comprables \ncon el salario promedio mensual", fontsize=14)
+    plt.grid(axis="x", linestyle="--", alpha=0.9)
+    plt.tight_layout()
+    plt.show()
 """ ----------------------------------------- """
+def ChartNecesaryDaysPlotD(day):
+    products = [i for i in NecesaryDays(day).keys()]
+    days = [i for i in NecesaryDays(day).values()]
+    colors = ['green' if d <= day else 'red' for d in days]
+
+    plt.figure(figsize=(10, 6))
+    plt.scatter(
+        days,
+        products,
+        s=120,
+        alpha=0.8,
+        c=colors
+    )
+    plt.axvline(
+        x=day,
+        linestyle='--',
+        linewidth=2,
+        label=f'{day} días laborales',
+        color='red'
+    )
+    for i in range(len(days)):
+        plt.text(
+            days[i] + 1,
+            products[i],
+            f'{days[i]:.0f} días',
+            va='center',
+            fontsize=10,
+            fontweight='bold'
+        )
+
+    plt.xlabel('Días laborales necesarios', fontsize=12)
+    plt.ylabel('Producto', fontsize=12)
+    plt.title(
+        f'Días laborales necesarios para adquirir productos\n'
+        f'(Referencia: {day} días disponibles)',
+        fontsize=14
+    )
+
+    plt.grid(axis='x', linestyle='--', alpha=0.9)
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
 """ ----------------------------------------- """
 """ ----------------------------------------- """
 """ ----------------------------------------- """

@@ -96,3 +96,37 @@ def ChartMaxUnits(day:int):
     plt.tight_layout()
     plt.show()
 """ ----------------------------------------- """
+def ChartMaxUnitsPlot(day:int):
+    """
+    Gráfica la cantidad máxima de cada producto
+    que puede comprarse con el salario promedio
+    """
+    products = [i for i in MaxUnits(day).keys()]
+    units = [i for i in MaxUnits(day).values()]
+
+    plt.figure(figsize=(10, 6))
+    plt.hlines(products, xmin=0, xmax=units)
+    plt.scatter(units, products)
+    plt.xlabel("Cantidad máxima comprable (unidades)")
+    plt.ylabel("Producto")
+    plt.title("Cantidad máxima de productos comprables con el salario promedio mensual")
+    plt.tight_layout()
+    plt.show()
+""" ----------------------------------------- """
+def ChartNecesaryDaysPlot(day):
+    products = [i for i in NecesaryDays(day).keys()]
+    days = [i for i in NecesaryDays(day).values()]
+
+    plt.subplots(figsize=(10,6))
+    plt.scatter(days, products)
+    plt.axvline(x=day, linestyle='--', label=f'{day} dias laboral', color='red')
+    plt.xlabel('Días laborales')
+    plt.ylabel('Producto')
+    plt.title(f'Días laborales necesario para adquirir en {day} días')
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
+""" ----------------------------------------- """
+""" ----------------------------------------- """
+""" ----------------------------------------- """
+""" ----------------------------------------- """
