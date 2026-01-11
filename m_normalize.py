@@ -223,8 +223,18 @@ def NecesaryDays(day):
     """
     dicc = {}
     for k,v in CostBasket2().items():
-        dicc[k] = v // AverageSalarie(day)
+        dicc[k] = v / AverageSalarie(day)
     return dicc
 """ ----------------------------------------- """
+def MaxUnits(day:int) -> dict:
+    """
+    Calcula la cantidad máxima de cada producto
+    que puede comprarse con el salario promedio mensual
+    """
+    dicc = {}
+    average = AverageProducts()
+    for k,v in average.items():
+        dicc[k] = AverageSalarie(day) // v
+    return dicc
 """ ----------------------------------------- """
 """ ----------------------------------------- """

@@ -10,6 +10,7 @@ __pycache__/
 !story.ipynb
 !m_normalize.py
 !m_charts.py
+!m_charts2.py
 !m_tools.py
 !exchanges.json
 !salaries.json

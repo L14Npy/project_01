@@ -36,13 +36,13 @@ def ChartCostBasket():
     plt.ylabel('Precios (CUP)')
     plt.show()
 """ ----------------------------------------- """
-def ChartCostBasket2():
+def ChartCostBasket2(day):
     products = [i for i in CostBasket2().keys()]
     prices = [i for i in CostBasket2().values()]
 
-    plt.subplots()
+    plt.subplots(figsize=(10,6))
     plt.barh(products, prices)
-    plt.axvline(x=AverageSalarie(1), linestyle='--', linewidth=2, label='Salario promedio', color='red')
+    plt.axvline(x=AverageSalarie(day), linestyle='--', linewidth=2, label='Salario promedio', color='red')
     plt.title('Producto VS Salario promedio')
     plt.xlabel('Costo mensual (CUP)')
     plt.legend()
@@ -52,7 +52,7 @@ def ChartVariabilityPrices():
     products = [i for i in ListProducts().keys()]
     prices = [i for i in ListProducts().values()]
 
-    plt.subplots()
+    plt.subplots(figsize=(10,6))
     plt.violinplot(prices, showmeans=True, showextrema=True)
     plt.title("Distribución de precios por producto")
     plt.xlabel("Productos")
@@ -80,4 +80,19 @@ def ChartNecesaryDays(day):
     plt.barh(products, days)
     plt.show()
 """ ----------------------------------------- """
+def ChartMaxUnits(day:int):
+    """
+    Gráfica la cantidad máxima de cada producto
+    que puede comprarse con el salario promedio
+    """
+    products = [i for i in MaxUnits(day).keys()]
+    units = [i for i in MaxUnits(day).values()]
+
+    plt.figure(figsize=(10, 6))
+    plt.barh(products, units)
+    plt.xlabel("Cantidad máxima comprable (unidades)")
+    plt.ylabel("Producto")
+    plt.title("Cantidad máxima de productos comprables con el salario promedio mensual")
+    plt.tight_layout()
+    plt.show()
 """ ----------------------------------------- """

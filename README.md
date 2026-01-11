@@ -42,7 +42,13 @@ Este proyecto analiza la capacidad del trabajador cubano para adquirir productos
 - No se utilizaron bibliotecas externas.
 
 ## Conclusión
-El proyecto evidencia que el salario promedio cubano limita severamente la capacidad de adquirir productos esenciales, y que algunos bienes requieren varios días de trabajo para ser adquiridos.
+Se evidencia que el **salario promedio** cubano no es suficiente para adquirir productos esenciales (alimentos), y que algunos bienes requieren varios días de trabajo para ser adquiridos. Sin contar otros gastos como:
+- Electricidad
+- Gas
+- Agua
+- Transporte
+- Higiene
+- Telefonía
 
 ---
 

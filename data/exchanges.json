@@ -116,6 +116,30 @@
                 "type": "formal",
                 "source":"banco central de cuba",
                 "date": "2026-01-03"
+            },
+            {
+                "USD": 411.0,
+                "type": "formal",
+                "source":"banco central de cuba",
+                "date": "2026-01-04"
+            },
+            {
+                "USD": 411.0,
+                "type": "formal",
+                "source":"banco central de cuba",
+                "date": "2026-01-05"
+            },
+            {
+                "USD": 411.0,
+                "type": "formal",
+                "source":"banco central de cuba",
+                "date": "2026-01-06"
+            },
+            {
+                "USD": 411.0,
+                "type": "formal",
+                "source":"banco central de cuba",
+                "date": "2026-01-07"
             }
         ]
     },
@@ -275,6 +299,26 @@
                 "USD": 435.0,
                 "source": "eltoque",
                 "date": "2026-01-03"
+            },
+            {
+                "USD": 435.0,
+                "source": "eltoque",
+                "date": "2026-01-04"
+            },
+            {
+                "USD": 446.0,
+                "source": "eltoque",
+                "date": "2026-01-05"
+            },
+            {
+                "USD": 446.0,
+                "source": "eltoque",
+                "date": "2026-01-06"
+            },
+            {
+                "USD": 450.0,
+                "source": "eltoque",
+                "date": "2026-01-07"
             }
         ]
     }
