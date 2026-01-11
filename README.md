@@ -9,7 +9,7 @@ Este proyecto analiza la capacidad del trabajador cubano para adquirir productos
 3. **Salarios:** Lista de salarios por categoría laboral, extraída de fuentes oficiales.
 
 ## Estructura del Repositorio
-- `notebook.ipynb` : Jupyter Notebook con la historia basada en datos.
+- `story.ipynb` : Jupyter Notebook con la historia basada en datos.
 - `functions.py` : Biblioteca de funciones implementadas para el proyecto.
 - `data/` : Carpeta que contiene los archivos de datos utilizados.
   - `pymes.json` : Datos de precios y productos de las MiPymes.
