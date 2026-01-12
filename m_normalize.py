@@ -108,7 +108,8 @@ def AverageProducts() -> dict:
     for i in pymes:
         for j in i.get('products', []):
             category = j['category']
-            if category == 'huevos':
+            subcategory = j['subcategory']
+            if subcategory == 'cartón':
                 continue
             if category not in dicc:
                 dicc[category] = []
@@ -141,7 +142,10 @@ def UnitaryProducts() -> dict:
     for i in pymes:
         for j in i.get('products', []):
             category = j['category']
+            subcategory = j['subcategory']
             count = j['count']
+            if subcategory == 'cartón':
+                continue
             if category not in dicc:
                 dicc[category] = []
             dicc[category].append(count)
@@ -169,8 +173,6 @@ def CostBasket() -> float:
     """
     cost = 0
     for k,v in basket.items():
-        if k == 'huevos':
-            continue
         if k in AverageProducts():
             cost += AverageProducts()[k] * v
     return round(cost,0)
@@ -182,8 +184,6 @@ def CostBasket2() -> dict:
     """
     dicc = {}
     for k,v in basket.items():
-        if k == 'huevos':
-            continue
         if k in AverageProducts():
             dicc[k] = AverageProducts()[k] * v
     return dicc
@@ -197,7 +197,8 @@ def ListProducts() -> dict:
     for i in pymes:
         for j in i.get('products', []):
             category = j['category']
-            if category == 'huevos':
+            subcategory = j['subcategory']
+            if subcategory == 'cartón':
                 continue
             if category not in dicc:
                 dicc[category] = []

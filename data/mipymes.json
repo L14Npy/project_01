@@ -6618,30 +6618,6 @@
                         "price": 300.0
                     }
                 ]
-            },
-            {
-                "code": "",
-                "category": "huevos",
-                "subcategory": "cartón",
-                "unit": "u",
-                "count": 30.0,
-                "package": 1.0,
-                "brand": null,
-                "origin": null,
-                "records": [
-                    {
-                        "date": "2025-10-11",
-                        "price": 2900.0
-                    },
-                    {
-                        "date": "2025-11-11",
-                        "price": 2700.0
-                    },
-                    {
-                        "date": "2025-12-11",
-                        "price": 2700.0
-                    }
-                ]
             }
         ]
     },
@@ -6703,30 +6679,6 @@
                     {
                         "date": "2025-12-11",
                         "price": 100.0
-                    }
-                ]
-            },
-            {
-                "code": "",
-                "category": "huevos",
-                "subcategory": "cartón",
-                "unit": "u",
-                "count": 30.0,
-                "package": 1.0,
-                "brand": null,
-                "origin": null,
-                "records": [
-                    {
-                        "date": "2025-10-11",
-                        "price": 2900.0
-                    },
-                    {
-                        "date": "2025-11-11",
-                        "price": 2900.0
-                    },
-                    {
-                        "date": "2025-12-11",
-                        "price": 3000.0
                     }
                 ]
             },
@@ -7290,54 +7242,6 @@
             },
             {
                 "code": "",
-                "category": "huevos",
-                "subcategory": "cartón",
-                "unit": "u",
-                "count": 30.0,
-                "package": 1.0,
-                "brand": null,
-                "origin": null,
-                "records": [
-                    {
-                        "date": "2025-10-11",
-                        "price": 3000.0
-                    },
-                    {
-                        "date": "2025-11-11",
-                        "price": 3000.0
-                    },
-                    {
-                        "date": "2025-12-11",
-                        "price": 3300.0
-                    }
-                ]
-            },
-            {
-                "code": "",
-                "category": "huevos",
-                "subcategory": "cartón",
-                "unit": "u",
-                "count": 1.0,
-                "package": 1.0,
-                "brand": null,
-                "origin": null,
-                "records": [
-                    {
-                        "date": "2025-10-11",
-                        "price": 100.0
-                    },
-                    {
-                        "date": "2025-11-11",
-                        "price": 100.0
-                    },
-                    {
-                        "date": "2025-12-11",
-                        "price": 120.0
-                    }
-                ]
-            },
-            {
-                "code": "",
                 "category": "azúcar",
                 "subcategory": "blanca",
                 "unit": "kg",
@@ -7444,30 +7348,6 @@
                     {
                         "date": "2025-12-11",
                         "price": 680.0
-                    }
-                ]
-            },
-            {
-                "code": "",
-                "category": "huevos",
-                "subcategory": "cartón",
-                "unit": "u",
-                "count": 30.0,
-                "package": 1.0,
-                "brand": null,
-                "origin": null,
-                "records": [
-                    {
-                        "date": "2025-10-11",
-                        "price": 3000.0
-                    },
-                    {
-                        "date": "2025-11-11",
-                        "price": 3300.0
-                    },
-                    {
-                        "date": "2025-12-11",
-                        "price": 3300.0
                     }
                 ]
             },
