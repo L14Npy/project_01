@@ -1172,30 +1172,6 @@
             },
             {
                 "code": "",
-                "category": "azúcar",
-                "subcategory": "blanca",
-                "unit": "kg",
-                "count": 2.5,
-                "package": 1.0,
-                "brand": "ingenio carmelita",
-                "origin": "colombia",
-                "records": [
-                    {
-                        "date": "2025-10-11",
-                        "price": 1600.0
-                    },
-                    {
-                        "date": "2025-11-11",
-                        "price": 1600.0
-                    },
-                    {
-                        "date": "2025-12-11",
-                        "price": 1600.0
-                    }
-                ]
-            },
-            {
-                "code": "",
                 "category": "pasta",
                 "subcategory": "tomate",
                 "unit": "kg",
@@ -1239,54 +1215,6 @@
                     {
                         "date": "2025-12-11",
                         "price": 570.0
-                    }
-                ]
-            },
-            {
-                "code": "",
-                "category": "arroz",
-                "subcategory": "blanco",
-                "unit": "kg",
-                "count": 1.0,
-                "package": 1.0,
-                "brand": "karibee",
-                "origin": "guyana",
-                "records": [
-                    {
-                        "date": "2025-10-11",
-                        "price": 800.0
-                    },
-                    {
-                        "date": "2025-11-11",
-                        "price": 800.0
-                    },
-                    {
-                        "date": "2025-12-11",
-                        "price": 800.0
-                    }
-                ]
-            },
-            {
-                "code": "",
-                "category": "frijoles",
-                "subcategory": "negros",
-                "unit": "kg",
-                "count": 0.5,
-                "package": 1.0,
-                "brand": "cister",
-                "origin": "brasil",
-                "records": [
-                    {
-                        "date": "2025-10-11",
-                        "price": 800.0
-                    },
-                    {
-                        "date": "2025-11-11",
-                        "price": 850.0
-                    },
-                    {
-                        "date": "2025-12-11",
-                        "price": 850.0
                     }
                 ]
             },
@@ -6405,6 +6333,30 @@
         "products": [
             {
                 "code": "",
+                "category": "azúcar",
+                "subcategory": "blanca",
+                "unit": "kg",
+                "count": 2.5,
+                "package": 1.0,
+                "brand": "ingenio carmelita",
+                "origin": "colombia",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 1600.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 1600.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 1600.0
+                    }
+                ]
+            },
+            {
+                "code": "",
                 "category": "leche",
                 "subcategory": "evaporada",
                 "unit": "kg",
@@ -6655,6 +6607,30 @@
                     {
                         "date": "2025-12-11",
                         "price": 750.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "azúcar",
+                "subcategory": "blanca",
+                "unit": "kg",
+                "count": 2.5,
+                "package": 1.0,
+                "brand": "ingenio carmelita",
+                "origin": "colombia",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 1600.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 1600.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 1600.0
                     }
                 ]
             },
@@ -7127,6 +7103,54 @@
                 "unit": "kg",
                 "count": 1.0,
                 "package": 1.0,
+                "brand": "karibee",
+                "origin": "guyana",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 800.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 800.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 800.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "frijoles",
+                "subcategory": "negros",
+                "unit": "kg",
+                "count": 0.5,
+                "package": 1.0,
+                "brand": "cister",
+                "origin": "brasil",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 800.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 850.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 850.0
+                    }
+                ]
+            },
+            {
+                "code": "",
+                "category": "arroz",
+                "subcategory": "blanco",
+                "unit": "kg",
+                "count": 1.0,
+                "package": 1.0,
                 "brand": "onis",
                 "origin": "méxico",
                 "records": [
@@ -7327,6 +7351,30 @@
             }
         },
         "products": [
+            {
+                "code": "",
+                "category": "azúcar",
+                "subcategory": "blanca",
+                "unit": "kg",
+                "count": 2.5,
+                "package": 1.0,
+                "brand": "ingenio carmelita",
+                "origin": "colombia",
+                "records": [
+                    {
+                        "date": "2025-10-11",
+                        "price": 1600.0
+                    },
+                    {
+                        "date": "2025-11-11",
+                        "price": 1600.0
+                    },
+                    {
+                        "date": "2025-12-11",
+                        "price": 1600.0
+                    }
+                ]
+            },
             {
                 "code": "",
                 "category": "arroz",

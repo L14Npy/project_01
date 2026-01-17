@@ -1,4 +1,4 @@
-__pycache__/
+modules/__pycache__/
 
 *.txt
 *.ipynb
@@ -8,11 +8,10 @@ __pycache__/
 *.zip
 
 !story.ipynb
-!m_normalize.py
-!m_charts.py
-!m_charts2.py
-!m_tools.py
-!exchanges.json
 !salaries.json
 !mipymes.json
 !basket.json
+!m_charts.py
+!m_charts2.py
+!m_normalize.py
+!m_tools.py
