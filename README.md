@@ -52,7 +52,7 @@ Contiene la información recopilada de **30 MiPymes** dedicadas al comercio mino
 #### Estructura general
 
 - Cada MiPyme es representada como un objeto.
-- Contiene una lista de productos comercializados.
+- Contiene una lista de productos comercializados (mínimo 10).
 
 #### Estructura de producto
 
@@ -60,7 +60,7 @@ Cada producto incluye:
 - Categoría y subcategoría.
 - Unidad de medida.
 - Marca y origen.
-- Registros históricos de precios con fecha.
+- Registros históricos de precio/fecha.
 
 Esta estructura permite:
 - Calcular precios promedio.
@@ -87,7 +87,7 @@ Este archivo es clave para vincular el análisis económico con una noción de n
 
 Contiene los salarios mensuales organizados por categorías laborales oficiales.
 
-#### Campos principales
+#### Campos
 
 - Categoría laboral.
 - Salario mensual en CUP.
@@ -97,23 +97,31 @@ Se utiliza el **salario promedio**, como valor representativo del ingreso del tr
 
 ---
 
-## 5. Estructura de los módulos
+## 5. Estructuras
+
+### 5.1 Módulos
 
 Las funciones del proyecto se encuentra organizado en archivos `.py`, dentro de la carpeta `modules`.
 
-### 5.1 Biblioteca de funciones
+### 5.2 Archivo `normalize.py` - Procesamiento de datos
 
-El archivo de funciones incluye:
+Función:
+Constituye la **funcionalidad** del proyecto, siendo responsable de la **lectura, estructura, agregación y análisis** de la información de los archivos `JSON`. Su función es **transformar datos crudos a datos cuantitativos**, que se utilizan para evaluar costos, salarios, y capacidad adquisitiva.
 
-- `normalize.py`:
-- `tools.py`:
-- `charts.py`:
+### 5.3 Archivo `tools.py` - Construcción de la canasta
+
+Función:
+Su propósito es **reducir la variabilidad de los datos** (gramajes) y construir la **canasta**, basada en valores dominantes.
+
+### 5.4 Archivo `charts.py` - Visualización
+
+Función:
+Transforma los **indicadores numéricos** obtenido tras normalizar en **representaciones visuales**, coherentes de acuerdo al **storytelling**
 
 ---
 
-### 5.2 Notebook
+### 5.2 Notebook: `story.ipynb`
 
-`story.ipynb` se encarga de:
 - Importar funciones.
 - Ejecutar el análisis.
 - Construir el storytelling.
@@ -148,16 +156,15 @@ Este proyecto demuestra cómo, a partir de datos estructurados y herramientas si
 
 ---
 
-## 9. Reproducibilidad y limitaciones
+## 9. Instrucciones
 
-Reproducibilidad:
-- Datos estructurados y versionados.
-- Código modular y documentado.
-- Ausencia de dependencias externas no permitidas.
+Pasos:
+- Abrir el archivo `story.ipynb`.
+- Ejecutar todas las celdas.
 
-Limitaciones:
-- Falta de datos oficiales completos.
-- Análisis limitado a un período temporal específico.
+Requisitos:
+- Python 3x.
+- Instalar biblioteca: `pip install matplotlib`.
 
 ---
 
