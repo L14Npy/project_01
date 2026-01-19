@@ -51,6 +51,42 @@ Se utilizó **tres fuentes de datos independientes**, estructuradas en formato *
 
 Contiene la información recopilada de **30 MiPymes** dedicadas al comercio minorista.
 
+```json
+[
+    {
+        "id": "pyme-01",
+        "name": "mercadito",
+        "currency": "cup",
+        "town": "plaza de la revolución",
+        "address": {
+            "street": "calle j e/ calz. & 9na",
+            "location": {
+                "latitude": 23.1,
+                "longitude": -18.1
+            }
+        },
+        "products": [
+            {
+                "code": "",
+                "category": "picadillo",
+                "subcategory": "pollo",
+                "unit": "kg",
+                "count": 0.4,
+                "package": 1.0,
+                "brand": "la favorita",
+                "origin": "brasil",
+                "records": [
+                    {
+                        "date": "2025-01-01",
+                        "price": 350.0
+                    }
+                ]
+            }
+        ]
+    }
+]
+```
+
 #### Estructura general
 
 - Cada MiPyme es representada como un objeto.  
@@ -77,6 +113,25 @@ Esta estructura permite:
 
 El archivo define los **productos básicos** y su consumo mensual recomendado, expresado en **"u/kg/lt"**.
 
+```json
+{
+  "arroz": 1.0,
+  "leche": 1.0,
+  "picadillo": 0.4,
+  "pollo": 2.0,
+  "café": 0.25,
+  "frijoles": 0.454,
+  "aceite": 1.0,
+  "azúcar": 1.0,
+  "sal": 1.0,
+  "pastas": 0.5,
+  "pasta": 0.4,
+  "infusiones": 0.08,
+  "huevos": 1.0,
+  "salchichas": 0.35
+}
+```
+
 #### Justificación
 
 - Sirve como referencia normativa.  
@@ -90,6 +145,17 @@ Es clave para vincular el análisis económico con una noción de necesidad bás
 ### 4.3 Archivo `salaries.json` – Salarios por categoría laboral
 
 Contiene los salarios mensuales organizados por categorías laborales oficiales.
+
+```json
+[
+    {
+        "category": "I",
+        "salary": 2100,
+        "hours": 44,
+        "source": "gaceta oficial"
+    }
+]
+```
 
 #### Campos
 
@@ -146,14 +212,6 @@ A partir del análisis realizado, se obtuvieron los siguientes resultados:
 - La capacidad de cubrir el consumo mensual recomendado no está garantizada para todos los productos.
 
 Los resultados se presentan de forma progresiva mediante visualizaciones integradas en `story.ipynb`.
-
----
-
-## 7\. Conclusiones
-
-El análisis evidencia que, bajo las condiciones actuales, el **salario promedio del trabajador cubano** presenta limitaciones para garantizar el acceso pleno a los productos básicos.
-
-Se demuestra cómo, a partir de datos estructurados (crudos) y herramientas simples, es posible analizar problemáticas económicas de impacto social.
 
 ---
 
