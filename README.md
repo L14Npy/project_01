@@ -215,7 +215,7 @@ Los resultados se presentan de forma progresiva mediante visualizaciones integra
 
 ---
 
-## 8\. Instrucciones
+## 7\. Instrucciones
 
 Pasos:
 
@@ -229,7 +229,7 @@ Requisitos:
 
 ---
 
-## 9\. Consideraciones finales
+## 8\. Consideraciones finales
 
 Este reporte complementa al archivo `story.ipynb` y cumple con los requisitos académicos establecidos para el proyecto de **Introducción a la Ciencia de Datos**.
 
