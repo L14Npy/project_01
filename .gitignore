@@ -1,4 +1,4 @@
-modules/__pycache__/
+__pycache__/
 
 *.txt
 *.ipynb
@@ -11,7 +11,7 @@ modules/__pycache__/
 !salaries.json
 !mipymes.json
 !basket.json
-!m_charts.py
-!m_charts2.py
-!m_normalize.py
-!m_tools.py
+!charts.py
+!charts2.py
+!normalize.py
+!tools.py
