@@ -9,9 +9,9 @@ __pycache__/
 
 !story.ipynb
 !salaries.json
-!mipymes.json
+!pymes.json
 !basket.json
+!income.json
+!income.json
 !charts.py
-!charts2.py
 !normalize.py
-!tools.py
