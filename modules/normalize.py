@@ -1,130 +1,42 @@
 import json
-""" ----------------------------------------- """
+import numpy as np
+import matplotlib.pyplot as plt
+""" ------------------------------------------------------ """
 def OpenJSON(path:str):
     """
-    Lector de archivos JSON
+    Abrir archivos de formato JSON
     """
-    with open(path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    with open(path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
     return data
-""" ----------------------------------------- """
-pymes = OpenJSON('./data/mipymes.json')
-exchanges = OpenJSON('./data/exchanges.json')
+
+pymes = OpenJSON('./data/pymes.json')
 salaries = OpenJSON('./data/salaries.json')
-basket = OpenJSON('./data/basket.json')
-""" ----------------------------------------- """
-def DataCount(data:dict) -> int:
+exchanges = OpenJSON('./data/exchanges.json')
+""" ------------------------------------------------------ """
+def Moda(array:list):
     """
-    Contador de elementos
+    Retorna el elemento más repetido  
     """
-    counter = 0
-    for i in data:
-        counter += 1
-    return counter
-""" ----------------------------------------- """
-data_count = DataCount(pymes)
-""" ----------------------------------------- """
-def GetProducts() -> dict:
-    """
-    Extrae un diccionario los nombres (MiPymes) y productos
-    """
-    dicc = {}
-    for i in pymes:
-        for j in i.get('products', []):
-            if i['name'] not in dicc:
-                dicc[i['name']] = set()
-            dicc[i['name']].add(j['category'])
-    return dicc
-""" ----------------------------------------- """
-def CountProducts() -> dict:
-    """
-    Extrae en un diccionario las cantidad de productos
-    por categoría
-    """
-    dicc = {}
-    for i in pymes:
-        for j in i.get('products', []):
-            category = j['category']
-            dicc[category] = dicc.get(category, 0) + 1
-    return dicc
-""" ----------------------------------------- """
-def CountProducts2() -> dict:
-    """
-    Extrae en un diccionario las cantidad de productos
-    por MiPyme
-    """
-    dicc = {}
-    for i in pymes:
-        name = i['name']
-        for j in i.get('products', []):
-            category = j['category']
-            if name not in dicc:
-                dicc[name] = []
-            dicc[name].append(category)
-
-    dicc2 = {}
-    for k,v in dicc.items():
-        dicc2[k] = len(v)
-    return dicc2
-""" ----------------------------------------- """
-def CountOrigin() -> dict:
-    """
-    Extrae un diccionario que cuenta la cantidad
-    de productos por su procedencia
-    """
-    dicc = {}
-    for i in pymes:
-        for j in i.get('products', []):
-            origin = j['origin']
-            if origin is None:
-                continue
-            dicc[origin] = dicc.get(origin, 0) + 1
-    return dicc
-""" ----------------------------------------- """
-def AveragePyme() -> dict:
-    """
-    Extrae en un diccionario el nombre (MiPyme) y su precio promedio
-    """
-    dicc = {}
-    for i in pymes:
-        name = i['name']
-        dicc[name] = []
-        for j in i.get('products', []):
-            for k in j.get('records', []):
-                price = k['price']
-            dicc[name].append(price)
-
-    average = {}
-    for k,v in dicc.items():
-        average[k] = sum(v) // len(v)
-    return average
-""" ----------------------------------------- """
-def AverageProducts() -> dict:
-    """
-    Extrae en un diccionario el precio promedio
-    de los productos
-    """
-    dicc = {}
-    for i in pymes:
-        for j in i.get('products', []):
-            category = j['category']
-            subcategory = j['subcategory']
-            if subcategory == 'cartón':
-                continue
-            if category not in dicc:
-                dicc[category] = []
-            for k in j.get('records', []):
-                price = k['price']
-                dicc[category].append(price)
-
-    average = {}
-    for k,v in dicc.items():
-        average[k] = sum(v) // len(v)
-    return average
-""" ----------------------------------------- """
+    repeat = 0
+    moda = None
+    for i in range(len(array)):
+        counter = 0
+        for j in range(len(array)):
+            if array[i] == array[j]:
+                counter += 1
+        if counter > repeat:
+            repeat = counter
+            moda = array[i]
+    return moda
+""" ------------------------------------------------------ """
+def AverageList(array:list):
+    """ Retorna el promedio de una lista """
+    return sum(array) // len(array)
+""" ------------------------------------------------------ """
 def AverageSalarie(day) -> int:
     """
-    Retorna el salario promedio
+    Retorna el salario promedio/día
     """
     sum = 0
     count = 0
@@ -132,110 +44,142 @@ def AverageSalarie(day) -> int:
         sum += i['salary']
         count += 1
     return (sum // count) // day
-""" ----------------------------------------- """
-def UnitaryProducts() -> dict:
+""" ------------------------------------------------------ """
+def MaxUnits(day:int):
     """
-    Extrae en un diccionario una lista de gramaje
-    por producto
+    Máximo de compra por unidades 
+    """
+    dicc = {}
+    for k, v in basket.items():
+        price = v['last']['price']
+        dicc[k] = AverageSalarie(day) / price
+
+    return dicc
+""" ------------------------------------------------------ """
+def NecesaryDays(day:int):
+    """
+    Días necesarios para adquirir un producto  
+    """
+    dicc = {}
+    for k, v in basket.items():
+        price = v['last']['price']
+        dicc[k] = price / AverageSalarie(day)
+
+    return dicc
+""" ------------------------------------------------------ """
+def Basket():
+    """
+    Genera una estructura JSON con datos de la canasta básica  
     """
     dicc = {}
     for i in pymes:
         for j in i.get('products', []):
-            category = j['category']
-            subcategory = j['subcategory']
-            count = j['count']
+            category = j.get('category')
+            subcategory = j.get('subcategory')
+            unit = j.get('unit')
+            count = j.get('count')
+            brand = j.get('brand')
+            origin = j.get('origin')
+
+            if category == 'leche' and unit == 'kg':
+                continue
             if subcategory == 'cartón':
                 continue
-            if category not in dicc:
-                dicc[category] = []
-            dicc[category].append(count)
-    return dicc
-""" ----------------------------------------- """
-def PriceProducts() -> dict:
-    """
-    Extrae en un diccionario la lista de precios de
-    cada producto
-    """
-    dicc = {}
-    for i in pymes:
-        for j in i.get('products', []):
-            category = j['category']
-            if category not in dicc:
-                dicc[category] = []
-            for k in j.get('records', []):
-                price = k['price']
-                dicc[category].append(price)
-    return dicc
-""" ----------------------------------------- """
-def CostBasket() -> float:
-    """
-    Retorna el costo promedio de la canasta
-    """
-    cost = 0
-    for k,v in basket.items():
-        if k in AverageProducts():
-            cost += AverageProducts()[k] * v
-    return round(cost,0)
-""" ----------------------------------------- """
-def CostBasket2() -> dict:
-    """
-    Extrae en un diccionario el costo promedio
-    de los productos por su gramaje
-    """
-    dicc = {}
-    for k,v in basket.items():
-        if k in AverageProducts():
-            dicc[k] = AverageProducts()[k] * v
-    return dicc
-""" ----------------------------------------- """
-def ListProducts() -> dict:
-    """
-    Extrae en un diccionario la lista de precios
-    de los productos
-    """
-    dicc = {}
-    for i in pymes:
-        for j in i.get('products', []):
-            category = j['category']
-            subcategory = j['subcategory']
-            if subcategory == 'cartón':
+            if origin == '':
                 continue
             if category not in dicc:
-                dicc[category] = []
-            for k in j.get('records', []):
-                price = k['price']
-                dicc[category].append(price)
-    return dicc
-""" ----------------------------------------- """
-def PercentSalary() -> dict:
+                dicc[category] = {
+                    'counts': 0,
+                    'unit': unit,
+                    'weight': [],
+                    'made': {
+                        'brands': [],
+                        'origins': set()
+                    },
+                    'range': {
+                        'min': [],
+                        'max': [],
+                        'average': []
+                    },
+                    'first': {
+                        'date': None,
+                        'price': 0
+                    },
+                    'last': {
+                        'date': None,
+                        'price': 0
+                    }
+                }
+            dicc[category]['counts'] += 1
+            dicc[category]['made']['brands'].append(brand)
+            dicc[category]['made']['origins'].add(origin)
+            dicc[category]['weight'].append(count)
+
+            records = j.get('records', [])
+
+            first_price = records[0].get('price', 0)
+            first_date = records[0].get('date', 0)
+
+            if dicc[category]['first']['date'] is None:
+                dicc[category]['first']['date'] = first_date
+            dicc[category]['first']['price'] += first_price
+
+            last_price = records[-1].get('price', 0)
+            last_date = records[-1].get('date', 0)
+
+            if dicc[category]['last']['date'] is None:
+                dicc[category]['last']['date'] = last_date
+            dicc[category]['last']['price'] += last_price
+
+            dicc[category]['range']['min'].append(last_price)
+            dicc[category]['range']['max'].append(last_price)
+            dicc[category]['range']['average'].append(last_price)
+
+    for k,v in dicc.items():
+        v['made']['brands'] = len(set(v['made']['brands']))
+        v['made']['origins'] = list(v['made']['origins'])
+
+        v['weight'] = Moda(v['weight'])
+
+        v['range']['min'] = min(v['range']['min'])
+        v['range']['max'] = max(v['range']['max'])
+        v['range']['average'] = sum(v['range']['average']) // len(v['range']['average'])
+
+        v['first']['price'] = (v['first']['price'] // v['counts']) / v['weight']
+        v['last']['price'] = v['last']['price'] // v['counts'] / v['weight']
+
+    with open('.//data//basket.json', 'w', encoding='utf-8') as file:
+        json.dump(dicc, file, ensure_ascii=False, indent=4)
+
+basket = OpenJSON('./data/basket.json')
+""" ------------------------------------------------------ """
+def Income():    
     """
-    Extrae en un diccionario el porcentaje del salario necesario
-    para comprar cada producto
+    Genera una estructura JSON con los datos:
+        - mínimo  
+        - máximo  
+        - promedio  
     """
-    dicc = {}
-    for k,v in CostBasket2().items():
-        dicc[k] = round((v / AverageSalarie(1)) * 100, 0)
-    return dicc
-""" ----------------------------------------- """
-def NecesaryDays(day):
-    """
-    Extrae en un diccionario los días necesarios
-    para adquirir un producto
-    """
-    dicc = {}
-    for k,v in CostBasket2().items():
-        dicc[k] = v / AverageSalarie(day)
-    return dicc
-""" ----------------------------------------- """
-def MaxUnits(day:int) -> dict:
-    """
-    Calcula la cantidad máxima de cada producto
-    que puede comprarse con el salario promedio mensual
-    """
-    dicc = {}
-    average = AverageProducts()
-    for k,v in average.items():
-        dicc[k] = AverageSalarie(day) // v
-    return dicc
-""" ----------------------------------------- """
-""" ----------------------------------------- """
+    values = [i.get('salary', 0) for i in salaries]
+    dicc = {
+        'min': min(values),
+        'max': max(values),
+        'average': AverageList(values)
+    }
+    with open('./data/income.json', 'w', encoding='utf-8') as file:
+        json.dump(dicc, file, ensure_ascii=False, indent=4)
+
+income = OpenJSON('./data/income.json')
+""" ------------------------------------------------------ """
+# Suma total de canasta básica
+basket_sum = sum([v['range']['average'] for k,v in basket.items()])
+""" ------------------------------------------------------ """
+# Rangos de salarios
+minimal = income['min']
+maximal = income['max']
+average = income['average']
+""" ------------------------------------------------------ """
+""" ------------------------------------------------------ """
+""" ------------------------------------------------------ """
+""" ------------------------------------------------------ """
+""" ------------------------------------------------------ """

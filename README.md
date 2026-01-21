@@ -28,16 +28,17 @@ Analizar si el salario promedio del trabajador cubano permite adquirir la canast
 
 ---
 
-## 3\. Fenómeno analítico
+## 3. Fenómeno analítico
 
-El fenómeno analizado es la capacidad adquisitiva del **salario promedio**, así como la relación entre el **ingreso laboral mensual** y el costo de alimentación.
+El fenómeno analizado corresponde a la **capacidad adquisitiva del ingreso laboral**, evaluada a partir de la relación entre los **niveles salariales mensuales** y el costo real de los productos que conforman la **canasta básica** de alimentación.
 
-Este fenómeno se manifiesta en:
+Este fenómeno se manifiesta en los siguientes aspectos:
 
-- La cantidad máxima de alimentos que puede adquirir un trabajador.  
-- El número de días laborales necesarios para comprar un producto.
+- La **cantidad máxima de unidades de consumo** que puede adquirir un trabajador en función de su salario y los precios normalizados de los productos.  
 
-El análisis se limita a un enfoque descriptivo, sin modelos predictivos.
+- El **esfuerzo laboral requerido**, medido en **días de trabajo**, necesario para la adquisición de bienes alimentarios esenciales.  
+
+- La existencia de **brechas de accesibilidad** entre distintos productos, aun cuando pertenecen a la misma categoría de consumo.
 
 ---
 
@@ -89,7 +90,7 @@ Contiene la información recopilada de **30 MiPymes** dedicadas al comercio mino
 
 #### Estructura general
 
-- Cada MiPyme es representada como un objeto.  
+- Cada MiPyme es representada como un objeto dentro de **[]**.  
 - Contiene una lista de productos comercializados (mínimo 10).
 
 #### Estructura de producto
@@ -115,20 +116,37 @@ El archivo define los **productos básicos** y su consumo mensual recomendado, e
 
 ```json
 {
-  "arroz": 1.0,
-  "leche": 1.0,
-  "picadillo": 0.4,
-  "pollo": 2.0,
-  "café": 0.25,
-  "frijoles": 0.454,
-  "aceite": 1.0,
-  "azúcar": 1.0,
-  "sal": 1.0,
-  "pastas": 0.5,
-  "pasta": 0.4,
-  "infusiones": 0.08,
-  "huevos": 1.0,
-  "salchichas": 0.35
+    "arroz": {
+        "counts": 36,
+        "unit": "kg",
+        "weight": 1.0,
+        "made": {
+            "brands": 17,
+            "origins": [
+                "méxico",
+                "guyana",
+                "brasil",
+                "españa",
+                "bolivia",
+                "cuba",
+                "usa",
+                "italia"
+            ]
+        },
+        "range": {
+            "min": 550.0,
+            "max": 1850.0,
+            "average": 840.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 806.0
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 840.0
+        }
+    }
 }
 ```
 
@@ -151,7 +169,6 @@ Contiene los salarios mensuales organizados por categorías laborales oficiales.
     {
         "category": "I",
         "salary": 2100,
-        "hours": 44,
         "source": "gaceta oficial"
     }
 ]
@@ -160,8 +177,8 @@ Contiene los salarios mensuales organizados por categorías laborales oficiales.
 #### Campos
 
 - Categoría laboral.  
-- Salario mensual en CUP.  
-- Horas laborales semanales.
+- Salario mensual en CUP.
+- Fuente obtenida
 
 Se utiliza el **salario promedio**, como valor representativo del ingreso del trabajador.
 
@@ -179,13 +196,7 @@ Las funciones del proyecto se encuentran organizadas en archivos `.py`, dentro d
 
 Constituye la **funcionalidad** del proyecto, siendo responsable de la **lectura, estructura, agregación y análisis** de la información de los archivos `JSON`. Su función es **transformar datos crudos a datos cuantitativos**, que se utilizan para evaluar costos, salarios, y capacidad adquisitiva.
 
-### 5.3 Archivo `tools.py` \- Construcción de la canasta
-
-#### Justificación
-
-Su propósito es **reducir la variabilidad de los datos** (gramajes) y construir la **canasta**, basada en valores dominantes.
-
-### 5.4 Archivo `charts.py` \- Visualización
+### 5.3 Archivo `charts.py` \- Visualización
 
 #### Justificación
 
@@ -193,7 +204,7 @@ Transforma los **indicadores numéricos** obtenido tras normalizar en **represen
 
 ---
 
-### 5.2 Notebook: `story.ipynb`
+### 5.4 Notebook: `story.ipynb`
 
 - Importar funciones.  
 - Ejecutar las celdas.  
@@ -202,16 +213,19 @@ Transforma los **indicadores numéricos** obtenido tras normalizar en **represen
 
 ---
 
-## 6\. Resultados obtenidos
+## 6. Resultados
 
-A partir del análisis realizado, se obtuvieron los siguientes resultados:
+A partir del análisis exploratorio y comparativo entre los **niveles salariales** y los **precios reales de la canasta básica**, se obtienen los siguientes resultados clave:
 
-- Existe una **alta variabilidad de precios** para un mismo producto entre distintas MiPymes.  
-- El salario promedio permite adquirir grandes cantidades de algunos productos, pero insuficiente para otros.  
-- En varios casos, un solo producto requiere **uno o más días de trabajo** para ser adquirido.  
-- La capacidad de cubrir el consumo mensual recomendado no está garantizada para todos los productos.
+- Ninguna de las categorías salariales analizadas logra cubrir el **costo total** de la **canasta básica**, evidenciando una brecha estructural entre ingresos y precios de consumo esencial.  
 
-Los resultados se presentan de forma progresiva mediante visualizaciones integradas en `story.ipynb`.
+- El **precio promedio** resulta ser una métrica insuficiente para evaluar la accesibilidad real de los productos, ya que oculta variaciones significativas asociadas al **gramaje**.
+
+- La normalización de precios por unidad de medida revela que, en varios casos, la adquisición de un solo producto implica un esfuerzo laboral equivalente a uno o más **días de trabajo**, incluso para salarios superiores al promedio.
+
+- Las visualizaciones construyen una narrativa progresiva que traduce valores monetarios en **unidades comprables y tiempo de trabajo**, permitiendo interpretar el impacto económico desde una perspectiva tangible y socialmente significativa.
+
+Los resultados se presentan de manera progresiva mediante visualizaciones integradas en el archivo `story.ipynb`.
 
 ---
 

@@ -16,90 +16,6 @@
     {
         "segment3": [
             {
-                "USD": 410.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-18"
-            },
-            {
-                "USD": 410.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-19"
-            },
-            {
-                "USD": 408.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-20"
-            },
-            {
-                "USD": 408.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-21"
-            },
-            {
-                "USD": 408.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-22"
-            },
-            {
-                "USD": 409.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-23"
-            },
-            {
-                "USD": 409.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-24"
-            },
-            {
-                "USD": 409.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-25"
-            },
-            {
-                "USD": 409.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-26"
-            },
-            {
-                "USD": 409.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-27"
-            },
-            {
-                "USD": 409.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-28"
-            },
-            {
-                "USD": 409.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-29"
-            },
-            {
-                "USD": 409.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-30"
-            },
-            {
-                "USD": 411.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2025-12-31"
-            },
-            {
                 "USD": 411.0,
                 "type": "formal",
                 "source":"banco central de cuba",
@@ -109,37 +25,13 @@
                 "USD": 411.0,
                 "type": "formal",
                 "source":"banco central de cuba",
-                "date": "2026-01-02"
+                "date": "2026-01-08"
             },
             {
-                "USD": 411.0,
+                "USD": 419.0,
                 "type": "formal",
                 "source":"banco central de cuba",
-                "date": "2026-01-03"
-            },
-            {
-                "USD": 411.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2026-01-04"
-            },
-            {
-                "USD": 411.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2026-01-05"
-            },
-            {
-                "USD": 411.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2026-01-06"
-            },
-            {
-                "USD": 411.0,
-                "type": "formal",
-                "source":"banco central de cuba",
-                "date": "2026-01-07"
+                "date": "2026-01-15"
             }
         ]
     },
@@ -148,37 +40,7 @@
             {
                 "USD": 440.0,
                 "source": "eltoque",
-                "date": "2025-10-01"
-            },
-            {
-                "USD": 450.0,
-                "source": "eltoque",
-                "date": "2025-12-06"
-            },
-            {
-                "USD": 445.0,
-                "source": "eltoque",
-                "date": "2025-12-07"
-            },
-            {
-                "USD": 445.0,
-                "source": "eltoque",
-                "date": "2025-12-08"
-            },
-            {
-                "USD": 445.0,
-                "source": "eltoque",
-                "date": "2025-12-08"
-            },
-            {
-                "USD": 445.0,
-                "source": "eltoque",
-                "date": "2025-12-09"
-            },
-            {
-                "USD": 445.0,
-                "source": "eltoque",
-                "date": "2025-12-10"
+                "date": "2025-10-11"
             },
             {
                 "USD": 440.0,
@@ -186,139 +48,9 @@
                 "date": "2025-12-11"
             },
             {
-                "USD": 440.0,
+                "USD": 490.0,
                 "source": "eltoque",
-                "date": "2025-12-12"
-            },
-            {
-                "USD": 440.0,
-                "source": "eltoque",
-                "date": "2025-12-13"
-            },
-            {
-                "USD": 440.0,
-                "source": "eltoque",
-                "date": "2025-12-14"
-            },
-            {
-                "USD": 440.0,
-                "source": "eltoque",
-                "date": "2025-12-16"
-            },
-            {
-                "USD": 440.0,
-                "source": "eltoque",
-                "date": "2025-12-17"
-            },
-            {
-                "USD": 440.0,
-                "source": "eltoque",
-                "date": "2025-12-18"
-            },
-            {
-                "USD": 440.0,
-                "source": "eltoque",
-                "date": "2025-12-18"
-            },
-            {
-                "USD": 440.0,
-                "source": "eltoque",
-                "date": "2025-12-19"
-            },
-            {
-                "USD": 440.0,
-                "source": "eltoque",
-                "date": "2025-12-20"
-            },
-            {
-                "USD": 440.0,
-                "source": "eltoque",
-                "date": "2025-12-21"
-            },
-            {
-                "USD": 440.0,
-                "source": "eltoque",
-                "date": "2025-12-22"
-            },
-            {
-                "USD": 440.0,
-                "source": "eltoque",
-                "date": "2025-12-23"
-            },
-            {
-                "USD": 440.0,
-                "source": "eltoque",
-                "date": "2025-12-24"
-            },
-            {
-                "USD": 435.0,
-                "source": "eltoque",
-                "date": "2025-12-25"
-            },
-            {
-                "USD": 435.0,
-                "source": "eltoque",
-                "date": "2025-12-26"
-            },
-            {
-                "USD": 435.0,
-                "source": "eltoque",
-                "date": "2025-12-27"
-            },
-            {
-                "USD": 435.0,
-                "source": "eltoque",
-                "date": "2025-12-28"
-            },
-            {
-                "USD": 435.0,
-                "source": "eltoque",
-                "date": "2025-12-29"
-            },
-            {
-                "USD": 435.0,
-                "source": "eltoque",
-                "date": "2025-12-30"
-            },
-            {
-                "USD": 435.0,
-                "source": "eltoque",
-                "date": "2025-12-31"
-            },
-            {
-                "USD": 435.0,
-                "source": "eltoque",
-                "date": "2026-01-01"
-            },
-            {
-                "USD": 435.0,
-                "source": "eltoque",
-                "date": "2026-01-02"
-            },
-            {
-                "USD": 435.0,
-                "source": "eltoque",
-                "date": "2026-01-03"
-            },
-            {
-                "USD": 435.0,
-                "source": "eltoque",
-                "date": "2026-01-04"
-            },
-            {
-                "USD": 446.0,
-                "source": "eltoque",
-                "date": "2026-01-05"
-            },
-            {
-                "USD": 446.0,
-                "source": "eltoque",
-                "date": "2026-01-06"
-            },
-            {
-                "USD": 450.0,
-                "source": "eltoque",
-                "date": "2026-01-07"
+                "date": "2026-01-11"
             }
         ]
     }

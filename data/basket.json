@@ -1,16 +1,395 @@
 {
-  "arroz": 1.0,
-  "leche": 1.0,
-  "picadillo": 0.4,
-  "pollo": 2.0,
-  "café": 0.25,
-  "frijoles": 0.454,
-  "aceite": 1.0,
-  "azúcar": 1.0,
-  "sal": 1.0,
-  "pastas": 0.5,
-  "pasta": 0.4,
-  "infusiones": 0.08,
-  "huevos": 1.0,
-  "salchichas": 0.35
+    "arroz": {
+        "counts": 36,
+        "unit": "kg",
+        "weight": 1.0,
+        "made": {
+            "brands": 17,
+            "origins": [
+                "méxico",
+                "guyana",
+                "brasil",
+                "españa",
+                "bolivia",
+                "cuba",
+                "usa",
+                "italia"
+            ]
+        },
+        "range": {
+            "min": 550.0,
+            "max": 1850.0,
+            "average": 840.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 806.0
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 840.0
+        }
+    },
+    "leche": {
+        "counts": 20,
+        "unit": "lt",
+        "weight": 1.0,
+        "made": {
+            "brands": 7,
+            "origins": [
+                "dominicana",
+                "españa",
+                "brasil"
+            ]
+        },
+        "range": {
+            "min": 650.0,
+            "max": 3200.0,
+            "average": 1244.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 1189.0
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 1244.0
+        }
+    },
+    "picadillo": {
+        "counts": 16,
+        "unit": "kg",
+        "weight": 0.4,
+        "made": {
+            "brands": 8,
+            "origins": [
+                "cuba",
+                "polonia",
+                "brasil",
+                "europa"
+            ]
+        },
+        "range": {
+            "min": 300.0,
+            "max": 3500.0,
+            "average": 935.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 2350.0
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 2337.5
+        }
+    },
+    "pollo": {
+        "counts": 19,
+        "unit": "kg",
+        "weight": 2.0,
+        "made": {
+            "brands": 8,
+            "origins": [
+                null,
+                "cuba",
+                "brasil",
+                "usa"
+            ]
+        },
+        "range": {
+            "min": 350.0,
+            "max": 6500.0,
+            "average": 3602.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 1795.5
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 1801.0
+        }
+    },
+    "café": {
+        "counts": 51,
+        "unit": "kg",
+        "weight": 0.25,
+        "made": {
+            "brands": 25,
+            "origins": [
+                "méxico",
+                null,
+                "puerto rico",
+                "brasil",
+                "colombia",
+                "españa",
+                "vietnam",
+                "chile",
+                "cuba",
+                "usa",
+                "italia"
+            ]
+        },
+        "range": {
+            "min": 420.0,
+            "max": 5240.0,
+            "average": 2118.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 8132.0
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 8472.0
+        }
+    },
+    "frijoles": {
+        "counts": 43,
+        "unit": "kg",
+        "weight": 0.454,
+        "made": {
+            "brands": 9,
+            "origins": [
+                "brasil",
+                "españa",
+                "usa"
+            ]
+        },
+        "range": {
+            "min": 560.0,
+            "max": 1200.0,
+            "average": 793.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 1687.2246696035243
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 1746.6960352422907
+        }
+    },
+    "aceite": {
+        "counts": 19,
+        "unit": "lt",
+        "weight": 1.0,
+        "made": {
+            "brands": 9,
+            "origins": [
+                "méxico",
+                "brasil",
+                "colombia",
+                "españa",
+                "turquía",
+                "chile",
+                "argentina"
+            ]
+        },
+        "range": {
+            "min": 880.0,
+            "max": 1150.0,
+            "average": 989.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 989.0
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 989.0
+        }
+    },
+    "azúcar": {
+        "counts": 25,
+        "unit": "kg",
+        "weight": 1.0,
+        "made": {
+            "brands": 9,
+            "origins": [
+                "brasil",
+                "colombia",
+                "españa",
+                "china",
+                "cuba"
+            ]
+        },
+        "range": {
+            "min": 350.0,
+            "max": 1600.0,
+            "average": 872.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 872.0
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 872.0
+        }
+    },
+    "sal": {
+        "counts": 11,
+        "unit": "kg",
+        "weight": 1.0,
+        "made": {
+            "brands": 3,
+            "origins": [
+                "españa",
+                "malasia"
+            ]
+        },
+        "range": {
+            "min": 450.0,
+            "max": 1000.0,
+            "average": 555.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 575.0
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 555.0
+        }
+    },
+    "pastas": {
+        "counts": 25,
+        "unit": "kg",
+        "weight": 0.5,
+        "made": {
+            "brands": 14,
+            "origins": [
+                null,
+                "brasil",
+                "colombia",
+                "turquía",
+                "canada",
+                "egipto",
+                "italia"
+            ]
+        },
+        "range": {
+            "min": 225.0,
+            "max": 830.0,
+            "average": 402.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 802.0
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 804.0
+        }
+    },
+    "pasta": {
+        "counts": 28,
+        "unit": "kg",
+        "weight": 0.4,
+        "made": {
+            "brands": 15,
+            "origins": [
+                null,
+                "indú",
+                "panamá",
+                "españa",
+                "turquía",
+                "china",
+                "cuba",
+                "italia"
+            ]
+        },
+        "range": {
+            "min": 325.0,
+            "max": 870.0,
+            "average": 544.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 1322.5
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 1360.0
+        }
+    },
+    "infusiones": {
+        "counts": 7,
+        "unit": "kg",
+        "weight": 0.08,
+        "made": {
+            "brands": 5,
+            "origins": [
+                "méxico",
+                "brasil",
+                "nicaragua",
+                "españa",
+                "argentina"
+            ]
+        },
+        "range": {
+            "min": 350.0,
+            "max": 2800.0,
+            "average": 1890.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 23262.5
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 23625.0
+        }
+    },
+    "huevos": {
+        "counts": 10,
+        "unit": "u",
+        "weight": 1.0,
+        "made": {
+            "brands": 1,
+            "origins": [
+                null
+            ]
+        },
+        "range": {
+            "min": 100.0,
+            "max": 1800.0,
+            "average": 280.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 269.0
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 280.0
+        }
+    },
+    "salchichas": {
+        "counts": 7,
+        "unit": "kg",
+        "weight": 0.35,
+        "made": {
+            "brands": 6,
+            "origins": [
+                "españa",
+                "polonia",
+                "brasil"
+            ]
+        },
+        "range": {
+            "min": 355.0,
+            "max": 1050.0,
+            "average": 477.0
+        },
+        "first": {
+            "date": "2025-10-11",
+            "price": 1362.857142857143
+        },
+        "last": {
+            "date": "2025-12-11",
+            "price": 1362.857142857143
+        }
+    }
 }
