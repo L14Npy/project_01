@@ -1,0 +1,605 @@
+{
+    "tic toc": {
+        "arroz": {
+            "ave_product": 650.0
+        },
+        "leche": {
+            "ave_product": 875.0
+        },
+        "picadillo": {
+            "ave_product": 550.0
+        },
+        "café": {
+            "ave_product": 1950.0
+        },
+        "aceite": {
+            "ave_product": 990.0
+        },
+        "azúcar": {
+            "ave_product": 750.0
+        },
+        "pastas": {
+            "ave_product": 350.0
+        },
+        "pasta tomate": {
+            "ave_product": 580.0
+        },
+        "ave_pyme": 836.875
+    },
+    "ale's supermarket": {
+        "picadillo": {
+            "ave_product": 460.0
+        },
+        "café": {
+            "ave_product": 1800.0
+        },
+        "arroz": {
+            "ave_product": 800.0
+        },
+        "azúcar": {
+            "ave_product": 750.0
+        },
+        "leche": {
+            "ave_product": 1300.0
+        },
+        "pasta tomate": {
+            "ave_product": 500.0
+        },
+        "pastas": {
+            "ave_product": 370.0
+        },
+        "ave_pyme": 854.2857142857143
+    },
+    "bodegón d'k": {
+        "huevos": {
+            "ave_product": 110.0
+        },
+        "pollo": {
+            "ave_product": 2200.0
+        },
+        "sal": {
+            "ave_product": 460.0
+        },
+        "azúcar": {
+            "ave_product": 750.0
+        },
+        "pasta tomate": {
+            "ave_product": 530.0
+        },
+        "frijoles": {
+            "ave_product": 840.0
+        },
+        "pastas": {
+            "ave_product": 330.0
+        },
+        "leche": {
+            "ave_product": 840.0
+        },
+        "aceite": {
+            "ave_product": 990.0
+        },
+        "café": {
+            "ave_product": 1850.0
+        },
+        "ave_pyme": 890.0
+    },
+    "la nenita": {
+        "pasta tomate": {
+            "ave_product": 500.0
+        },
+        "leche": {
+            "ave_product": 600.0
+        },
+        "frijoles": {
+            "ave_product": 800.0
+        },
+        "arroz": {
+            "ave_product": 775.0
+        },
+        "café": {
+            "ave_product": 1800.0
+        },
+        "huevos": {
+            "ave_product": 120.0
+        },
+        "azúcar": {
+            "ave_product": 750.0
+        },
+        "ave_pyme": 763.5714285714286
+    },
+    "bodegón, las duras": {
+        "sal": {
+            "ave_product": 460.0
+        },
+        "salchichas": {
+            "ave_product": 365.0
+        },
+        "pollo": {
+            "ave_product": 2200.0
+        },
+        "picadillo": {
+            "ave_product": 650.0
+        },
+        "aceite": {
+            "ave_product": 990.0
+        },
+        "leche": {
+            "ave_product": 650.0
+        },
+        "pasta tomate": {
+            "ave_product": 545.0
+        },
+        "pastas": {
+            "ave_product": 330.0
+        },
+        "arroz": {
+            "ave_product": 790.0
+        },
+        "azúcar": {
+            "ave_product": 780.0
+        },
+        "ave_pyme": 776.0
+    },
+    "bodegón oasis": {
+        "pastas": {
+            "ave_product": 380.0
+        },
+        "leche": {
+            "ave_product": 1548.3333333333333
+        },
+        "café": {
+            "ave_product": 1450.0
+        },
+        "azúcar": {
+            "ave_product": 730.0
+        },
+        "ave_pyme": 1027.0833333333333
+    },
+    "kaluch market": {
+        "aceite": {
+            "ave_product": 990.0
+        },
+        "huevos": {
+            "ave_product": 115.0
+        },
+        "café": {
+            "ave_product": 2033.3333333333333
+        },
+        "sal": {
+            "ave_product": 1000.0
+        },
+        "arroz": {
+            "ave_product": 900.0
+        },
+        "pastas": {
+            "ave_product": 415.0
+        },
+        "ave_pyme": 908.8888888888888
+    },
+    "xalxa": {
+        "leche": {
+            "ave_product": 1235.0
+        },
+        "pasta tomate": {
+            "ave_product": 680.0
+        },
+        "café": {
+            "ave_product": 2750.0
+        },
+        "ave_pyme": 1555.0
+    },
+    "canelita": {
+        "arroz": {
+            "ave_product": 866.6666666666666
+        },
+        "huevos": {
+            "ave_product": 120.0
+        },
+        "frijoles": {
+            "ave_product": 850.0
+        },
+        "ave_pyme": 612.2222222222222
+    },
+    "dulce maría": {
+        "leche": {
+            "ave_product": 900.0
+        },
+        "arroz": {
+            "ave_product": 800.0
+        },
+        "azúcar": {
+            "ave_product": 750.0
+        },
+        "ave_pyme": 816.6666666666666
+    },
+    "fress": {
+        "café": {
+            "ave_product": 1483.3333333333333
+        },
+        "arroz": {
+            "ave_product": 1387.5
+        },
+        "leche": {
+            "ave_product": 1400.0
+        },
+        "ave_pyme": 1423.611111111111
+    },
+    "23 & j": {
+        "salchichas": {
+            "ave_product": 1050.0
+        },
+        "arroz": {
+            "ave_product": 1275.0
+        },
+        "aceite": {
+            "ave_product": 990.0
+        },
+        "leche": {
+            "ave_product": 600.0
+        },
+        "pastas": {
+            "ave_product": 350.0
+        },
+        "picadillo": {
+            "ave_product": 600.0
+        },
+        "ave_pyme": 810.8333333333334
+    },
+    "gran pizzero": {
+        "leche": {
+            "ave_product": 620.0
+        },
+        "arroz": {
+            "ave_product": 750.0
+        },
+        "sal": {
+            "ave_product": 530.0
+        },
+        "pasta tomate": {
+            "ave_product": 500.0
+        },
+        "pastas": {
+            "ave_product": 400.0
+        },
+        "frijoles": {
+            "ave_product": 850.0
+        },
+        "azúcar": {
+            "ave_product": 750.0
+        },
+        "picadillo": {
+            "ave_product": 1690.0
+        },
+        "ave_pyme": 761.25
+    },
+    "27 e/ n & o": {
+        "pastas": {
+            "ave_product": 380.0
+        },
+        "arroz": {
+            "ave_product": 680.0
+        },
+        "aceite": {
+            "ave_product": 900.0
+        },
+        "azúcar": {
+            "ave_product": 700.0
+        },
+        "leche": {
+            "ave_product": 500.0
+        },
+        "pasta tomate": {
+            "ave_product": 650.0
+        },
+        "ave_pyme": 635.0
+    },
+    "m & l": {
+        "azúcar": {
+            "ave_product": 750.0
+        },
+        "café": {
+            "ave_product": 1850.0
+        },
+        "sal": {
+            "ave_product": 720.0
+        },
+        "frijoles": {
+            "ave_product": 936.6666666666666
+        },
+        "leche": {
+            "ave_product": 660.0
+        },
+        "pastas": {
+            "ave_product": 340.0
+        },
+        "ave_pyme": 876.1111111111112
+    },
+    "may may": {
+        "frijoles": {
+            "ave_product": 630.0
+        },
+        "azúcar": {
+            "ave_product": 650.0
+        },
+        "picadillo": {
+            "ave_product": 610.0
+        },
+        "pastas": {
+            "ave_product": 310.0
+        },
+        "pasta tomate": {
+            "ave_product": 590.0
+        },
+        "aceite": {
+            "ave_product": 1150.0
+        },
+        "leche": {
+            "ave_product": 1150.0
+        },
+        "ave_pyme": 727.1428571428571
+    },
+    "ten cent": {
+        "café": {
+            "ave_product": 1800.0
+        },
+        "sal": {
+            "ave_product": 700.0
+        },
+        "azúcar": {
+            "ave_product": 800.0
+        },
+        "arroz": {
+            "ave_product": 780.0
+        },
+        "aceite": {
+            "ave_product": 900.0
+        },
+        "ave_pyme": 996.0
+    },
+    "bodegón b12": {
+        "arroz": {
+            "ave_product": 690.0
+        },
+        "pastas": {
+            "ave_product": 370.0
+        },
+        "café": {
+            "ave_product": 1800.0
+        },
+        "pasta tomate": {
+            "ave_product": 500.0
+        },
+        "azúcar": {
+            "ave_product": 750.0
+        },
+        "aceite": {
+            "ave_product": 995.0
+        },
+        "ave_pyme": 850.8333333333334
+    },
+    "vedado 18": {
+        "leche": {
+            "ave_product": 1170.0
+        },
+        "arroz": {
+            "ave_product": 550.0
+        },
+        "pastas": {
+            "ave_product": 212.5
+        },
+        "pasta tomate": {
+            "ave_product": 325.0
+        },
+        "ave_pyme": 564.375
+    },
+    "Andrea | café & mercado": {
+        "arroz": {
+            "ave_product": 775.0
+        },
+        "huevos": {
+            "ave_product": 100.0
+        },
+        "pasta tomate": {
+            "ave_product": 700.0
+        },
+        "leche": {
+            "ave_product": 650.0
+        },
+        "ave_pyme": 556.25
+    },
+    "villa amada": {
+        "pasta tomate": {
+            "ave_product": 740.0
+        },
+        "arroz": {
+            "ave_product": 720.0
+        },
+        "frijoles": {
+            "ave_product": 670.0
+        },
+        "café": {
+            "ave_product": 1870.0
+        },
+        "ave_pyme": 1000.0
+    },
+    "familia peréz": {
+        "arroz": {
+            "ave_product": 735.0
+        },
+        "frijoles": {
+            "ave_product": 866.6666666666666
+        },
+        "pastas": {
+            "ave_product": 350.0
+        },
+        "azúcar": {
+            "ave_product": 750.0
+        },
+        "leche": {
+            "ave_product": 560.0
+        },
+        "ave_pyme": 652.3333333333333
+    },
+    "bodegón de calzada": {
+        "arroz": {
+            "ave_product": 680.0
+        },
+        "huevos": {
+            "ave_product": 110.0
+        },
+        "sal": {
+            "ave_product": 460.0
+        },
+        "ave_pyme": 416.6666666666667
+    },
+    "mi mercadito, llegando": {
+        "arroz": {
+            "ave_product": 580.0
+        },
+        "huevos": {
+            "ave_product": 120.0
+        },
+        "pasta tomate": {
+            "ave_product": 570.0
+        },
+        "frijoles": {
+            "ave_product": 840.0
+        },
+        "salchichas": {
+            "ave_product": 365.0
+        },
+        "aceite": {
+            "ave_product": 990.0
+        },
+        "ave_pyme": 577.5
+    },
+    "bodegón amaparo": {
+        "leche": {
+            "ave_product": 500.0
+        },
+        "picadillo": {
+            "ave_product": 400.0
+        },
+        "pasta tomate": {
+            "ave_product": 420.0
+        },
+        "aceite": {
+            "ave_product": 1150.0
+        },
+        "arroz": {
+            "ave_product": 650.0
+        },
+        "pastas": {
+            "ave_product": 480.0
+        },
+        "café": {
+            "ave_product": 1483.3333333333333
+        },
+        "frijoles": {
+            "ave_product": 630.0
+        },
+        "azúcar": {
+            "ave_product": 650.0
+        },
+        "ave_pyme": 707.037037037037
+    },
+    "triple mercado": {
+        "pastas": {
+            "ave_product": 335.0
+        },
+        "pasta tomate": {
+            "ave_product": 550.0
+        },
+        "azúcar": {
+            "ave_product": 620.0
+        },
+        "picadillo": {
+            "ave_product": 490.0
+        },
+        "leche": {
+            "ave_product": 550.0
+        },
+        "arroz": {
+            "ave_product": 690.0
+        },
+        "ave_pyme": 539.1666666666666
+    },
+    "bodegón de tere": {
+        "pastas": {
+            "ave_product": 400.0
+        },
+        "leche": {
+            "ave_product": 600.0
+        },
+        "frijoles": {
+            "ave_product": 825.0
+        },
+        "arroz": {
+            "ave_product": 650.0
+        },
+        "huevos": {
+            "ave_product": 110.0
+        },
+        "ave_pyme": 517.0
+    },
+    "bodegón café, el cubilete": {
+        "leche": {
+            "ave_product": 850.0
+        },
+        "pastas": {
+            "ave_product": 390.0
+        },
+        "aceite": {
+            "ave_product": 990.0
+        },
+        "azúcar": {
+            "ave_product": 800.0
+        },
+        "café": {
+            "ave_product": 1340.0
+        },
+        "frijoles": {
+            "ave_product": 825.0
+        },
+        "ave_pyme": 865.8333333333334
+    },
+    "mercadito 35": {
+        "café": {
+            "ave_product": 1500.0
+        },
+        "pasta tomate": {
+            "ave_product": 500.0
+        },
+        "pastas": {
+            "ave_product": 360.0
+        },
+        "leche": {
+            "ave_product": 750.0
+        },
+        "ave_pyme": 777.5
+    },
+    "la nave mercado": {
+        "pastas": {
+            "ave_product": 350.0
+        },
+        "frijoles": {
+            "ave_product": 780.0
+        },
+        "azúcar": {
+            "ave_product": 790.0
+        },
+        "sal": {
+            "ave_product": 450.0
+        },
+        "arroz": {
+            "ave_product": 800.0
+        },
+        "leche": {
+            "ave_product": 630.0
+        },
+        "café": {
+            "ave_product": 2300.0
+        },
+        "ave_pyme": 871.4285714285714
+    }
+}

@@ -1,121 +1,148 @@
 from modules.normalize import *
-from modules.vars import *
-""" ------------------------------------------------------ """
-def ChartSalaries():
-    text = [i.get('category') for i in salaries]
-    price = [i.get('salary') for i in salaries]
+""" -------------------------------------- """
+def SalaryCategories(start, end):
+    if end > 32:
+        return print('Rango máximo 32')
+    categories = [i.get('category') for i in salaries[start:end]]
+    values = [i.get('salary') for i in salaries[start:end]]
 
-    fig, ax = plt.subplots(figsize=(12,6))
-    ax.plot(text, price, color='blue', linestyle='-', marker='o', label='Salarios (CUP)')
-    ax.axhline(y=basket_sum, color='red', linestyle='--', linewidth=2, label='Canasta básica')
-    plt.title('Salario/Categoría', fontsize=14)
-    plt.xlabel('Categorias')
-    plt.xticks(rotation=60)
-    plt.ylabel('Salarios')
-    plt.grid(True, linestyle='--', alpha=0.5)
+    plt.subplots(figsize=(12,6))
+    plt.bar(categories, values, color='skyblue', edgecolor='blue')
+    plt.title('Rango salarial', fontsize=18)
+
+    plt.xlabel('Salarios', fontsize=14)
+    plt.xticks(rotation=45)
+    plt.ylabel('Precio (CUP)', fontsize=14)
+
+    for c,v in enumerate(values):
+        plt.text(c, v+80, f'{v:.2f} CUP', ha='center', fontsize=10, fontweight='bold')
+
+    plt.tight_layout()
+    plt.show()
+""" -------------------------------------- """
+def MinMaxAve():
+    ranges = [i for i in Salaries().keys()]
+    values = [i for i in Salaries().values()]
+
+    plt.subplots(figsize=(12,6))
+    plt.bar(ranges, values, color='skyblue', edgecolor='blue')
+    plt.title('Salario Min/Promedio/Max', fontsize=18)
+
+    plt.xlabel('Salarios', fontsize=14)
+    plt.ylabel('Precio (CUP)', fontsize=14)
+
+    for r,v in enumerate(values):
+        plt.text(r, v+100, f'{v:.2f} CUP', ha='center', fontsize=12, fontweight='bold')
+
+    plt.tight_layout()
+    plt.show()
+""" -------------------------------------- """
+def AverageProducts(unit):
+    products = [f'{str(k).capitalize()} ({v['count']} {v['unit']})' for k,v in unit.items()]
+    values = [v['last']['average'] for k,v in unit.items()]
+
+    if len(products) > 2:
+        plt.subplots(figsize=(12,6))
+        plt.bar(products, values, color='skyblue', edgecolor='blue')
+        plt.title('Precios/Promedio', fontsize=16)
+        plt.xlabel('Productos', fontsize=12)
+        plt.xticks(rotation=30)
+        plt.ylabel('Precio promedio (CUP)', fontsize=12)
+        plt.tight_layout
+
+        for p,v in enumerate(values):
+            plt.text(p, v+50, f"{v:.2f} CUP", ha='center', fontsize=7, fontweight='bold')
+
+    plt.axhline(y=Salaries()['min'], color='red', linestyle='--', linewidth=3, label='Salario mínimo (CUP)')
+    plt.legend()
+    plt.show()
+""" -------------------------------------- """
+def Dispertion(unit):
+    products = [f'{str(k).capitalize()} ({v['count']} {v['unit']})' for k,v in unit.items()]
+    minimal = [v['range']['min'] for k,v in unit.items()]
+    maximal = [v['range']['max'] for k,v in unit.items()]
+    average = [v['last']['average'] for k,v in unit.items()]
+
+    if len(products) > 2:
+        plt.subplots(figsize=(12,6))
+        for i, p in enumerate(products):
+            plt.plot([i,i], [minimal[i], maximal[i]], color='gray', linewidth=10, alpha=0.6)
+
+        plt.scatter(range(len(products)), average, color='blue', zorder=5, label='Precio promedio (CUP)')
+        plt.scatter(range(len(products)), maximal, color='red', zorder=5, label='Precio máximo (CUP)')
+        plt.scatter(range(len(products)), minimal, color='green', zorder=5, label='Precio mínimo (CUP)')
+
+        plt.xticks(range(len(products)), products, rotation=30)
+        plt.ylabel('Precio (CUP)')
+        plt.title('Dispersión de precios', fontsize=16)
+        plt.tight_layout()
+    else:
+        plt.subplots()
+        for i, p in enumerate(products):
+            plt.plot([i,i], [minimal[i], maximal[i]], color='gray', linewidth=10, alpha=0.6)
+
+        plt.scatter(range(len(products)), average, color='blue', zorder=5, label='Precio promedio (CUP)')
+        plt.scatter(range(len(products)), maximal, color='red', zorder=5, label='Precio máximo (CUP)')
+        plt.scatter(range(len(products)), minimal, color='green', zorder=5, label='Precio mínimo (CUP)')
+
+        plt.xticks(range(len(products)), products)
+        plt.ylabel('Precio (CUP)')
+        plt.title('Dispersión de precios', fontsize=16)
+
+    plt.axhline(y=Salaries()['min'], color='red', linestyle='--', linewidth=3, label='Salario mínimo')
+    plt.legend()
+    plt.show()
+""" -------------------------------------- """
+def MiPymes():
+    text = [str(i).capitalize() for i in mipymes]
+    ave = [mipymes[i]['ave_pyme'] for i in mipymes]
+    
+    plt.subplots(figsize=(12, len(text)*0.3))
+    plt.barh(text, ave, color='skyblue', edgecolor='blue')
+    plt.title('Costo promedio por MiPyme', fontsize=16)
+    plt.xlabel('CUP', fontsize=12)
+    plt.ylabel('MiPymes', fontsize=12)
+
+    plt.axvline(x=Salaries()['min'], color='red', linestyle='--', linewidth=2, label='Salario mínimo (CUP)')
+    for t,v in enumerate(ave):
+        plt.text(v+20, t, f'{v:.2f} CUP', va='center', fontsize=10)
+
     plt.legend()
     plt.tight_layout()
     plt.show()
-""" ------------------------------------------------------ """
-def ChartProducts():
-    text = [i for i in basket]
-    price = [v['range']['average'] for k,v in basket.items()]
+""" -------------------------------------- """
+def Days(day):
+    names = [f'{k} ({v['count']} {v['unit']})' for k,v in Products(sizes, day).items()]
+    days = [v.get('days') for k,v in Products(sizes, day).items()]
 
-    fig, ax = plt.subplots(figsize=(12,6))
-    ax.bar(text, price, color='skyblue', edgecolor='blue', label='Precios (CUP)')
-    ax.axhline(y=minimal, color='red', linestyle='--', linewidth=2, label='Salario mínimo')
-    ax.axhline(y=maximal, color='purple', linestyle='--', linewidth=2, label='Salario máximo')
-    ax.axhline(y=average, color='blue', linestyle='--', linewidth=2, label='Salario promedio')
-    plt.title('Precio Promedio/Producto', fontsize=16)
-    plt.xlabel('Categorías', fontsize=14, fontweight='bold')
-    plt.ylabel('Valores (CUP)', fontsize=12)
-    plt.xticks(text, rotation=45, ha='right')
+    plt.subplots(figsize=(12, 6))
+    plt.barh(names, days, color='skyblue', edgecolor='blue')
+    plt.title(f'Días necesarios', fontsize=16)
+    plt.xlabel('Días de salario', fontsize=12)
+    plt.ylabel('Productos', fontsize=12)
 
-    for t, p in enumerate(price):
-        plt.text(t, p + 60, f'{p:.2f}', ha='center', fontsize=10, fontweight='bold')
+    for n,d in enumerate(days):
+        plt.text(d+0.01, n, f'{(d*10):.2f} Días', va='center', fontsize=10)
 
-    plt.legend()
-    plt.tight_layout()
     plt.show()
-""" ------------------------------------------------------ """
-def ChartProducts2():
-    text = [i for i in basket]
-    price = [v['last']['price'] for k,v in basket.items()]
-
-    fig, ax = plt.subplots(figsize=(12,6))
-    ax.bar(text, price, color='skyblue', edgecolor='blue', label='Precios (CUP)')
-    ax.axhline(y=minimal, color='red', linestyle='--', linewidth=2, label='Salario mínimo')
-    ax.axhline(y=maximal, color='purple', linestyle='--', linewidth=2, label='Salario máximo')
-    ax.axhline(y=average, color='blue', linestyle='--', linewidth=2, label='Salario máximo')
-    plt.title('Precio Promedio/Producto(kg/lt/u)', fontsize=16)
-    plt.xlabel('Categorías', fontsize=14, fontweight='bold')
-    plt.ylabel('Valores (CUP)', fontsize=12)
-    plt.xticks(text, rotation=45, ha='right')
-
-    for t, p in enumerate(price):
-        plt.text(t, p + 100, f'{p:.2f}', ha='center', fontsize=10, fontweight='bold')
-
-    plt.legend()
-    plt.tight_layout()
-    plt.show()
-""" ------------------------------------------------------ """
-def ChartComparation():
-    text = ['Canasta básica', 'Salario promedio']
-    price = [basket_sum, average]
+""" -------------------------------------- """
+def Individual(product):
+    units = [f'{v['subcategory']} {str(k)} {v['unit']}' for k,v in IndividualProducts(product).items()]
+    prices = [v['price'] for k,v in IndividualProducts(product).items()]
     
-    fig, ax = plt.subplots()
-    ax.bar(text, price, color=['red', 'green'], edgecolor='black', label=['Canasta básica', 'Salario promedio'])
-    plt.title('Canasta básica VS Salario promedio', fontsize=16)
-    plt.ylabel('Valores (CUP)', fontsize=12)
+    plt.subplots(figsize=(12,6))
+    plt.bar(units, prices, color='skyblue', edgecolor='blue')
+    plt.title(f'Precios/Promedio - {product.capitalize()}', fontsize=16)
+    plt.xlabel('Productos', fontsize=12)
+    plt.ylabel('Precio promedio (CUP)', fontsize=12)
+    plt.xticks(rotation=15)
+    plt.tight_layout
 
-    for t, p in enumerate(price):
-        plt.text(t, p + 200, f'{p:.2f}', ha='center', fontsize=10, fontweight='bold')
+    for p,v in enumerate(prices):
+        plt.text(p, v+20, f"{v:.2f} CUP", ha='center', fontsize=8, fontweight='bold')
 
-    plt.legend()
     plt.show()
-""" ------------------------------------------------------ """
-def ChartUnits(day):
-    text = [i for i in MaxUnits(day).keys()]
-    units = [i for i in MaxUnits(day).values()]
-
-    fig, ax = plt.subplots(figsize=(12, 6))
-    bars = ax.barh(text, units, color='skyblue', edgecolor='blue')
-
-    plt.title(f'Unidades máximas', fontsize=14)
-    plt.xlabel('Unidades máximas comprables', fontsize=12)
-
-    for bar in bars:
-        width = bar.get_width()
-        ax.text(width + max(units)*0.01, bar.get_y() + bar.get_height()/2, f'{width:.2f} unidades', va='center', ha='left', fontsize=10)
-    
-    plt.grid(axis='x', alpha=0.9, linestyle='--')
-    plt.show()
-""" ------------------------------------------------------ """
-def ChartNecesaryDays(day):
-    text = [i for i in NecesaryDays(day).keys()]
-    units = [i for i in NecesaryDays(day).values()]
-
-    fig, ax = plt.subplots(figsize=(12, 6))
-    bars = ax.barh(text, units, color='skyblue', edgecolor='blue')
-
-    plt.title(f'Día laborales necesarios en {day}', fontsize=14)
-    plt.xlabel('Días laborales', fontsize=12)
-
-    for bar in bars:
-        width = bar.get_width()
-        ax.text(width + max(units)*0.01, bar.get_y() + bar.get_height()/2, f'{width:.0f} días', va='center', ha='left', fontsize=10, fontweight='bold')
-    
-    plt.axvline(
-        x=day,
-        linestyle='--',
-        linewidth=2,
-        label=f'{day} días laborales',
-        color='red'
-    )
-
-    plt.grid(axis='x', alpha=0.9, linestyle='--')
-    plt.show()
-""" ------------------------------------------------------ """
-""" ------------------------------------------------------ """
-""" ------------------------------------------------------ """
-""" ------------------------------------------------------ """
+""" -------------------------------------- """
+""" -------------------------------------- """
+""" -------------------------------------- """
+""" -------------------------------------- """

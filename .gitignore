@@ -8,10 +8,5 @@ __pycache__/
 *.zip
 
 !story.ipynb
-!salaries.json
-!pymes.json
-!basket.json
-!income.json
-!income.json
-!charts.py
-!normalize.py
+!mipymes.json
+!products.json
