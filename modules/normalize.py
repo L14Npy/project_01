@@ -47,7 +47,7 @@ def Moda(array:list):
     return moda
 """ -------------------------------------- """
 """ -------------------------------------- """
-def Products(value, sizes):
+def Products2(value, sizes):
     dicc = {}
     for i in pymes:
         for j in i.get('products', []):
@@ -102,7 +102,7 @@ def Products(value, sizes):
 #liters = OpenJSON('data/products_lt.json')
 #unities = OpenJSON('data/products_u.json')
 """ -------------------------------------- """
-def Products(sizes, days):
+def Products(sizes, days, d):
     dicc = {}
     for i in pymes:
         for j in i.get('products', []):
@@ -121,6 +121,8 @@ def Products(sizes, days):
                             'unit': [],
                             'count': [],
                             'days': 0,
+                            'normalize': 0,
+                            'access': 0,
                             'first': {
                                 'average': [],
                                 'date': records[0]['date'],
@@ -148,6 +150,8 @@ def Products(sizes, days):
                             'unit': [],
                             'count': [],
                             'days': 0,
+                            'normalize': 0,
+                            'access': 0,
                             'first': {
                                 'average': [],
                                 'date': records[0]['date'],
@@ -175,6 +179,8 @@ def Products(sizes, days):
                             'unit': [],
                             'count': [],
                             'days': 0,
+                            'normalize': 0,
+                            'access': 0,
                             'first': {
                                 'average': [],
                                 'date': records[0]['date'],
@@ -203,10 +209,14 @@ def Products(sizes, days):
         v['range']['min'] = min(v['range']['min'])
         v['range']['max'] = max(v['range']['max'])
 
-        v['days'] = v['last']['average'] / Salaries()['average']
+        v['normalize'] = v['last']['average'] / v['count']
 
-    """ with open(f'./data/products.json', 'w', encoding='utf-8') as f:
-        json.dump(dicc, f, ensure_ascii=False, indent=4) """
+        v['access'] = (Salaries()['average'] / d) / v['last']['average']
+
+        v['days'] = 30 / v['access']
+
+    with open(f'./data/products.json', 'w', encoding='utf-8') as f:
+        json.dump(dicc, f, ensure_ascii=False, indent=4)
 
     return dicc
 
@@ -220,7 +230,7 @@ def Sizes(weight):
 
 sizes = Sizes(products_json)
 """ -------------------------------------- """
-products = Products(sizes, 1)
+products = Products(sizes, 1, 1)
 #kg = Products('kg', sizes_kg)
 #lt = Products('lt', sizes_lt)
 #uni = Products('u', sizes_uni)
@@ -302,19 +312,20 @@ def IndividualProducts(product):
                         'category': category,
                         'subcategory': subcategory,
                         'unit': unit,
+                        'count': count,
+                        'normalize': 0,
                         'price': [],
                     }
                 dicc[count]['price'].append(records[-1]['price'])
 
     for k,v in dicc.items():
         v['price'] = AverageDays(v['price'], 1)
+        v['normalize'] = v['price'] / v['count']
 
     """ with open(f'./data/individual_{product}.json', 'w', encoding='utf-8') as file:
         json.dump(dicc, file, ensure_ascii=False, indent=4) """
     
     return dicc
-
-IndividualProducts('café')
 """ -------------------------------------- """
 """ -------------------------------------- """
 """ -------------------------------------- """

@@ -112,8 +112,8 @@ def MiPymes():
     plt.show()
 """ -------------------------------------- """
 def Days(day):
-    names = [f'{k} ({v['count']} {v['unit']})' for k,v in Products(sizes, day).items()]
-    days = [v.get('days') for k,v in Products(sizes, day).items()]
+    names = [f'{k} ({v['count']} {v['unit']})' for k,v in Products(sizes, day, 1).items()]
+    days = [v.get('days') for k,v in Products(sizes, day, 1).items()]
 
     plt.subplots(figsize=(12, 6))
     plt.barh(names, days, color='skyblue', edgecolor='blue')
@@ -127,7 +127,8 @@ def Days(day):
     plt.show()
 """ -------------------------------------- """
 def Individual(product):
-    units = [f'{v['subcategory']} {str(k)} {v['unit']}' for k,v in IndividualProducts(product).items()]
+    product = product.lower()
+    units = [f'{v['subcategory'].capitalize()} {str(k)} {v['unit']}' for k,v in IndividualProducts(product).items()]
     prices = [v['price'] for k,v in IndividualProducts(product).items()]
     
     plt.subplots(figsize=(12,6))
@@ -141,6 +142,88 @@ def Individual(product):
     for p,v in enumerate(prices):
         plt.text(p, v+20, f"{v:.2f} CUP", ha='center', fontsize=8, fontweight='bold')
 
+    plt.show()
+""" -------------------------------------- """
+def NormalizeProducts(unit):
+    products = [f'{str(k).capitalize()} ({v['unit']}/cup)' for k,v in unit.items()]
+    values = [v['normalize'] for k,v in unit.items()]
+
+    if len(products) > 2:
+        plt.subplots(figsize=(12,6))
+        plt.bar(products, values, color='skyblue', edgecolor='blue')
+        plt.title('Precios/Normalizado', fontsize=16)
+        plt.xlabel('Productos', fontsize=12)
+        plt.xticks(rotation=30)
+        plt.ylabel('Precio promedio (CUP)', fontsize=12)
+        plt.tight_layout
+
+        for p,v in enumerate(values):
+            plt.text(p, v+50, f"{v:.2f} CUP", ha='center', fontsize=6, fontweight='bold')
+
+    plt.axhline(y=Salaries()['min'], color='red', linestyle='--', linewidth=3, label='Salario mínimo (CUP)')
+    plt.axhline(y=Salaries()['average'], color='blue', linestyle='--', linewidth=3, label='Salario promedio (CUP)')
+    plt.legend()
+    plt.show()
+""" -------------------------------------- """
+def Access(d):
+    names = [f"{k} ({v['count']} {v['unit']})" for k, v in Products(sizes, 1, d).items()]
+    access = [v['access'] for k, v in Products(sizes, 1, d).items()]
+
+    if d == 1:
+        title = 'Mensual'
+    elif d >= 4:
+        title = 'Semanal'
+    elif d >= 15:
+        title = 'Quincenal'
+    elif d >= 22:
+        title = 'Diario'
+
+    plt.subplots(figsize=(12, 6))
+    plt.barh(names, access)
+
+    plt.axvline(
+        x=1,
+        linestyle='--',
+        linewidth=2,
+        color='red',
+        label='Accesibilidad (1 unidad)'
+    )
+
+    plt.title(f'Accesibilidad - {title}', fontsize=16)
+    plt.xlabel('Unidades adquiribles', fontsize=12)
+    plt.ylabel('Productos', fontsize=12)
+
+    for n,a in enumerate(access):
+        plt.text(a+0.1, n, f'{a:.0f}', va='center', fontsize=10, fontweight='bold')
+
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
+""" -------------------------------------- """
+def NecesaryDays(d):
+    names = [f"{k} ({v['count']} {v['unit']})" for k, v in Products(sizes, 1, d).items()]
+    access = [v['days'] for k, v in Products(sizes, 1, d).items()]
+
+    plt.subplots(figsize=(12, 6))
+    plt.barh(names, access)
+
+    plt.axvline(
+        x=30,
+        linestyle='--',
+        linewidth=2,
+        color='red',
+        label='Días laborales (30 días)'
+    )
+
+    plt.title('Días necesarios', fontsize=16)
+    plt.xlabel('Días laborables', fontsize=12)
+    plt.ylabel('Productos', fontsize=12)
+
+    for n,a in enumerate(access):
+        plt.text(a+0.1, n, f'{a:.0f} días laborales', va='center', fontsize=10, fontweight='bold')
+
+    plt.legend()
+    plt.tight_layout()
     plt.show()
 """ -------------------------------------- """
 """ -------------------------------------- """
