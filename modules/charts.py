@@ -226,6 +226,72 @@ def NecesaryDays(d):
     plt.tight_layout()
     plt.show()
 """ -------------------------------------- """
+def TimeTravel1(product):
+    dates = [k for k,v in TimeSeries(product).items()]
+    prices1 = [v['price'] for k,v in TimeSeries(product).items()]
+    prices2 = [v['price'] for k,v in elToque().items()]
+
+    plt.subplots(figsize=(12,6))
+    plt.plot( dates, prices1, marker='o', linewidth=2, label='Precio promedio MiPyme (CUP)')
+    plt.xlabel('Fecha')
+    plt.ylabel('Precio promedio (CUP)')
+    plt.tick_params(axis='y')
+
+    plt.twinx()
+    plt.plot( dates, prices2, marker='s', linewidth=2, label='Cambio informal (CUP)')
+    plt.ylabel('USD informal')
+    plt.tick_params(axis='y')
+
+    plt.title('Evolución temporal: Precios (producto) vs Cambio informal', fontsize=16)
+    plt.tight_layout()
+    plt.show()
 """ -------------------------------------- """
+def TimeTravel(product):
+    ts_mipyme = TimeSeries(product)
+    ts_usd = elToque()
+
+    dates = [i for i in ts_mipyme.keys()]
+    prices1 = [v['price'] for v in ts_mipyme.values()]
+    prices2 = [v['price'] for v in ts_usd.values()]
+
+    fig, ax1 = plt.subplots(figsize=(12,6))
+
+    ax1.plot(
+        dates,
+        prices1,
+        color='steelblue',
+        marker='o',
+        linewidth=2,
+        label='Precio promedio MiPyme (CUP)'
+    )
+    ax1.set_xlabel('Fecha')
+    ax1.set_ylabel('Precio promedio (CUP)', color='steelblue')
+    ax1.tick_params(axis='y', labelcolor='steelblue')
+
+    ax2 = ax1.twinx()
+    ax2.plot(
+        dates[:len(prices2)],
+        prices2,
+        color='firebrick',
+        marker='s',
+        linestyle='--',
+        linewidth=2,
+        label='USD informal (El Toque)'
+    )
+    ax2.set_ylabel('USD informal (CUP)', color='firebrick')
+    ax2.tick_params(axis='y', labelcolor='firebrick')
+
+    plt.title(f'Evolución temporal: {product} vs USD informal',fontsize=16)
+
+    lines1, labels1 = ax1.get_legend_handles_labels()
+    lines2, labels2 = ax2.get_legend_handles_labels()
+    ax1.legend(
+        lines1 + lines2,
+        labels1 + labels2,
+        loc='upper left'
+    )
+
+    plt.tight_layout()
+    plt.show()
 """ -------------------------------------- """
 """ -------------------------------------- """

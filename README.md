@@ -172,6 +172,43 @@ Se utiliza el **salario promedio**, como valor representativo del ingreso del tr
 
 ---
 
+### 4.4 Archivo exchange.json – Tasa de cambio USD/CUP
+
+Contiene las distintas referencias de la tasa de cambio del dólar estadounidense (USD) frente al peso cubano (CUP), organizadas por segmentos del mercado cambiario y por fuentes de información.
+
+```json
+{
+    "eltoque": [
+        {
+            "USD": 455.0,
+            "source": "eltoque",
+            "date": "2025-10-11"
+        },
+        {
+            "USD": 490.0,
+            "source": "eltoque",
+            "date": "2025-11-11"
+        },
+        {
+            "USD": 435.0,
+            "source": "eltoque",
+            "date": "2025-12-11"
+        }
+    ]
+}
+```
+
+#### Campos
+
+- USD: valor de la tasa de cambio expresada en CUP por USD.
+- type: tipo de mercado al que pertenece la tasa (formal / informal).
+- source: entidad donde se obtiene la información.
+- date: fecha de referencia del valor observado.
+
+La estructura incluye tanto tasas oficiales, asociadas al sistema bancario estatal, como una serie temporal del mercado informal, obtenida del **eltoque**.
+
+---
+
 ## 5\. Estructuras
 
 ### 5.1 Módulos
@@ -208,6 +245,8 @@ A partir del análisis comparativo entre los **niveles salariales** y los **prec
 - El **precio promedio** resulta ser una métrica insuficiente para evaluar la accesibilidad real de los productos.
 
 - La normalización de precios por unidad de medida revela que, en varios casos, la adquisición de un solo producto implica un esfuerzo laboral equivalente a uno o más **días de trabajo**.
+
+- La **evolución temporal** del precios de los alimentos en comparación con la **tasa de cambio informal**.
 
 - Las visualizaciones construyen una narrativa progresiva que traduce valores monetarios en **unidades comprables y tiempo de trabajo**, permitiendo interpretar el impacto económico desde una perspectiva tangible y socialmente significativa.
 

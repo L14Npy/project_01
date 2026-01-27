@@ -11,6 +11,7 @@ def OpenJSON(path:str):
 
 pymes = OpenJSON('./data/pymes.json')
 salaries = OpenJSON('./data/salaries.json')
+exchanges = OpenJSON('./data/exchanges.json')
 """ -------------------------------------- """
 def AverageDays(array:list, days:int):
     """
@@ -327,7 +328,41 @@ def IndividualProducts(product):
     
     return dicc
 """ -------------------------------------- """
+def TimeSeries(product):
+    dicc = {}
+    for i in pymes:
+        for j in i.get('products', []):
+            category = j.get('category')
+            for k in j.get('records', []):
+                date = k.get('date')
+                price = k.get('price')
+
+                if category == product:
+                    if date not in dicc:
+                        dicc[date] = {
+                            'price': []
+                        }
+                    dicc[date]['price'].append(price)
+    
+    for k,v in dicc.items():
+        v['price'] = AverageDays(v['price'], 1)
+
+    return dicc
 """ -------------------------------------- """
+def elToque():
+    dicc = {}
+    for i in exchanges:
+        if 'eltoque' not in i:
+            continue
+        for j in i.get('eltoque'):
+            date = j.get('date')
+            price = j.get('USD')
+
+            if date not in dicc:
+                dicc[date] = {
+                    'price': price
+                }
+    return dicc
 """ -------------------------------------- """
 """ -------------------------------------- """
 """ -------------------------------------- """
