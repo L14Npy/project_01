@@ -6,7 +6,7 @@ En Cuba, el **precio** es sinónimo de decisión: determina qué puede comprar u
 
 ## 1\. Introducción
 
-La economía cubana ha experimentado transformaciones que han impactado en el costo de vida de la población. El surgimiento y expansión de las Micro, Pequeñas y Medianas Empresas (MiPymes), particularmente en el sector del comercio minorista, ha encarecido los precios de la canasta básica.
+La economía cubana ha experimentado transformaciones que han impactado en el costo de vida de la población. El surgimiento y expansión de las Micro, Pequeñas y Medianas Empresas (MiPymes), particularmente en el sector del comercio minorista, ha encarecido los precios de los alimentos.
 
 El salario de la clase trabajadora se enfrenta a un entorno de precios desorbitantes, donde la alimentación se convierte en el problema fundamental.
 
@@ -97,10 +97,12 @@ Contiene la información recopilada de **30 MiPymes** dedicadas al comercio mino
 
 Cada producto incluye:
 
-- Categoría y subcategoría.  
-- Unidad de medida.  
-- Marca y origen.  
-- Registros históricos de precio/fecha.
+- Categoría: str()
+- Subcategoría: str()
+- Unidad de medida: float()
+- Marca y origen: str()
+- Precio: float()
+- Registros históricos de pfecha: str()
 
 Esta estructura permite:
 
@@ -110,42 +112,28 @@ Esta estructura permite:
 
 ---
 
-### 4.2 Archivo `basket.json` – Canasta básica
+### 4.2 Archivo `products.json` – Producto básicos
 
 El archivo define los **productos básicos** y su consumo mensual recomendado, expresado en **"u/kg/lt"**.
 
 ```json
-{
-    "arroz": {
-        "counts": 36,
-        "unit": "kg",
-        "weight": 1.0,
-        "made": {
-            "brands": 17,
-            "origins": [
-                "méxico",
-                "guyana",
-                "brasil",
-                "españa",
-                "bolivia",
-                "cuba",
-                "usa",
-                "italia"
-            ]
-        },
-        "range": {
-            "min": 550.0,
-            "max": 1850.0,
-            "average": 840.0
-        },
-        "first": {
-            "date": "2025-10-11",
-            "price": 806.0
-        },
-        "last": {
-            "date": "2025-12-11",
-            "price": 840.0
-        }
+"arroz": {
+    "unit": "kg",
+    "count": 1.0,
+    "days": 5.13859682661059,
+    "normalize": 840.0,
+    "access": 5.838169642857143,
+    "first": {
+        "average": 807.027027027027,
+        "date": "2025-10-11"
+    },
+    "last": {
+        "average": 840.0,
+        "date": "2025-12-11"
+    },
+    "range": {
+        "min": 550.0,
+        "max": 1850.0
     }
 }
 ```
@@ -215,13 +203,11 @@ Transforma los **indicadores numéricos** obtenido tras normalizar en **represen
 
 ## 6. Resultados
 
-A partir del análisis exploratorio y comparativo entre los **niveles salariales** y los **precios reales de la canasta básica**, se obtienen los siguientes resultados clave:
+A partir del análisis comparativo entre los **niveles salariales** y los **precios reales de los alimentos**, se obtienen los siguientes resultados:
 
-- Ninguna de las categorías salariales analizadas logra cubrir el **costo total** de la **canasta básica**, evidenciando una brecha estructural entre ingresos y precios de consumo esencial.  
+- El **precio promedio** resulta ser una métrica insuficiente para evaluar la accesibilidad real de los productos.
 
-- El **precio promedio** resulta ser una métrica insuficiente para evaluar la accesibilidad real de los productos, ya que oculta variaciones significativas asociadas al **gramaje**.
-
-- La normalización de precios por unidad de medida revela que, en varios casos, la adquisición de un solo producto implica un esfuerzo laboral equivalente a uno o más **días de trabajo**, incluso para salarios superiores al promedio.
+- La normalización de precios por unidad de medida revela que, en varios casos, la adquisición de un solo producto implica un esfuerzo laboral equivalente a uno o más **días de trabajo**.
 
 - Las visualizaciones construyen una narrativa progresiva que traduce valores monetarios en **unidades comprables y tiempo de trabajo**, permitiendo interpretar el impacto económico desde una perspectiva tangible y socialmente significativa.
 
